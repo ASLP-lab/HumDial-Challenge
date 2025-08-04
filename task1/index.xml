@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Task1s on ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</title>
-    <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/</link>
+    <link>https://aslp-lab.github.io/HumDial-Challenge/task1/</link>
     <description>Recent content in Task1s on ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://aslp-lab.github.io/HumDial-Challenge/task1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>leaderboard</title>
-      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/leaderboard/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/leaderboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/leaderboard/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/leaderboard/</guid>
       <description> All results Group nameSubmission number subjects mean subjects std total score </description>
     </item>
     
     <item>
       <title>Task 1: todo</title>
-      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/description/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/description/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
       <description>todo</description>
     </item>
     
     <item>
       <title>Test Set Task 1</title>
-      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/test_set/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task1/test_set/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</guid>
       <description>todo</description>
     </item>
     

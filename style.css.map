@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/runner/work/Human-like-Spoken-Dialogue-Systems-Challenge/Human-like-Spoken-Dialogue-Systems-Challenge",
+	"sourceRoot": "/home/runner/work/HumDial-Challenge/HumDial-Challenge",
 	"sources": [
 		"themes/arcana/assets/sass/main.scss",
 		"themes/arcana/assets/sass/libs/_vars.scss",

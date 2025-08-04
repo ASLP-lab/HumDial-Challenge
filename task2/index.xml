@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Task2s on ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</title>
-    <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/</link>
+    <link>https://aslp-lab.github.io/HumDial-Challenge/task2/</link>
     <description>Recent content in Task2s on ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://aslp-lab.github.io/HumDial-Challenge/task2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>leaderboard</title>
-      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/leaderboard/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/leaderboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/leaderboard/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/leaderboard/</guid>
       <description> All results Group nameSubmission number subjects mean subjects std Band 0 mean Band 1 mean Band 2 mean Band 3 mean Band 4 mean Band 5 mean Band 6 mean Band 7 mean Band 8 mean Band 9 mean total score </description>
     </item>
     
     <item>
       <title>Task 2: todo</title>
-      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/description/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/description/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
       <description>Description
 todo</description>
     </item>
     
     <item>
       <title>Test Set Task 2</title>
-      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/test_set/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/test_set/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/test_set/</guid>
       <description>todo</description>
     </item>
     
