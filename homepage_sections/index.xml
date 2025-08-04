@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage_sections on ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</title>
+    <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/</link>
+    <description>Recent content in Homepage_sections on ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General description</title>
+      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/general_description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/general_description/</guid>
+      <description>Challenge Call todo</description>
+    </item>
+    
+    <item>
+      <title>Get started</title>
+      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/leaderboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/leaderboard/</guid>
+      <description>Get started todo</description>
+    </item>
+    
+    <item>
+      <title>Timeline</title>
+      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/timeline/</guid>
+      <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Organizers</title>
+      <link>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/organizers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/homepage_sections/organizers/</guid>
+      <description>Organizers todo</description>
+    </item>
+    
+  </channel>
+</rss>

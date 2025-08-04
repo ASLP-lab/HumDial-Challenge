@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+
+<title>leaderboard | ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="/Human-like-Spoken-Dialogue-Systems-Challenge/style.css" />
+<meta property="og:title" content="leaderboard" />
+<meta property="og:description" content="leaderboard for task 2" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/task2/leaderboard/" /><meta property="article:section" content="task2" />
+
+
+
+</head>
+    <body class="is-preload">
+        <div id="page-wrapper"><div id="header">
+    <h1><a href="https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/" id="logo">
+        Human-like-Spoken-Dialogue-Systems-Challenge - ICASSP 2026
+    </a></h1>
+
+    <nav id="nav">
+        <ul>
+                <li class="">
+                    <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/">Home</a>
+                <li class="">
+                    <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/dataset/">Dataset</a>
+                <li class="">
+                    <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/registration/">Registration</a>
+                <li class="">
+                    <a href="#">Task 1: Match-Mismatch</a><ul>
+                        <li class="">
+                            <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/task1/description">description</a>
+                        <li class="">
+                            <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/task1/test_set">test_set</a>
+                        <li class="">
+                            <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/task1/leaderboard">leaderboard</a>
+                    </ul>
+                <li class="">
+                    <a href="#">Task 2: Regression</a><ul>
+                        <li class="">
+                            <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/task2/description">description</a>
+                        <li class="">
+                            <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/task2/test_set">test_set</a>
+                        <li class="">
+                            <a href="/Human-like-Spoken-Dialogue-Systems-Challenge/task2/leaderboard">leaderboard</a>
+                    </ul>
+        </ul>
+    </nav>
+</div>
+
+            <section class="wrapper style1">
+                <div class="container">
+                    
+
+                        <div class="">
+                            <div id="content">
+                                <article>
+    <header>
+        <h2>leaderboard</h2>
+        <p>leaderboard for task 2</p>
+        
+        
+        <ul class="tags">
+</ul>
+
+    </header><hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/js/vendor.min.736ee54e3a51f67df2161c29034041adf68cf9bbf8413bfbb7a3e8bb1d631150.js"></script>
+
+<div style="width: 100%;height: 600px;margin: 0 auto">
+
+    <canvas id="e6fdc4a48a5cb2c4d4ccfdcebdc8815f"></canvas>
+</div>
+<div id="container" style="width: 100%;height: 600px;margin: 0 auto">
+
+  <canvas id="canvas"></canvas>
+</div>
+
+
+<div class="container"><br>
+  <h3>
+    All results
+  </h3>
+  <br>
+  <table>
+    <thead><tr><td><b>Group name</b></td><td><b>Submission number</b></td>
+    <td><b>subjects mean </b></td>
+    <td><b>subjects std</b></td>
+    <td><b>Band 0 mean</b></td>
+    <td><b>Band 1 mean</b></td>
+    <td><b>Band 2 mean</b></td>
+    <td><b>Band 3 mean</b></td>
+    <td><b>Band 4 mean</b></td>
+    <td><b>Band 5 mean</b></td>
+    <td><b>Band 6 mean</b></td>
+    <td><b>Band 7 mean</b></td>
+    <td><b>Band 8 mean</b></td>
+    <td><b>Band 9 mean</b></td>
+    <td><b>total score</b></td></tr></thead>
+    <tr id="root"></tr>
+  </table>
+</div>
+
+
+
+<script type="module">
+
+     
+     
+     const tmpUrl = "../scores_task2.json";
+     const data = await (await fetch(tmpUrl)).json();
+
+
+    
+    var items = Object.keys(data).map(
+        (key) => {return [key, data[key]]}
+    );
+
+    
+     items.sort(
+         (first, second) => {return first[1]['total'] - second[1]['total']}
+     );
+
+     
+     var groupNames = items.map(
+         (e) => {return e[0]}
+     );
+
+     
+     var results = items.map(
+         (e) => {return e[1]['total']}
+     );
+
+     var withinResults = items.map(
+         (e) => {return e[1]['per_subject']}
+     );
+
+
+
+    var ctx = document.getElementById('e6fdc4a48a5cb2c4d4ccfdcebdc8815f').getContext('2d');
+    var options = {
+    type: 'bar',
+    data: {
+        labels: groupNames,
+        datasets: [{
+            label: 'Results for task 2:Regression',
+            data: results,
+            backgroundColor:
+                'rgba(255, 99, 132, 0.2)'
+            ,
+            borderColor:
+                'rgba(255, 99, 132, 1)'
+            ,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins:{
+               title: {
+            display: true,
+            text: 'Test set total score for Task2: regression'
+        }
+
+        },
+        scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Group name'
+              }
+            },
+
+            y: {
+              title: {
+                display: true,
+                text: 'Pearson correlation'
+              }
+            }
+          }
+
+    }
+};
+    new Chart(ctx, options);
+
+
+    const boxplotData = {
+      
+      labels: groupNames,
+      datasets: [{
+        label: 'Test set: held-out subjects',
+        backgroundColor: 'rgba(255,0,0,0.5)',
+        borderColor: 'red',
+        borderWidth: 1,
+        outlierColor: 'rgba(255,0,0,0.5)',
+        padding: 10,
+        itemRadius: 0,
+        data: withinResults
+      }]
+    };
+    var  ctx = document.getElementById("canvas").getContext("2d");
+    new Chart(ctx, {
+    type: 'boxplot',
+    data: boxplotData,
+    options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins:{
+               title: {
+            display: true,
+            text: 'Detailed test set scores. Each point in the boxplot represents the average for one subject'
+        }
+
+        },
+        scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Group name'
+              }
+            },
+
+            y: {
+              title: {
+                display: true,
+                text: 'Pearson correlation'
+              }
+            }
+          }
+
+    }
+    });
+
+
+
+    
+     const tmpUrl2 = "../scores_task2_means.json";
+     const data_table = await (await fetch(tmpUrl2)).json();
+
+
+    var root = document.getElementById('root');
+      data_table.forEach(element => root.insertAdjacentHTML('beforebegin', `<tr><td>${element.group_name}</td><td>${element.submission}</td>
+<td>${element.mean.toFixed(4)}</td>
+<td>${element.std.toFixed(4)}</td>
+<td>${element.band0.toFixed(4)}</td>
+<td>${element.band1.toFixed(4)}</td>
+<td>${element.band2.toFixed(4)}</td>
+<td>${element.band3.toFixed(4)}</td>
+<td>${element.band4.toFixed(4)}</td>
+<td>${element.band5.toFixed(4)}</td>
+<td>${element.band6.toFixed(4)}</td>
+<td>${element.band7.toFixed(4)}</td>
+<td>${element.band8.toFixed(4)}</td>
+<td>${element.band9.toFixed(4)}</td>
+<td><b>${element.total.toFixed(4)}</b></td></tr>`));
+
+
+
+
+</script>
+
+
+
+                                </article>
+                            </div>
+                        </div>
+
+                    
+                </div>
+            </section><div id="footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+
+    <ul class="icons">
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a>
+                <li><a href="https://github.com/half-duplex/hugo-arcana">Theme</a>
+        </ul>
+    </div>
+</div>
+</div><script src="/Human-like-Spoken-Dialogue-Systems-Challenge/js/jquery.min.js"></script>
+<script src="/Human-like-Spoken-Dialogue-Systems-Challenge/js/jquery.dropotron.min.js"></script>
+<script src="/Human-like-Spoken-Dialogue-Systems-Challenge/js/browser.min.js"></script>
+<script src="/Human-like-Spoken-Dialogue-Systems-Challenge/js/breakpoints.min.js"></script>
+<script src="/Human-like-Spoken-Dialogue-Systems-Challenge/js/util.js"></script>
+<script src="/Human-like-Spoken-Dialogue-Systems-Challenge/js/main.js"></script>
+</body>
+</html>
