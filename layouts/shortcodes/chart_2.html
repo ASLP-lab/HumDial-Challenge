@@ -1,0 +1,206 @@
+{{ $w := default "100" (.Get 0) }}
+{{ $h := default "600" (.Get 1) }}
+{{ $r := ( .Inner | chomp) }}
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+
+{{ $vendor := newScratch }}
+{{ $vendor.Add "script" (readFile "node_modules/chart.js/dist/chart.umd.js") }}
+{{ $vendor.Add "script" (readFile "node_modules/@sgratzl/chartjs-chart-boxplot/build/index.umd.js") }}
+{{ $js := $vendor.Get "script" | resources.FromString "js/vendor.js" | resources.Minify | resources.Fingerprint }}
+
+<script src="{{ $js.Permalink }}"></script>
+
+<div style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
+
+    <canvas id="{{ $id }}"></canvas>
+</div>
+<div id="container" style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
+
+  <canvas id="canvas"></canvas>
+</div>
+
+
+<div class="container"><br>
+  <h3>
+    All results
+  </h3>
+  <br>
+  <table>
+    <thead><tr><td><b>Group name</b></td><td><b>Submission number</b></td>
+    <td><b>subjects mean </b></td>
+    <td><b>subjects std</b></td>
+    <td><b>Band 0 mean</b></td>
+    <td><b>Band 1 mean</b></td>
+    <td><b>Band 2 mean</b></td>
+    <td><b>Band 3 mean</b></td>
+    <td><b>Band 4 mean</b></td>
+    <td><b>Band 5 mean</b></td>
+    <td><b>Band 6 mean</b></td>
+    <td><b>Band 7 mean</b></td>
+    <td><b>Band 8 mean</b></td>
+    <td><b>Band 9 mean</b></td>
+    <td><b>total score</b></td></tr></thead>
+    <tr id="root"></tr>
+  </table>
+</div>
+
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>-->
+
+<script type="module">
+
+     // import data from '../scores_task2.json'  assert { type: 'json' };
+     // import data from '../scores_task2.json' ;
+     const tmpUrl = "../scores_task2.json";
+     const data = await (await fetch(tmpUrl)).json();
+
+
+    // create array of key-value pairs
+    var items = Object.keys(data).map(
+        (key) => {return [key, data[key]]}
+    );
+
+    // sort the array based on the total value
+     items.sort(
+         (first, second) => {return first[1]['total'] - second[1]['total']}
+     );
+
+     // obtain the list of keys in sorted order
+     var groupNames = items.map(
+         (e) => {return e[0]}
+     );
+
+     // obtain the list of total values in sorted order
+     var results = items.map(
+         (e) => {return e[1]['total']}
+     );
+
+     var withinResults = items.map(
+         (e) => {return e[1]['per_subject']}
+     );
+
+
+
+    var ctx = document.getElementById('{{ $id }}').getContext('2d');
+    var options = {
+    type: 'bar',
+    data: {
+        labels: groupNames,
+        datasets: [{
+            label: 'Results for task 2:Regression',
+            data: results,
+            backgroundColor:
+                'rgba(255, 99, 132, 0.2)'
+            ,
+            borderColor:
+                'rgba(255, 99, 132, 1)'
+            ,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins:{
+               title: {
+            display: true,
+            text: 'Test set total score for Task2: regression'
+        }
+
+        },
+        scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Group name'
+              }
+            },
+
+            y: {
+              title: {
+                display: true,
+                text: 'Pearson correlation'
+              }
+            }
+          }
+
+    }
+};
+    new Chart(ctx, options);
+
+
+    const boxplotData = {
+      // define label tree
+      labels: groupNames,
+      datasets: [{
+        label: 'Test set: held-out subjects',
+        backgroundColor: 'rgba(255,0,0,0.5)',
+        borderColor: 'red',
+        borderWidth: 1,
+        outlierColor: 'rgba(255,0,0,0.5)',
+        padding: 10,
+        itemRadius: 0,
+        data: withinResults
+      }]
+    };
+    var  ctx = document.getElementById("canvas").getContext("2d");
+    new Chart(ctx, {
+    type: 'boxplot',
+    data: boxplotData,
+    options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins:{
+               title: {
+            display: true,
+            text: 'Detailed test set scores. Each point in the boxplot represents the average for one subject'
+        }
+
+        },
+        scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Group name'
+              }
+            },
+
+            y: {
+              title: {
+                display: true,
+                text: 'Pearson correlation'
+              }
+            }
+          }
+
+    }
+    });
+
+
+
+    // data for table with all results
+     const tmpUrl2 = "../scores_task2_means.json";
+     const data_table = await (await fetch(tmpUrl2)).json();
+
+
+    var root = document.getElementById('root');
+      data_table.forEach(element => root.insertAdjacentHTML('beforebegin', `<tr><td>${element.group_name}</td><td>${element.submission}</td>
+<td>${element.mean.toFixed(4)}</td>
+<td>${element.std.toFixed(4)}</td>
+<td>${element.band0.toFixed(4)}</td>
+<td>${element.band1.toFixed(4)}</td>
+<td>${element.band2.toFixed(4)}</td>
+<td>${element.band3.toFixed(4)}</td>
+<td>${element.band4.toFixed(4)}</td>
+<td>${element.band5.toFixed(4)}</td>
+<td>${element.band6.toFixed(4)}</td>
+<td>${element.band7.toFixed(4)}</td>
+<td>${element.band8.toFixed(4)}</td>
+<td>${element.band9.toFixed(4)}</td>
+<td><b>${element.total.toFixed(4)}</b></td></tr>`));
+
+
+
+
+</script>

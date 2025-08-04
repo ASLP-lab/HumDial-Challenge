@@ -1,0 +1,24 @@
+banner:
+  enable: false
+  # image: "images/ICASSP_2024_Web_banner.webp"
+  contents: "**Human-like-Spoken-Dialogue-Systems-Challenge:** _ICASSP 2026_"
+  button:
+    contents: "Get started"
+    url: "#baseline"
+items:
+
+  - type: heading
+    heading: Human-like-Spoken-Dialogue-Systems-Challenge
+    contents: The challenge aims to promote systematic, real-world evaluation of next-generation dialogue systems and advance the field toward truly human-like interaction.
+
+  - type: other
+    #heading: Recent Posts
+    content_type: homepage_sections
+    max: 4
+
+
+  - type: cta
+    contents: Are you ready?
+    button:
+      contents: Get started with task 1
+      url: "task1"

@@ -1,0 +1,196 @@
+{{ $w := default "100" (.Get 0) }}
+{{ $h := default "600" (.Get 1) }}
+{{ $r := ( .Inner | chomp) }}
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
+
+
+{{ $vendor := newScratch }}
+{{ $vendor.Add "script" (readFile "node_modules/chart.js/dist/chart.umd.js") }}
+{{ $vendor.Add "script" (readFile "node_modules/@sgratzl/chartjs-chart-boxplot/build/index.umd.js") }}
+{{ $js := $vendor.Get "script" | resources.FromString "js/vendor.js" | resources.Minify | resources.Fingerprint }}
+
+<script src="{{ $js.Permalink }}"></script>
+
+<div style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
+    <canvas id="{{ $id }}"></canvas>
+</div>
+
+<div id="container" style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
+
+  <canvas id="canvas"></canvas>
+</div>
+
+   <div class="container"><br>
+      <h3>
+        All results
+      </h3>
+      <br>
+      <table>
+        <thead><tr><td><b>Group name</b></td><td><b>Submission number</b></td>
+        <td><b>subjects mean </b></td>
+        <td><b>subjects std</b></td>
+        <td><b>total score</b></td></tr></thead>
+        <tr id="root"></tr>
+      </table>
+    </div>
+
+
+<script type="module">
+
+
+
+     const tmpUrl = "../scores_task1.json";
+     const data = await (await fetch(tmpUrl)).json();
+
+    // create array of key-value pairs
+    var items = Object.keys(data).map(
+        (key) => {return [key, data[key]]}
+    );
+
+
+
+    // sort the array based on the total value
+     items.sort(
+         (first, second) => {return first[1]['total'] - second[1]['total']}
+     );
+
+
+
+
+     // obtain the list of keys in sorted order
+     var groupNames = items.map(
+         (e) => {return e[0]}
+     );
+
+     // obtain the list of total values in sorted order
+     var results = items.map(
+         (e) => {return e[1]['total']}
+     );
+
+     var withinResults = items.map(
+         (e) => {return e[1]['per_subject']}
+     );
+
+         var heldoutResults = items.map(
+         (e) => {return e[1]['per_subject']}
+     );
+
+     console.log(withinResults);
+
+
+    var ctx = document.getElementById('{{ $id }}').getContext('2d');
+    var options = {
+    type: 'bar',
+    data: {
+        labels: groupNames,
+        datasets: [{
+            label: 'Results for task 1: Match-mismatch',
+            data: results,
+            backgroundColor:
+                'rgba(255, 99, 132, 0.2)'
+            ,
+            borderColor:
+                'rgba(255, 99, 132, 1)'
+            ,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        responsive: true,
+         plugins:{
+               title: {
+            display: true,
+            text: 'Test set total score for Task 1: Match-mismatch'
+        }
+
+        },
+
+        scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Group name'
+              }
+            },
+
+            y: {
+              title: {
+                display: true,
+                text: 'Match-mismatch classification accuracy (%)'
+              }
+            }
+          }
+    }
+    };
+    new Chart(ctx, options);
+
+ const boxplotData = {
+      // define label tree
+      labels: groupNames,
+      datasets: [{
+        label: 'Test set ',
+        backgroundColor: 'rgba(255,0,0,0.5)',
+        borderColor: 'red',
+        borderWidth: 1,
+        outlierColor: 'rgba(255,0,0,0.5)',
+        padding: 10,
+        itemRadius: 0,
+        data: withinResults
+      }]
+    };
+    var  ctx = document.getElementById("canvas").getContext("2d");
+    new Chart(ctx, {
+    type: 'boxplot',
+    data: boxplotData,
+    options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins:{
+               title: {
+            display: true,
+            text: 'Detailed test set scores. Each point in the boxplot represents the average for one subject'
+        }
+
+        },
+        scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Group name'
+              }
+            },
+
+            y: {
+                // grace: "0.05",
+                beginAtZero: false,
+
+              title: {
+                display: true,
+                text: 'Match-mismatch classification accuracy (%)'
+              }
+            }
+          }
+
+    }
+    });
+
+    // data for table with all results
+     const tmpUrl2 = "../scores_task1_means.json";
+     const data_table = await (await fetch(tmpUrl2)).json();
+
+
+    var root = document.getElementById('root');
+      data_table.forEach(element => root.insertAdjacentHTML('beforebegin', `<tr><td>${element.group_name}</td><td>${element.submission}</td>
+<td>${element.mean.toFixed(2)}</td>
+<td>${element.std.toFixed(2)}</td>
+<td><b>${element.total.toFixed(2)}</b></td></tr>`));
+
+
+
+
+
+
+
+</script>

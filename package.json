@@ -1,0 +1,24 @@
+{
+  "name": "audeeg-challenge-2023-master",
+  "version": "1.0.0",
+  "description": "AUDEEG Challenge ICASSP 2023 ============================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exporl/auditory-eeg-challenge-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exporl/auditory-eeg-challenge-2023/issues"
+  },
+  "homepage": "https://github.com/exporl/auditory-eeg-challenge-2023#readme",
+  "dependencies": {
+    "@sgratzl/chartjs-chart-boxplot": "^4.1.0",
+    "chart.js": "^4.1.2"
+  }
+}

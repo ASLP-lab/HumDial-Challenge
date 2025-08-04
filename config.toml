@@ -1,0 +1,52 @@
+baseURL = 'https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/'
+languageCode = 'en-us'
+title = 'ICASSP 2026: Human-like Spoken Dialogue Systems Challenge'
+theme = ["hugo-chart", "arcana"]
+[menu]
+
+    [[menu.main]]
+        identifier = "task1"
+        name="Task 1: Match-Mismatch"
+        weight=100
+    [[menu.main]]
+        identifier ="description_1"
+        parent = "task1"
+        name = "description"
+        url= "/task1/description"
+        weight = 1
+    [[menu.main]]
+        parent = "task1"
+        identifier="test_set_1"
+        name = "test_set"
+        url="/task1/test_set"
+        weight = 2
+    [[menu.main]]
+        parent = "task1"
+        identifier="leaderboard_1"
+        name = "leaderboard"
+        url="/task1/leaderboard"
+        weight = 3
+    [[menu.main]]
+        identifier = "task2"
+        name="Task 2: Regression"
+        weight=110
+    [[menu.main]]
+        identifier ="description_2"
+        parent = "task2"
+        name = "description"
+        url= "/task2/description"
+        weight = 1
+     [[menu.main]]
+        parent = "task2"
+        identifier="test_set_2"
+        name = "test_set"
+        url="/task2/test_set"
+        weight = 2
+    [[menu.main]]
+        parent = "task2"
+        identifier="leaderboard_2"
+        name = "leaderboard"
+        url="/task2/leaderboard"
+        weight = 3
+
+

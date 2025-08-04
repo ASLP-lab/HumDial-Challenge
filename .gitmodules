@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/arcana"]
+	path = themes/arcana
+	url = https://github.com/half-duplex/hugo-arcana
+[submodule "themes/simplecss"]
+	path = themes/simplecss
+	url = https://github.com/splch/hugo-simplecss.git
+[submodule "themes/hugo-chart"]
+	path = themes/hugo-chart
+	url = https://github.com/Shen-Yu/hugo-chart.git
