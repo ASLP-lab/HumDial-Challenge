@@ -1,4 +1,4 @@
-baseURL = 'https://aslp-lab.github.io/Human-like-Spoken-Dialogue-Systems-Challenge/'
+baseURL = 'https://aslp-lab.github.io/HumDial-Challenge/'
 languageCode = 'en-us'
 title = 'ICASSP 2026: Human-like Spoken Dialogue Systems Challenge'
 theme = ["hugo-chart", "arcana"]
