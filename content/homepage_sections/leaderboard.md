@@ -5,4 +5,5 @@ description: "Get started"
 ---
 ## Get started
 
-todo
+- Please click "Registration" to participate.  
+- Further details regarding the challenge will be made available shortly.

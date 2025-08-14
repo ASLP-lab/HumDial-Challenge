@@ -7,4 +7,4 @@ description: "challenge organizers"
 
 ## Organizers
 
-todo
+Eng Siong Chng, Xuelong Geng, GuoJian Li, Guangzhi Sun, Shuai Wang, Shuiyuan Wang, Xinsheng Wang, Lei Xie, Longshuai Xiao, Hongfei Xue, Chao Zhang, Zihan Zhang, Zhixian Zhao
