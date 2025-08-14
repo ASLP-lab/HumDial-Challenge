@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/general_description/</guid>
-      <description>Challenge Call todo</description>
+      <description>Challenge Call Recent breakthroughs in large foundation models and speech technology have propelled spoken dialogue systems toward more natural and expressive interactions. However, evaluating the true “human-likeness” of these systems remains an open challenge, as existing benchmarks often fall short in capturing emotional intelligence and real-time conversational dynamics. The 2026 HumDial Challenge (Human-like Spoken Dialogue Systems Challenge) addresses this critical gap by introducing two focused tracks: Emotional Intelligence and Full-Duplex Interaction.</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/leaderboard/</guid>
-      <description>Get started todo</description>
+      <description>Get started Please click &amp;ldquo;Registration&amp;rdquo; to participate. Further details regarding the challenge will be made available shortly. </description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/timeline/</guid>
-      <description>todo</description>
+      <description> Aug 20, 2025:Registration opens; Sep 10, 2025: The training set,validation set,data synthesis pipeline, and baseline systems are released. Nov 01, 2025: Test set released Nov 15, 2025: Submission deadline for both tracks. Dec 7, 2026: Grand challenge 2-page paper deadline (top 5 teams only). Jan 11, 2026: Grand challenge 2-page paper acceptance notification. Jan 18, 2026: Camera-ready Grand Challenge 2-page Papers Due </description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
-      <description>todo</description>
+      <description>The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the development (Dev) set and test (Test) set.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/organizers/</guid>
-      <description>Organizers todo</description>
+      <description>Organizers Eng Siong Chng, Xuelong Geng, GuoJian Li, Guangzhi Sun, Shuai Wang, Shuiyuan Wang, Xinsheng Wang, Lei Xie, Longshuai Xiao, Hongfei Xue, Chao Zhang, Zihan Zhang, Zhixian Zhao</description>
     </item>
     
     <item>
@@ -75,26 +75,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/registration/</guid>
-      <description>todo</description>
+      <description>Registration Teams can register by the google form: https://docs.google.com/forms/d/e/1FAIpQLSdRrlfqrhh8QhOxtKMr03AxnnX14md_EwFuIuMt-Hf4fhhARA/viewform?usp=header
+Guidelines for participants
+Model Requirements: Participants may submit systems based on either end-to-end architectures or cascaded pipelines . There is no restriction on the model structure, but all models must be trained using publicly available resources. Data Usage: Use of the official test set or any of its labels for model training or tuning is strictly prohibited. Participants are not allowed to use any private or unauthorized datasets.</description>
     </item>
     
     <item>
-      <title>Task 1: todo</title>
+      <title>Task 1: Emotion Intelligence</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description>todo</description>
+      <description>Emotion Recognition: Identifying emotions such as happy, sad, anger, fear, neutral, surprise, and disgust from speech serves as the foundation of emotional intelligence in spoken interactions. Emotion Expression: Generating speech that conveys specific emotions, testing the model’s control over tone, pitch, and rhythm. Empathy Response: Responding to the user’s emotional state with appropriate emotional tone and empathy, ensuring the response reflects understanding and support for the user’s feelings. Emotion Causal Reasoning: Inferring the underlying causes of emotions in conversation, helping the model understand the user’s emotional context.</description>
     </item>
     
     <item>
-      <title>Task 2: todo</title>
+      <title>Task 2: Full-Duplex Interaction</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>Description
-todo</description>
+      <description>Pause Handling: The model’s ability to detect natural pauses in user speech (e.g., due to thinking or hesitation) and decide whether to take over the turn. Evaluation includes the model’s turn-over rate (TOR) and timing precision. Backchanneling (Real-Time Feedback): The model’s ability to insert appropriate short feedback expressions (like “uh-huh”, “I see”, “got it”) during user speech without disrupting the flow. Assessment will consider frequency, emotional relevance, and semantic non-interference, along with human or LLM-based scoring of naturalness and appropriateness.</description>
     </item>
     
     <item>

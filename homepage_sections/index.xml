@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/general_description/</guid>
-      <description>Challenge Call todo</description>
+      <description>Challenge Call Recent breakthroughs in large foundation models and speech technology have propelled spoken dialogue systems toward more natural and expressive interactions. However, evaluating the true “human-likeness” of these systems remains an open challenge, as existing benchmarks often fall short in capturing emotional intelligence and real-time conversational dynamics. The 2026 HumDial Challenge (Human-like Spoken Dialogue Systems Challenge) addresses this critical gap by introducing two focused tracks: Emotional Intelligence and Full-Duplex Interaction.</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/leaderboard/</guid>
-      <description>Get started todo</description>
+      <description>Get started Please click &amp;ldquo;Registration&amp;rdquo; to participate. Further details regarding the challenge will be made available shortly. </description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/timeline/</guid>
-      <description>todo</description>
+      <description> Aug 20, 2025:Registration opens; Sep 10, 2025: The training set,validation set,data synthesis pipeline, and baseline systems are released. Nov 01, 2025: Test set released Nov 15, 2025: Submission deadline for both tracks. Dec 7, 2026: Grand challenge 2-page paper deadline (top 5 teams only). Jan 11, 2026: Grand challenge 2-page paper acceptance notification. Jan 18, 2026: Camera-ready Grand Challenge 2-page Papers Due </description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/organizers/</guid>
-      <description>Organizers todo</description>
+      <description>Organizers Eng Siong Chng, Xuelong Geng, GuoJian Li, Guangzhi Sun, Shuai Wang, Shuiyuan Wang, Xinsheng Wang, Lei Xie, Longshuai Xiao, Hongfei Xue, Chao Zhang, Zihan Zhang, Zhixian Zhao</description>
     </item>
     
   </channel>

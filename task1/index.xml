@@ -16,12 +16,12 @@
     </item>
     
     <item>
-      <title>Task 1: todo</title>
+      <title>Task 1: Emotion Intelligence</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description>todo</description>
+      <description>Emotion Recognition: Identifying emotions such as happy, sad, anger, fear, neutral, surprise, and disgust from speech serves as the foundation of emotional intelligence in spoken interactions. Emotion Expression: Generating speech that conveys specific emotions, testing the model’s control over tone, pitch, and rhythm. Empathy Response: Responding to the user’s emotional state with appropriate emotional tone and empathy, ensuring the response reflects understanding and support for the user’s feelings. Emotion Causal Reasoning: Inferring the underlying causes of emotions in conversation, helping the model understand the user’s emotional context.</description>
     </item>
     
     <item>

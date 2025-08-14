@@ -16,13 +16,12 @@
     </item>
     
     <item>
-      <title>Task 2: todo</title>
+      <title>Task 2: Full-Duplex Interaction</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>Description
-todo</description>
+      <description>Pause Handling: The model’s ability to detect natural pauses in user speech (e.g., due to thinking or hesitation) and decide whether to take over the turn. Evaluation includes the model’s turn-over rate (TOR) and timing precision. Backchanneling (Real-Time Feedback): The model’s ability to insert appropriate short feedback expressions (like “uh-huh”, “I see”, “got it”) during user speech without disrupting the flow. Assessment will consider frequency, emotional relevance, and semantic non-interference, along with human or LLM-based scoring of naturalness and appropriateness.</description>
     </item>
     
     <item>
