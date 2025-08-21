@@ -6,7 +6,7 @@ description: "Timeline"
 
 ## Timeline
 
-- **Sep 1, 2025**:Registration opens;
+- **Aug 20, 2025**:Registration opens;
 - **Sep 10, 2025**: The training set,validation set,data synthesis pipeline, and baseline systems are released.
 - **Nov 01, 2025**: Test set released
 - **Nov 15, 2025**: Submission deadline for both tracks.
