@@ -30,4 +30,4 @@ The challenge is organized by a distinguished team of researchers:
 ## Contact
 
 For any inquiries, please contact:
-Email: zxzhao@mail.nwpu.edu.cn, aslp_lgj@mail.nwpu.edu.cn, wangshuiyuan@mail.nwpu.edu.cn
+Email: hfxue@mail.nwpu.edu.cn, zxzhao@mail.nwpu.edu.cn, aslp_lgj@mail.nwpu.edu.cn, wangshuiyuan@mail.nwpu.edu.cn
