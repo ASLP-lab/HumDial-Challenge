@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Registration"
 description: "Use the link below"
 menu: main
@@ -14,4 +14,4 @@ Guidelines for participants
 3. Submission Format: Participants must submit a docker container with the complete system and source code along with detailed instructions for reproduction. All submissions must be executable and allow for transparent verification by the organizers.
 4. Prizes and Awards: The top 3 teams in each track will receive prizes based on final rankings: 5,000 USD for 1st place, 3,000 USD for 2nd place, and 2,000 USD for 3rd place. Winning teams will be invited to present their work at the ICASSP 2026 special session
 5. Final Interpretation: The organizing committee reserves the right of final interpretation of the rules and all matters related to the challenge.
-
+ -->
