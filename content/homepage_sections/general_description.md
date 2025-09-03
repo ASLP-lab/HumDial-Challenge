@@ -6,7 +6,7 @@ description: "General description"
 
 
 
-![HumDial Challenge Banner](demo.jpg)
+![HumDial Challenge Banner](./demo.png)
 
 
 ## Challenge Call 
