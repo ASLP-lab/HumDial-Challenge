@@ -17,8 +17,8 @@ prohibited. Participants are not allowed to use any private or unauthorized data
 3. Submission Format: Participants must submit a docker container with the complete system and
 source code along with detailed instructions for reproduction. All submissions must be executable and
 allow for transparent verification by the organizers.
-4. Final Interpretation: The organizing committee reserves the right of final interpretation of the
-rules and all matters related to the challenge.
-<!-- 4. Prizes and Awards: The top 3 teams in each track (Emotion Intelligence and Full-Duplex
+4. Prizes and Awards: The top 3 teams in each track (Emotion Intelligence and Full-Duplex
 Interaction) will be awarded monetary prizes, as determined by the final rankings. The winners will
-be invited to present their work at the ICASSP 2026 special session and workshop. -->
+be invited to present their work at the ICASSP 2026 special session and workshop.
+5. Final Interpretation: The organizing committee reserves the right of final interpretation of the
+rules and all matters related to the challenge.
