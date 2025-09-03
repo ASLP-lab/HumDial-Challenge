@@ -6,7 +6,7 @@ description: "General description"
 
 
 
-{{< figure src="../../images/demo.png" title="HumDial Challenge Banner" >}}
+{{< figure src="../../static/images/demo.png" title="HumDial Challenge" >}}
 
 
 ## Challenge Call 
