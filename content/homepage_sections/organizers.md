@@ -8,8 +8,8 @@ description: "challenge organizers"
 ## Organizers
 
 The challenge is organized by a distinguished team of researchers:
-- **Shuai Wang**, Associate Professor, Nanjing University
 - **Lei Xie**, Professor, Northwestern Polytechnical University
+- **Shuai Wang**, Associate Professor, Nanjing University
 - **Haizhou Li**, Professor, Chinese University of Hong Kong
 - **Eng Siong Chng**, Professor, Nanyang Technological University
 - **Hung-yi Lee**, Professor, Natioanl Taiwan University
@@ -21,11 +21,11 @@ The challenge is organized by a distinguished team of researchers:
 - **Xinsheng Wang**, Soul AI Lab
 - **Hui Bu**, AISHELL
 - **Xin Xu**， AISHELL
-- **Zhixian Zhao**, PhD student, Northwestern Polytechnical University
-- **Hongfei Xue**, Ph.D, student, Northwestern Polytechnical University
-- **Xuelong Geng**, Ph.D Student, Northwestern Polytechnical University
-- **GuoJian Li**, Ph.D Student, Northwestern Polytechnical University
-- **Shuiyuan Wang**, Ph.D Student, Northwestern Polytechnical University
+- **Zhixian Zhao**, Northwestern Polytechnical University
+- **Hongfei Xue**, Northwestern Polytechnical University
+- **Xuelong Geng**, Northwestern Polytechnical University
+- **GuoJian Li**, Northwestern Polytechnical University
+- **Shuiyuan Wang**, Northwestern Polytechnical University
 
 ## Contact
 
