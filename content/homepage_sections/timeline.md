@@ -15,9 +15,6 @@ description: "Timeline"
 - **Jan 18, 2026**: Camera-ready Grand Challenge 2-page Papers Due
 
 
-## Registration
-Teams can register by the google form: https://docs.google.com/forms/d/e/1FAIpQLSdRrlfqrhh8QhOxtKMr03AxnnX14md_EwFuIuMt-Hf4fhhARA/viewform?usp=header
-
 ## Guidelines for participants
 1. Model Requirements: Participants may submit systems based on either end-to-end architectures or cascaded pipelines . There is no restriction on the model structure, but all models must be trained using publicly available resources.
 2. Data Usage: Use of the official test set or any of its labels for model training or tuning is strictly prohibited. Participants are not allowed to use any private or unauthorized datasets.
