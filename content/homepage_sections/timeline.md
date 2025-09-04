@@ -7,7 +7,7 @@ description: "Timeline"
 ## Timeline
 
 - **August 20, 2025**: Registration opens
-- **September 20, 2025**: Release of training set, validation set, and baseline system
+- **September 29, 2025**: Release of training set, validation set, and baseline system
 - **November 10, 2025**: Release of test set
 - **November 25, 2025**: Submission deadline
 - **December 7, 2025**: Deadline for submitting 2-page papers to ICASSP 2026 (invited teams only)
