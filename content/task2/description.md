@@ -1,13 +1,22 @@
 ---
 title: "Task 2: Full-Duplex Interaction"
-description: "The Full-Duplex Interaction Track focuses on evaluating a model’s ability to carry out natural, real-time, and uninterrupted speech conversations. Unlike traditional turn-taking systems, full-duplex systems must handle overlapping speech, user interruptions, real-time feedback, and smooth coordination between speaking and listening"
+description: "Natural human conversation is characterized by the ability to interrupt, pause, or respond at any time, rather than adhering to rigid turn-taking. This track evaluates a speech dialogue system’s capacity to react swiftly, stop appropriately, and respond naturally in scenarios involving interruptions, follow-up questions, topic shifts, or background noise. Annotated real-world multi-turn Chinese and English dialogue datasets will be provided, covering typical interruption and rejection scenarios. Systems will be comprehensively assessed based on response speed, behavioral rationality, and linguistic naturalness. This track aims to advance voice dialogue systems toward human-like communication."
 menu: task2
 weight: 80
 ---
 
 
-- Pause Handling: The model’s ability to detect natural pauses in user speech (e.g., due to thinking or hesitation) and decide whether to take over the turn. Evaluation includes the model’s turn-over rate (TOR) and timing precision.
-- Backchanneling (Real-Time Feedback): The model’s ability to insert appropriate short feedback expressions (like “uh-huh”, “I see”, “got it”) during user speech without disrupting the flow. Assessment will consider frequency, emotional relevance, and semantic non-interference, along with human or LLM-based scoring of naturalness and appropriateness.
-- Turn-Taking Management: The fluency and synchronization of speaking turns between the user and the model, especially in overlapping or silent periods. Measured by response latency and coherence, with human-in-the-loop or LLM-based evaluations for conversational smoothness.
-- User Interruption Handling: The system’s robustness when the user abruptly interrupts (e.g., to correct or insert urgent requests). Includes detecting interruption intent, responding quickly, managing emotional outbursts, and maintaining task consistency post-interruption. Evaluation includes interruption detection rate, response delay, and coherence recovery.
-- Rejection and Filtering: The ability to reject or ignore irrelevant speech, such as background noise, third-party dialogue, or self-talk. Special attention will be given to ambiguous scenarios where the model must distinguish whether speech is directed at it.
+### **1. Interruption Scenarios**:
+
+- **Negation or Dissatisfaction**: The user expresses dissatisfaction during the system’s response.
+- **Follow-up Questions**: The user asks further questions based on the system’s existing reply.
+- **Repetition Requests**: The user asks the system to repeat previous answers.
+- **Topic Switching**: The user requests a new topic during the system’s response.
+- **Silence/Termination**: The user asks the system to stop speaking or end the dialogue immediately.
+
+### 2. **Rejection Scenarios**:
+
+- **Pause Handling**: The system should wait for the user to complete their utterance despite pauses due to thinking, hesitation, or stammering.
+- **User Real-time Backchannels**: Short backchannels (e.g., “uh-huh”, “yes”) should not trigger interruptions.
+- **Speech Directed at Others**: The system should ignore user speech directed toward third parties.
+- **Third-Party Speech**: The system should reject and filter out sudden speech from other people in the environment.
