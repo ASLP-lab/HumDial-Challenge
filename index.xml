@@ -40,8 +40,10 @@ From the traditional “clunky AI” to today’s “AI assistant,” the evolut
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
-      <description>Track 1: Emotional Intelligence We will release a dataset consisting of hundreds of hours of human-recorded audio, including both single-turn emotional speech clips and multi-turn emotional dialogue sessions. Beyond covering a rich variety of emotional categories, the dataset features fine-grained annotations for two critical dimensions: the dynamic shifts of emotions throughout the dialogue, and the key underlying causes that trigger these emotional changes.
-Track 2: Full-Duplex Interaction We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection.</description>
+      <description>Track 1: Emotional Intelligence
+We will release a dataset consisting of hundreds of hours of human-recorded audio, including both single-turn emotional speech clips and multi-turn emotional dialogue sessions. Beyond covering a rich variety of emotional categories, the dataset features fine-grained annotations for two critical dimensions: the dynamic shifts of emotions throughout the dialogue, and the key underlying causes that trigger these emotional changes.
+Track 2: Full-Duplex Interaction
+We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection.</description>
     </item>
     
     <item>
