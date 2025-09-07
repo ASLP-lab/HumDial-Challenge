@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>Pause Handling: The model’s ability to detect natural pauses in user speech (e.g., due to thinking or hesitation) and decide whether to take over the turn. Evaluation includes the model’s turn-over rate (TOR) and timing precision. Backchanneling (Real-Time Feedback): The model’s ability to insert appropriate short feedback expressions (like “uh-huh”, “I see”, “got it”) during user speech without disrupting the flow. Assessment will consider frequency, emotional relevance, and semantic non-interference, along with human or LLM-based scoring of naturalness and appropriateness.</description>
+      <description>1. Interruption Scenarios: Negation or Dissatisfaction: The user expresses dissatisfaction during the system’s response. Follow-up Questions: The user asks further questions based on the system’s existing reply. Repetition Requests: The user asks the system to repeat previous answers. Topic Switching: The user requests a new topic during the system’s response. Silence/Termination: The user asks the system to stop speaking or end the dialogue immediately. 2. Rejection Scenarios: Pause Handling: The system should wait for the user to complete their utterance despite pauses due to thinking, hesitation, or stammering.</description>
     </item>
     
     <item>
