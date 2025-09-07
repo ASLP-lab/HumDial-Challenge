@@ -4,10 +4,13 @@ description: "The official dataset of the challenge"
 menu: main
 weight: 80
 ---
-Track 1: Emotional Intelligence
+
+**Track 1: Emotional Intelligence**
+
 We will release a dataset consisting of hundreds of hours of human-recorded audio, including both single-turn emotional speech clips and multi-turn emotional dialogue sessions. Beyond covering a rich variety of emotional categories, the dataset features fine-grained annotations for two critical dimensions: the dynamic shifts of emotions throughout the dialogue, and the key underlying causes that trigger these emotional changes.
 
-Track 2: Full-Duplex Interaction
+**Track 2: Full-Duplex Interaction**
+
 We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection. Accompanied by strict annotations, this dataset will be used to comprehensively evaluate participating systems in three core aspects: response speed, behavioral rationality, and linguistic naturalness.
 
 - The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. 
