@@ -19,7 +19,6 @@ To break through this bottleneck and advance technology toward truly “human-li
 
 The inaugural HumDial2026 Challenge will be held at ICASSP 2026, a premier conference for speech research, and will focus on two core challenges:
 - **Emotional Intelligence:** Moving beyond simplistic emotion labeling, this track will test a model's ability to accurately understand context-dependent emotions, provide empathetic responses, conduct in-depth reasoning, and dynamically track emotional shifts—empowering AI to truly understand and connect with users.
-
 - **Full-Duplex Interaction:** Breaking free from rigid turn-based exchanges, this track will evaluate a system's ability to handle interruptions, overlapping speech, real-time feedback, and natural conversational rhythms, helping AI learn to communicate more naturally.
 
 We will not only introduce brand-new evaluation dimensions but also release exclusive, finely annotated datasets of real-world scenarios for each track. If you’re passionate about “human-like” dialogue systems and eager to shape the future of next-generation voice interaction, we welcome you to follow and register for the challenge! Let’s work together to turn AI into a warm, emotionally aware communication partner.

@@ -12,7 +12,6 @@ weight: 80
 - **Repetition Requests**: The user asks the system to repeat previous answers.
 - **Topic Switching**: The user requests a new topic during the system’s response.
 - **Silence/Termination**: The user asks the system to stop speaking or end the dialogue immediately.
-
 ### 2. **Rejection Scenarios**:
 - **Pause Handling**: The system should wait for the user to complete their utterance despite pauses due to thinking, hesitation, or stammering.
 - **User Real-time Backchannels**: Short backchannels (e.g., “uh-huh”, “yes”) should not trigger interruptions.
