@@ -35,6 +35,6 @@ For any inquiries, please contact:
 - **Task 2: Full-Duplex Interaction**  
   Email: aslp_lgj@mail.nwpu.edu.cn, hfxue@mail.nwpu.edu.cn
 
-Welcome to join our WeChat group
+Welcome to join our **WeChat group**
 
-{{< figure src="./images/wechat.jpg"  width="300" >}}
+{{< figure src="./images/wechat.png"  width="300" >}}
