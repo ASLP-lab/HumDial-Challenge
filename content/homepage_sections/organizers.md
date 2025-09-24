@@ -37,4 +37,4 @@ For any inquiries, please contact:
 
 Welcome to join our **WeChat group**
 
-{{< figure src="./images/wechat2.jpg"  width="300" >}}
+{{< figure src="./images/wechat.jpg"  width="300" >}}
