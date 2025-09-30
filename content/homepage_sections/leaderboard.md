@@ -10,3 +10,5 @@ description: "Get started"
 
 ## Registration
 Teams can register by the google form: https://docs.google.com/forms/d/e/1FAIpQLSdRrlfqrhh8QhOxtKMr03AxnnX14md_EwFuIuMt-Hf4fhhARA/viewform?usp=header
+
+**Reminder!** Please use your institutional or corporate email address to register, and avoid using personal email accounts.
