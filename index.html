@@ -68,7 +68,6 @@
 <li><strong>Full-Duplex Interaction:</strong> Breaking free from rigid turn-based exchanges, this track will evaluate a system&rsquo;s ability to handle interruptions, overlapping speech, real-time feedback, and natural conversational rhythms, helping AI learn to communicate more naturally.</li>
 </ul>
 <p>We will not only introduce brand-new evaluation dimensions but also release exclusive, finely annotated datasets of real-world scenarios for each track. If you’re passionate about “human-like” dialogue systems and eager to shape the future of next-generation voice interaction, we welcome you to follow and register for the challenge! Let’s work together to turn AI into a warm, emotionally aware communication partner.</p>
-<!-- raw HTML omitted -->
 </div>
             <div class=""><!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
@@ -87,13 +86,49 @@
 <li><strong>January 18, 2026</strong>: Submission of final version of papers</li>
 <li><strong>May 4–8, 2026</strong>: ICASSP 2026 Conference, Barcelona, Spain</li>
 </ul>
+<h2 id="baseline">Baseline</h2>
+<ol>
+<li><strong>Emotional Intelligence:</strong>: The competition provides a baseline system built upon <a href="https://github.com/CASIA-LM/OpenS2S">OpenS2S</a>.This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.</li>
+</ol>
 <h2 id="guidelines-for-participants">Guidelines for participants</h2>
 <ol>
-<li><strong>Model Requirements</strong>: Participants may submit systems based on either end-to-end architectures or cascaded pipelines . There is no restriction on the model structure, but all models must be trained using publicly available resources.</li>
-<li><strong>Data Usage</strong>: Use of the official test set or any of its labels for model training or tuning is strictly prohibited. Participants are not allowed to use any private or unauthorized datasets.</li>
-<li><strong>Submission Format</strong>: Participants must submit a docker container with the complete system and source code along with detailed instructions for reproduction. All submissions must be executable and allow for transparent verification by the organizers.</li>
-<li><strong>Prizes and Awards</strong>: The top 3 teams in each track will receive prizes based on final rankings: 5,000 USD for 1st place, 3,000 USD for 2nd place, and 2,000 USD for 3rd place. Winning teams will be invited to present their work at the ICASSP 2026 special session</li>
-<li><strong>Final Interpretation</strong>: The organizing committee reserves the right of final interpretation of the rules and all matters related to the challenge.</li>
+<li>
+<p><strong>External Resource Usage</strong></p>
+<ul>
+<li><strong>Permitted Scope</strong>: For both Track I and Track II, participants are allowed to use external datasets and pre-trained models, including but not limited to speech foundation models and large language models (LLMs).</li>
+<li><strong>Openness Requirement</strong>: Any external resources used must be freely available to all research communities.</li>
+<li><strong>Declaration Obligation</strong>: Participants must clearly and completely list all external resources used and their sources in the final system report.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dataset Usage Guidelines</strong></p>
+<ul>
+<li><strong>Training Data</strong>: Participants may use the officially provided training subset, or any publicly available open-source datasets. When using any non-official datasets, such as synthetic datasets, the source must be clearly indicated and explicitly stated in the final system report.</li>
+<li><strong>Development Data</strong>: The development set may only be used for model performance evaluation and debugging.</li>
+<li><strong>Evaluation Data</strong>: Any form of unauthorized use of evaluation set data is strictly prohibited. This includes, but is not limited to, using evaluation data for any form of model training, fine-tuning, or parameter tuning. Violation will result in disqualification.</li>
+<li>For more detailed information about datasets, please refer to the dataset description page.</li>
+</ul>
+</li>
+<li>
+<p><strong>Model and Inference Requirements</strong>
+Participants are free to choose any pre-trained model or modeling technique, but the final submitted model must meet the following two mandatory conditions:</p>
+<ul>
+<li><strong>Offline Inference</strong>: The inference process must run independently without an internet connection.</li>
+<li><strong>Hardware Limitation</strong>: The entire inference process must be able to run in a server environment with a single GPU with no more than 48 GB of memory.</li>
+</ul>
+</li>
+<li>
+<p><strong>Submission Requirements</strong></p>
+<ul>
+<li><strong>Deliverables</strong>: Participants must submit a complete set of system deliverables to ensure reproducibility of results.</li>
+<li><strong>Submission Content</strong>: Expected to include final results, model files, and a Docker image that supports one-click inference execution.</li>
+<li><strong>Detailed Guidelines</strong>: Specific submission specifications and operational procedures will be provided after the baseline implementation is released.</li>
+</ul>
+</li>
+<li>
+<p><strong>Final Interpretation</strong>
+The right of final interpretation of the competition rules belongs to the organizers. In special circumstances, the organizers will coordinate and decide according to the specific situation.</p>
+</li>
 </ol>
 </div>
             <div class=""><h2 id="organizers">Organizers</h2>
