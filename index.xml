@@ -43,8 +43,7 @@ Reminder! Please use your institutional or corporate email address to register, 
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
       <description>Track 1: Emotional Intelligence
 Train Set We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference.
-task1: 1-turn dialogues, judging users&amp;rsquo; emotional status, not participating in evaluation
-task2: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes</description>
+task1: 1-turn dialogues, judging users&amp;rsquo; emotional status, not participating in evaluation task2: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes task3: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions task4: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training.</description>
     </item>
     
     <item>
@@ -99,7 +98,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description> task1: Emotion Recognition - Identify both surface and deep emotions expressed by users task2: Emotional Trajectory Summary - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations task3: Comprehensive Understanding and Insight - Evaluate whether models can synthesize all conversation information to provide profound explanations task4: Multimodal Empathy Assessment - Assess textual and audio empathy as well as naturalness task5: Emotional Voice Synthesis - Generate natural speech with specified emotions </description>
+      <description>task1: Emotion Recognition - Identify both surface and deep emotions expressed by users task2: Emotional Trajectory Summary - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations task3: Comprehensive Understanding and Insight - Evaluate whether models can synthesize all conversation information to provide profound explanations task4: Multimodal Empathy Assessment - Assess textual and audio empathy as well as naturalness task5: Emotional Voice Synthesis - Generate natural speech with specified emotions Among them, task1 and task5 are not included in the evaluation ranking and no validation sets are set for them.</description>
     </item>
     
     <item>
