@@ -65,8 +65,68 @@
         <ul class="tags">
 </ul>
 
-    </header><p><strong>Track 1: Emotional Intelligence</strong><br>
-We will release a dataset consisting of hundreds of hours of human-recorded audio, including both single-turn emotional speech clips and multi-turn emotional dialogue sessions. Beyond covering a rich variety of emotional categories, the dataset features fine-grained annotations for two critical dimensions: the dynamic shifts of emotions throughout the dialogue, and the key underlying causes that trigger these emotional changes.</p>
+    </header><p><strong>Track 1: Emotional Intelligence</strong></p>
+<ol>
+<li>Train Set</li>
+</ol>
+<p>We release a training set consisting of both Chinese and English dialogues, each containing 3-turn, 4-turn, and 5-turn conversations, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. The data structure is as follows:</p>
+<p>train/
+├── zh/
+│   ├── task1/
+│   ├── task2_3/
+│   ├── task2_4/
+│   ├── task2_5/
+│   ├── task3_3/
+│   ├── task3_4/
+│   ├── task3_5/
+│   ├── task1.jsonl
+│   ├── task2_3.jsonl
+│   ├── task2_4.jsonl
+│   ├── task2_5.jsonl
+│   ├── task3_3.jsonl
+│   ├── task3_4.jsonl
+│   └── task3_5.jsonl
+└── en/
+├── task1/
+├── task2_3/
+├── task2_4/
+├── task2_5/
+├── task3_3/
+├── task3_4/
+├── task3_5/
+├── task1.jsonl
+├── task2_3.jsonl
+├── task2_4.jsonl
+├── task2_5.jsonl
+├── task3_3.jsonl
+├── task3_4.jsonl
+└── task3_5.jsonl</p>
+<p>task1: 1-turn dialogues, judging users&rsquo; emotional status, not participating in evaluation</p>
+<p>task2: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes</p>
+<p>task3: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions</p>
+<ol start="2">
+<li>dev set</li>
+</ol>
+<p>我们放出一个开发集，包含任务二、任务三、任务四（从任务三和任务四中挑取）</p>
+<p>task2: Contains 3, 4, and 5-turn dialogues, 用于评估模型的回答文本得分</p>
+<p>task3: Contains 3, 4, and 5-turn dialogues, 用于评估模型的回答文本得分</p>
+<p>task4: Contains 3, 4, and 5-turn dialogues, 用于评估模型的回答音频得分</p>
+<p>dev/
+├── zh/
+│   ├── task2/
+│   ├── task3/
+│   ├── task4/
+│   ├── task2.jsonl
+│   ├── task3.jsonl
+│   ├── task4.jsonl
+└── en/
+├── task2/
+├── task3/
+├── task4/
+├── task2.jsonl
+├── task3.jsonl
+└── task4.jsonl</p>
+<!-- raw HTML omitted -->
 <p><strong>Track 2: Full-Duplex Interaction</strong><br>
 We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection. Accompanied by strict annotations, this dataset will be used to comprehensively evaluate participating systems in three core aspects: response speed, behavioral rationality, and linguistic naturalness.</p>
 <ul>

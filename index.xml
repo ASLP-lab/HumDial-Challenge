@@ -42,9 +42,8 @@ Reminder! Please use your institutional or corporate email address to register, 
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
       <description>Track 1: Emotional Intelligence
-We will release a dataset consisting of hundreds of hours of human-recorded audio, including both single-turn emotional speech clips and multi-turn emotional dialogue sessions. Beyond covering a rich variety of emotional categories, the dataset features fine-grained annotations for two critical dimensions: the dynamic shifts of emotions throughout the dialogue, and the key underlying causes that trigger these emotional changes.
-Track 2: Full-Duplex Interaction
-We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection.</description>
+Train Set We release a training set consisting of both Chinese and English dialogues, each containing 3-turn, 4-turn, and 5-turn conversations, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. The data structure is as follows:
+train/ ├── zh/ │ ├── task1/ │ ├── task2_3/ │ ├── task2_4/ │ ├── task2_5/ │ ├── task3_3/ │ ├── task3_4/ │ ├── task3_5/ │ ├── task1.</description>
     </item>
     
     <item>
@@ -76,24 +75,6 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
     </item>
     
     <item>
-      <title>Task 1: Emotion Intelligence</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description>Emotion Recognition: Identifying emotions such as happy, sad, anger, fear, neutral, surprise, and disgust from speech serves as the foundation of emotional intelligence in spoken interactions. Textual Empathy Response: Evaluating the empathy of the system’s response text, ensuring the written content reflects accurate understanding of the user’s emotional state and provides appropriate supportive expression that aligns with the user’s feelings. Auditory Empathetic Expression: Assessing the empathetic emotion conveyed by the system’s response audio, requiring the speech to carry emotional tones that match the user’s mood to achieve emotional resonance.</description>
-    </item>
-    
-    <item>
-      <title>Task 2: Full-Duplex Interaction</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>1. Interruption Scenarios: Negation or Dissatisfaction: The user expresses dissatisfaction during the system’s response. Follow-up Questions: The user asks further questions based on the system’s existing reply. Repetition Requests: The user asks the system to repeat previous answers. Topic Switching: The user requests a new topic during the system’s response. Silence/Termination: The user asks the system to stop speaking or end the dialogue immediately. 2. Rejection Scenarios: Pause Handling: The system should wait for the user to complete their utterance despite pauses due to thinking, hesitation, or stammering.</description>
-    </item>
-    
-    <item>
       <title>Test Set Task 1</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,6 +90,24 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/test_set/</guid>
       <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Track 1: Emotion Intelligence</title>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
+      <description> task1: Emotion Recognition - Identify both surface and deep emotions expressed by users task2: Emotional Trajectory Summary - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations task3: Comprehensive Understanding and Insight - Evaluate whether models can synthesize all conversation information to provide profound explanations task4: Multimodal Empathy Assessment - Assess textual and audio empathy as well as naturalness task5: Emotional Voice Synthesis - Generate natural speech with specified emotions </description>
+    </item>
+    
+    <item>
+      <title>Track 2: Full-Duplex Interaction</title>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
+      <description>1. Interruption Scenarios: Negation or Dissatisfaction: The user expresses dissatisfaction during the system’s response. Follow-up Questions: The user asks further questions based on the system’s existing reply. Repetition Requests: The user asks the system to repeat previous answers. Topic Switching: The user requests a new topic during the system’s response. Silence/Termination: The user asks the system to stop speaking or end the dialogue immediately. 2. Rejection Scenarios: Pause Handling: The system should wait for the user to complete their utterance despite pauses due to thinking, hesitation, or stammering.</description>
     </item>
     
     <item>
