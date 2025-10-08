@@ -69,63 +69,63 @@
 <ol>
 <li>Train Set</li>
 </ol>
-<p>We release a training set consisting of both Chinese and English dialogues, each containing 3-turn, 4-turn, and 5-turn conversations, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. The data structure is as follows:</p>
-<p>train/
-├── zh/
-│   ├── task1/
-│   ├── task2_3/
-│   ├── task2_4/
-│   ├── task2_5/
-│   ├── task3_3/
-│   ├── task3_4/
-│   ├── task3_5/
-│   ├── task1.jsonl
-│   ├── task2_3.jsonl
-│   ├── task2_4.jsonl
-│   ├── task2_5.jsonl
-│   ├── task3_3.jsonl
-│   ├── task3_4.jsonl
-│   └── task3_5.jsonl
-└── en/
-├── task1/
-├── task2_3/
-├── task2_4/
-├── task2_5/
-├── task3_3/
-├── task3_4/
-├── task3_5/
-├── task1.jsonl
-├── task2_3.jsonl
-├── task2_4.jsonl
-├── task2_5.jsonl
-├── task3_3.jsonl
-├── task3_4.jsonl
-└── task3_5.jsonl</p>
+<p>We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. The data structure is as follows:</p>
+<p>train/<!-- raw HTML omitted -->
+  zh/<!-- raw HTML omitted -->
+    task1/<!-- raw HTML omitted -->
+    task2_3/<!-- raw HTML omitted -->
+    task2_4/<!-- raw HTML omitted -->
+    task2_5/<!-- raw HTML omitted -->
+    task3_3/<!-- raw HTML omitted -->
+    task3_4/<!-- raw HTML omitted -->
+    task3_5/<!-- raw HTML omitted -->
+    task1.jsonl<!-- raw HTML omitted -->
+    task2_3.jsonl<!-- raw HTML omitted -->
+    task2_4.jsonl<!-- raw HTML omitted -->
+    task2_5.jsonl<!-- raw HTML omitted -->
+    task3_3.jsonl<!-- raw HTML omitted -->
+    task3_4.jsonl<!-- raw HTML omitted -->
+    task3_5.jsonl<!-- raw HTML omitted -->
+  en/<!-- raw HTML omitted -->
+    task1/<!-- raw HTML omitted -->
+    task2_3/<!-- raw HTML omitted -->
+    task2_4/<!-- raw HTML omitted -->
+    task2_5/<!-- raw HTML omitted -->
+    task3_3/<!-- raw HTML omitted -->
+    task3_4/<!-- raw HTML omitted -->
+    task3_5/<!-- raw HTML omitted -->
+    task1.jsonl<!-- raw HTML omitted -->
+    task2_3.jsonl<!-- raw HTML omitted -->
+    task2_4.jsonl<!-- raw HTML omitted -->
+    task2_5.jsonl<!-- raw HTML omitted -->
+    task3_3.jsonl<!-- raw HTML omitted -->
+    task3_4.jsonl<!-- raw HTML omitted -->
+    task3_5.jsonl<!-- raw HTML omitted --></p>
 <p>task1: 1-turn dialogues, judging users&rsquo; emotional status, not participating in evaluation</p>
 <p>task2: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes</p>
 <p>task3: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions</p>
 <ol start="2">
 <li>dev set</li>
 </ol>
-<p>我们放出一个开发集，包含任务二、任务三、任务四（从任务三和任务四中挑取）</p>
-<p>task2: Contains 3, 4, and 5-turn dialogues, 用于评估模型的回答文本得分</p>
-<p>task3: Contains 3, 4, and 5-turn dialogues, 用于评估模型的回答文本得分</p>
-<p>task4: Contains 3, 4, and 5-turn dialogues, 用于评估模型的回答音频得分</p>
-<p>dev/
-├── zh/
-│   ├── task2/
-│   ├── task3/
-│   ├── task4/
-│   ├── task2.jsonl
-│   ├── task3.jsonl
-│   ├── task4.jsonl
-└── en/
-├── task2/
-├── task3/
-├── task4/
-├── task2.jsonl
-├── task3.jsonl
-└── task4.jsonl</p>
+<p>We release a development set, including Task 1, Task 2, Task 3, and Task 4 (selected from Task 3 and Task 4). The data structure is as follows:</p>
+<p>dev/<!-- raw HTML omitted -->
+  zh/<!-- raw HTML omitted -->
+    task2/<!-- raw HTML omitted -->
+    task3/<!-- raw HTML omitted -->
+    task4/<!-- raw HTML omitted -->
+    task2.jsonl<!-- raw HTML omitted -->
+    task3.jsonl<!-- raw HTML omitted -->
+    task4.jsonl<!-- raw HTML omitted -->
+  en/<!-- raw HTML omitted -->
+    task2/<!-- raw HTML omitted -->
+    task3/<!-- raw HTML omitted -->
+    task4/<!-- raw HTML omitted -->
+    task2.jsonl<!-- raw HTML omitted -->
+    task3.jsonl<!-- raw HTML omitted -->
+    task4.jsonl<!-- raw HTML omitted --></p>
+<p>Task 2: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score</p>
+<p>Task 3: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score</p>
+<p>Task 4: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response audio score</p>
 <!-- raw HTML omitted -->
 <p><strong>Track 2: Full-Duplex Interaction</strong><br>
 We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection. Accompanied by strict annotations, this dataset will be used to comprehensively evaluate participating systems in three core aspects: response speed, behavioral rationality, and linguistic naturalness.</p>
