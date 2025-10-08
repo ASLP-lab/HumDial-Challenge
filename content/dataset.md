@@ -78,6 +78,7 @@ dev/<br>
 - **task5**: No development set is provided and it does not participate in the evaluation ranking.
 
 <!-- You can download it via [Google Drive](https://drive.google.com/drive/folders/1mXjQi_uPPDhwhbvxKsMCqNMtm89ab6Zn?usp=sharing). If that's not convenient, you can use the [123 Cloud](https://www.123912.com/s/QlDejv-h7anA) for downloading. -->
+You can download it via Google Drive. If that's not convenient, you can use the 123 Cloud for downloading.
 
 **Track 2: Full-Duplex Interaction**  
 We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection. Accompanied by strict annotations, this dataset will be used to comprehensively evaluate participating systems in three core aspects: response speed, behavioral rationality, and linguistic naturalness.
