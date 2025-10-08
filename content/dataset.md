@@ -10,7 +10,8 @@ weight: 80
 
 1. Train Set
 
-We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. The data structure is as follows:
+We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. 
+<!-- The data structure is as follows:
 
 train/<br>
 &ensp;&ensp;zh/<br>
@@ -42,7 +43,7 @@ train/<br>
 &ensp;&ensp;&ensp;&ensp;task2_5.jsonl<br>
 &ensp;&ensp;&ensp;&ensp;task3_3.jsonl<br>
 &ensp;&ensp;&ensp;&ensp;task3_4.jsonl<br>
-&ensp;&ensp;&ensp;&ensp;task3_5.jsonl<br>
+&ensp;&ensp;&ensp;&ensp;task3_5.jsonl<br> -->
 
 task1: 1-turn dialogues, judging users' emotional status, not participating in evaluation
 
@@ -53,7 +54,8 @@ task3: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask th
 
 2. dev set
 
-We release a development set, including Task 1, Task 2, Task 3, and Task 4 (selected from Task 3 and Task 4). The data structure is as follows:
+We release a development set, including Task 1, Task 2, Task 3, and Task 4 (selected from Task 3 and Task 4). 
+<!-- The data structure is as follows:
 
 dev/<br>
 &ensp;&ensp;zh/<br>
@@ -69,7 +71,7 @@ dev/<br>
 &ensp;&ensp;&ensp;&ensp;task4/<br>
 &ensp;&ensp;&ensp;&ensp;task2.jsonl<br>
 &ensp;&ensp;&ensp;&ensp;task3.jsonl<br>
-&ensp;&ensp;&ensp;&ensp;task4.jsonl<br>
+&ensp;&ensp;&ensp;&ensp;task4.jsonl<br> -->
 
 Task 2: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score
 
