@@ -26,7 +26,7 @@ Among them, task 1 and task 5 are not included in the evaluation ranking and no 
   *Score: 1, 3, or 5*
 
 ### Task 3: Comprehensive Understanding and Insight
-- **Information_Integration**: Does the response utilize information from multiple turns, not just the last one? Does it demonstrate an understanding of the **evolution** of the topic?  
+- **Information_Integration**: Does the response utilize information from multiple turns, not just the last one? Does it demonstrate an understanding of the evolution of the topic?  
   *Score: 1, 3, or 5*
 - **Insight_RootCause**: Does the response go beyond surface-level facts to distill deeper, unspoken psychological reasons (e.g., underlying motivations, cognitive conflicts, hidden emotional needs)?  
   *Score: 1, 3, or 5*
