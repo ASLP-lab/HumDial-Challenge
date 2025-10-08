@@ -20,5 +20,5 @@ items:
   - type: cta
     contents: Are you ready?
     button:
-      contents: Get started with task 1
+      contents: Get started with track 1
       url: "task1"

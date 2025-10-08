@@ -1,6 +1,6 @@
 ---
 title: "leaderboard"
-description: "leaderboard for task 2"
+description: ""
 menu: task2
 draft: false
 weight: 80
