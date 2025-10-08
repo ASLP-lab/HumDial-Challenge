@@ -45,16 +45,15 @@ train/<br>
 &ensp;&ensp;&ensp;&ensp;task3_4.jsonl<br>
 &ensp;&ensp;&ensp;&ensp;task3_5.jsonl<br> -->
 
-task1: 1-turn dialogues, judging users' emotional status, not participating in evaluation
-
-task2: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes
-
-task3: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions
-
+- **task1**: 1-turn dialogues, judging users' emotional status, not participating in evaluation
+- **task2**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes
+- **task3**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions
+- **task4**: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.
+- **task5**: No training data is provided, but open-source data can be used for training.
 
 2. dev set
 
-We release a development set, including Task 1, Task 2, Task 3, and Task 4 (selected from Task 3 and Task 4). 
+We release a development set, including task 1, task 2, task 3, and task 4 (selected from task 3 and task 4). 
 <!-- The data structure is as follows:
 
 dev/<br>
@@ -72,12 +71,9 @@ dev/<br>
 &ensp;&ensp;&ensp;&ensp;task2.jsonl<br>
 &ensp;&ensp;&ensp;&ensp;task3.jsonl<br>
 &ensp;&ensp;&ensp;&ensp;task4.jsonl<br> -->
-
-Task 2: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score
-
-Task 3: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score
-
-Task 4: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score
+- **task2**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score
+- **task3**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score
+- **task4**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score
 
 <!-- You can download it via [Google Drive](https://drive.google.com/drive/folders/1mXjQi_uPPDhwhbvxKsMCqNMtm89ab6Zn?usp=sharing). If that's not convenient, you can use the [123 Cloud](https://www.123912.com/s/QlDejv-h7anA) for downloading. -->
 

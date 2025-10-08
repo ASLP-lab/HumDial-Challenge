@@ -13,4 +13,4 @@ weight: 80
 - task4: Multimodal Empathy Assessment - Assess textual and audio empathy as well as naturalness
 - task5: Emotional Voice Synthesis - Generate natural speech with specified emotions
 
-
+Among them, task1 and task5 are not included in the evaluation ranking and no validation sets are set for them.
