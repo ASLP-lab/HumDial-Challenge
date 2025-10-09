@@ -5,15 +5,35 @@ menu: task1
 weight: 80
 ---
 
+
 ### Challenge Tasks
 
-- **Task 1**: Emotion Recognition - Identify both surface and deep emotions expressed by users.
-- **Task 2**: Emotional Trajectory Summary - Accurately identify and concisely summarize users' emotional changes throughout multi-turn conversations.
-- **Task 3**: Comprehensive Understanding and Insight - Evaluate whether models can synthesize all conversation information to provide profound explanations.
-- **Task 4**: Multimodal Empathy Assessment - Assess textual and audio empathy as well as naturalness.
-- **Task 5**: Emotional Voice Synthesis - Generate natural speech with specified emotions.
+- **Task 1**: Emotional Trajectory Detection Task - Accurately identify and concisely summarize users' emotional changes throughout multi-turn conversations.
+- **Task 2**: Emotional Reasoning Task - Evaluate whether models can synthesize all conversation information to provide profound explanations.
+- **Task 3**: Empathy Assessment Task - Assess textual and audio empathy as well as naturalness.
 
-Among them, task 1 and task 5 are not included in the evaluation ranking and no validation sets are set for them.
+The final ranking will be determined based on the total score of all three tasks. The specific weight allocation will be announced in subsequent stages.
+
+The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.
+
+To comprehensively evaluate model performance in specific dimensions, the following supplementary tests will also be conducted:
+- **Task 4**: Emotional Recognition Capability Test - Identify users' surface and deep emotional expressions.
+- **Task 5**: Explicit Emotional Instruction Generation Capability Test - Generate natural speech expressions according to specified emotions.
+
+> **Note**: The evaluation results of supplementary tasks are only used for academic analysis and reference, and will not be counted toward the final ranking score.
+
+### Evaluation Framework
+
+All submitted models will undergo automated evaluation on the test set, using a combination of large language models as judges (LLM-as-a-Judge) and human scoring.
+
+- **Scoring Judge Model**: Qwen3-Omni-30B-A3B-Instruct will be used as the automatic scoring model for the emotional trajectory detection and emotional reasoning tasks. The empathy assessment task will combine scores from Qwen3-Omni-30B-A3B-Instruct and/or other models, along with human scoring to derive the final results.
+- **Scoping Prompt**: For detailed scoring prompt design specifications and implementation details, please refer to our provided Git repository.
+
+<!-- ### Evaluation Tasks and Datasets
+
+- **Emotional Trajectory Detection Task & Emotional Reasoning Task**: Will be evaluated on their respective independent test sets.
+- **Empathy Assessment Task**: Its test set is sampled from the data of the above two tasks. -->
+
 
 ### Evaluation Metrics
 
@@ -25,7 +45,7 @@ Among them, task 1 and task 5 are not included in the evaluation ranking and no 
 - **Added_Value**: Does the summary skillfully link abstract emotion tags to concrete events in the conversation, making it feel highly personalized and easily digestible?  
   *Score: 1, 3, or 5*
 
-#### Task 3: Comprehensive Understanding and Insight
+#### Task 3: Emotional Reasoning Task
 - **Information_Integration**: Does the response utilize information from multiple turns, not just the last one? Does it demonstrate an understanding of the evolution of the topic?  
   *Score: 1, 3, or 5*
 - **Insight_RootCause**: Does the response go beyond surface-level facts to distill deeper, unspoken psychological reasons (e.g., underlying motivations, cognitive conflicts, hidden emotional needs)?  
@@ -33,7 +53,7 @@ Among them, task 1 and task 5 are not included in the evaluation ranking and no 
 - **Clarity_Logic**: Is the explanation clear, logical, easy to understand, and does it provide a complete and justified chain of reasoning?  
   *Score: 1, 3, or 5*
 
-#### Task 4: Multimodal Empathy Assessment
+#### Task 4: Empathy Assessment Task
 - **textual_empathy_insight**: Does the text demonstrate a deep, synthesized understanding of the entire conversation, or is it a shallow summary?  
   *Score: 1, 2, 3, 4 or 5*
 - **vocal_empathy_congruence**: Does the audio's emotion perfectly match the text's empathetic intent? This is about emotional delivery, not technical quality.  
