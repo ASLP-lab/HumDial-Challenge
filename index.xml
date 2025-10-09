@@ -98,7 +98,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description>Challenge Tasks Task 1: Emotion Recognition - Identify both surface and deep emotions expressed by users. Task 2: Emotional Trajectory Summary - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations. Task 3: Comprehensive Understanding and Insight - Evaluate whether models can synthesize all conversation information to provide profound explanations. Task 4: Multimodal Empathy Assessment - Assess textual and audio empathy as well as naturalness. Task 5: Emotional Voice Synthesis - Generate natural speech with specified emotions.</description>
+      <description>Challenge Tasks Task 1: Emotional Trajectory Detection Task - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations. Task 2: Emotional Reasoning Task - Evaluate whether models can synthesize all conversation information to provide profound explanations. Task 3: Empathy Assessment Task - Assess textual and audio empathy as well as naturalness. The final ranking will be determined based on the total score of all three tasks. The specific weight allocation will be announced in subsequent stages.</description>
     </item>
     
     <item>
