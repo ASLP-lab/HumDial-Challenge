@@ -17,7 +17,9 @@ description: "Timeline"
 
 ## Baseline
 
-1. **Emotional Intelligence:**: The competition provides a baseline system built upon [OpenS2S](https://github.com/CASIA-LM/OpenS2S).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.
+1. **Emotional Intelligence:**: Comming soon
+<!-- The competition provides a baseline system built upon [OpenS2S](https://github.com/CASIA-LM/OpenS2S).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches. -->
+2. **Full-Duplex Interaction**: The competition provides a baseline system built upon [Easy Turn](https://github.com/ASLP-lab/Easy-Turn) and [OSUM-EChat](https://github.com/ASLP-lab/OSUM/tree/main/OSUM-EChat).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.
 
 ## Guidelines for participants
 1. **External Resource Usage**
