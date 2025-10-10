@@ -6,7 +6,7 @@ weight: 80
 ---
 
 - The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. 
-- For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set and test set. These datasets are collected from natural, human-human or human-machine interactions to ensure authenticity and cover diverse scenarios aligned with the respective tasks.
+- For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set, dev set and test set.
 - The data will be sent via the registered email.
 
 ### **Track 1: Emotional Intelligence**  
@@ -34,9 +34,9 @@ We release a development set, including task 1, task 2, task 3(selected from tas
 
 #### 1. Train Set
 
-Our training set covers both interruption and rejection scenarios, including subsets from eight tasks other than Speech Directed at Others. It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.
+Our training set covers both interruption and rejection scenarios, including subsets from eight tasks（**Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech**）. It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.
 
 #### 2. Dev set
 
-We release a development set covering the two major scenarios—interruption and rejection. Each of these scenarios consists of nine sub-tasks, and each sub-task includes 200 test samples (100 in Chinese and 100 in English).
+We release a development set covering the two major scenarios—interruption and rejection. Each of these scenarios consists of nine sub-tasks（**Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech，Speech Directed at Others**）, and each sub-task includes 200 test samples (100 in Chinese and 100 in English).
 
