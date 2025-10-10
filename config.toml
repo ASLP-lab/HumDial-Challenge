@@ -6,7 +6,7 @@ theme = ["hugo-chart", "arcana"]
 
     [[menu.main]]
         identifier = "task1"
-        name="Track 1: Emotion Intelligence"
+        name="Track 1: Emotional Intelligence"
         weight=100
     [[menu.main]]
         identifier ="description_1"

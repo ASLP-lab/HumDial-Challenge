@@ -30,7 +30,7 @@ The challenge is organized by a distinguished team of researchers:
 ## Contact
 
 For any inquiries, please contact:
-- **Track 1: Emotion Intelligence**  
+- **Track 1: Emotional Intelligence**  
   Email: zxzhao@mail.nwpu.edu.cn, wangshuiyuan@mail.nwpu.edu.cn
 - **Track 2: Full-Duplex Interaction**  
   Email: aslp_lgj@mail.nwpu.edu.cn, hfxue@mail.nwpu.edu.cn
