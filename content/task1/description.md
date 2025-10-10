@@ -8,17 +8,17 @@ weight: 80
 
 ### Challenge Tasks
 
-- **Task 1**: Emotional Trajectory Detection Task - Accurately identify and concisely summarize users' emotional changes throughout multi-turn conversations.
-- **Task 2**: Emotional Reasoning Task - Evaluate whether models can synthesize all conversation information to provide profound explanations.
-- **Task 3**: Empathy Assessment Task - Assess textual and audio empathy as well as naturalness.
+- **Task 1**: Emotional Trajectory Detection - Accurately identify and concisely summarize users' emotional changes throughout multi-turn conversations.
+- **Task 2**: Emotional Reasoning - Evaluate whether models can synthesize all conversation information to provide profound explanations.
+- **Task 3**: Empathy Assessment - Assess textual and audio empathy as well as naturalness.
 
 The final ranking will be determined based on the total score of all three tasks. The specific weight allocation will be announced in subsequent stages.
 
 The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.
 
 To comprehensively evaluate model performance in specific dimensions, the following supplementary tests will also be conducted:
-- **Task 4**: Emotional Recognition Capability Test - Identify users' surface and deep emotional expressions.
-- **Task 5**: Explicit Emotional Instruction Generation Capability Test - Generate natural speech expressions according to specified emotions.
+- **Task 4**: Emotional Recognition Capability - Identify users' surface and deep emotional expressions.
+- **Task 5**: Explicit Emotional Instruction Generation Capability - Generate natural speech expressions according to specified emotions.
 
 > **Note**: The evaluation results of supplementary tasks are only used for academic analysis and reference, and will not be counted toward the final ranking score.
 

@@ -12,17 +12,17 @@ weight: 80
 
 We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference. 
 
-- **task1**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.
-- **task2**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions.
-- **task3**: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.
+- **Emotional Trajectory Detection**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.
+- **Emotional Reasoning**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions.
+- **Empathy Assessment**: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.
 
 2. dev set
 
 We release a development set, including task 1, task 2, task 3(selected from task 2 and task 3). 
 
-- **task1**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
-- **task2**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
-- **task3**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score.
+- **Emotional Trajectory Detection**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
+- **Emotional Reasoning**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
+- **Empathy Assessment**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score.
 
 <!-- You can download it via [Google Drive](https://drive.google.com/drive/folders/1mXjQi_uPPDhwhbvxKsMCqNMtm89ab6Zn?usp=sharing). If that's not convenient, you can use the [123 Cloud](https://www.123912.com/s/QlDejv-h7anA) for downloading. -->
 You will receive an email notification containing the Google Drive link for the data. Please keep an eye out for it.
