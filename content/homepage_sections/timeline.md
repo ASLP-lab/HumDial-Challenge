@@ -15,11 +15,6 @@ description: "Timeline"
 - **January 18, 2026**: Submission of final version of papers
 - **May 4–8, 2026**: ICASSP 2026 Conference, Barcelona, Spain
 
-## Baseline
-
-1. **Emotional Intelligence:**: Comming soon
-<!-- The competition provides a baseline system built upon [OpenS2S](https://github.com/CASIA-LM/OpenS2S).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches. -->
-2. **Full-Duplex Interaction**: The competition provides a baseline system built upon [Easy Turn](https://github.com/ASLP-lab/Easy-Turn) and [OSUM-EChat](https://github.com/ASLP-lab/OSUM/tree/main/OSUM-EChat).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.
 
 ## Official Competition Rules
 ### 1. Resource Usage Policy

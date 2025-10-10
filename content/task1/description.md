@@ -74,3 +74,7 @@ We release a development set, including task 1, task 2, task 3(selected from tas
 - **Emotional Trajectory Detection**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
 - **Emotional Reasoning**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
 - **Empathy Assessment**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score.
+
+### Baseline
+
+comming soon

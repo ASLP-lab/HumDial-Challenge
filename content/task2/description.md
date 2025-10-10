@@ -31,3 +31,18 @@ Our training set covers both interruption and rejection scenarios, including sub
 #### 2. Dev set
 
 We release a development set covering the two major scenarios—interruption and rejection. Each of these scenarios consists of nine sub-tasks（**Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech，Speech Directed at Others**）, and each sub-task includes 200 test samples (100 in Chinese and 100 in English).
+
+### Evaluation Metrics
+
+For evaluation, we largely follow [Full-Duplex-Bench v1.5](https://github.com/DanielLin94144/Full-Duplex-Bench), while introducing additional metrics to further assess full-duplex capability. 
+
+For **interruption** scenarios, we evaluate the response rate (corresponding to the **RESPOND** score in [Full-Duplex-Bench v1.5](https://github.com/DanielLin94144/Full-Duplex-Bench)), as well as two latency metrics in [Full-Duplex-Bench v1.5](https://github.com/DanielLin94144/Full-Duplex-Bench) — the **stop latency** (how quickly the model halts its current response upon interruption) and the **response latency** (how quickly it begins responding to the new query). 
+
+For **rejection** scenarios, we measure the rejection rate (corresponding to the **RESUME** score in [Full-Duplex-Bench v1.5](https://github.com/DanielLin94144/Full-Duplex-Bench)) and the **early interrupt rate**, assessing the model’s ability to correctly ignore backchannels, incomplete utterances caused by pauses, background or external speech, and conversations directed at others. Additionally, we introduce **first response delay** to evaluate the overall responsiveness of the model.
+
+
+### Baseline
+
+The competition provides a baseline system built upon [Easy Turn](https://github.com/ASLP-lab/Easy-Turn) and [OSUM-EChat](https://github.com/ASLP-lab/OSUM).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.
+
+We enable [OSUM-EChat](https://github.com/ASLP-lab/OSUM) with full-duplex capability by integrating it with [Easy Turn](https://github.com/ASLP-lab/Easy-Turn). For our baseline, we fine-tune the Easy Turn model using only the training set. You can refer to Easy Turn to generate data in the required format for the baseline and then perform fine-tuning.
