@@ -32,12 +32,12 @@ To ensure the fairness, integrity, and transparency of the competition, all part
 
 #### 1.2 External Resource Usage
 **External Data**
-- **Key Requirement**: Must be publicly available datasets. This includes any data that researchers or groups can obtain through public, free-of-charge channels (e.g., official websites, academic data platforms, open-source communities) via direct download or a standard application process.
-- **Strictly Prohibited**: The use of any private, non-public, or access-restricted proprietary datasets is strictly prohibited.
+- Must be publicly available datasets. This includes any data that researchers or groups can obtain through public channels (e.g., official websites, academic data platforms, open-source communities) via direct download or a standard application process.
+- The use of any private, non-public, or access-restricted proprietary datasets is strictly prohibited.
 
 **External Pre-trained Models**
-- **Key Requirement**: Must be publicly available, open-source models.
-- **Permitted Scope**: The use of any open-source pre-trained models available through public channels (such as Hugging Face, GitHub, or official model repositories) is permitted. Submissions must be accompanied by clear version information for all external models used.
+- Must be publicly available, open-source models.
+- The use of any open-source pre-trained models available through public channels (such as Hugging Face, GitHub, or official model repositories) is permitted. Submissions must be accompanied by clear version information for all external models used.
 
 #### 1.3 Resource Declaration Requirement
 In the final technical report, participating teams must provide a clear and complete list of all resources used (both internal and external), detailing how each was applied.
@@ -60,15 +60,15 @@ To ensure fairness and reproducibility, all teams must submit a complete and sel
 The submission package must include all of the following:
 - **Results File**: The model inference output, formatted as specified (e.g., submission.json).
 - **Model Files**: Complete model weights, configuration files, and all necessary dependencies.
-- **Docker Image**: A Docker image with a pre-configured environment, supporting single-command inference execution.
+- **Docker Image**: A Docker image with a pre-configured environment, supporting one-click inference execution.
 - **Technical Documentation**: A detailed README.md file that clearly explains how to use the provided code and model files to reproduce the submitted results.
 
 #### 3.2 Source Code Requirements
-- **Reproduction Script**: A single-command startup script (e.g., run.sh) must be provided to execute the complete inference process and generate the final results file.
+- **Reproduction Script**: A one-click startup script (e.g., run.sh) must be provided to execute the complete inference pipeline and generate the final result file(s).
 
 #### 3.3 Docker Image Specifications
 - **Environment Consistency**: The Docker image must contain all necessary environments, software libraries, and dependencies to ensure seamless execution in the evaluation environment.
-- **Single-Command Inference**: The image must contain an executable script that, when run, automatically completes the entire inference process and generates the output file in the specified format.
+- **One-Click Inference**: The Docker image must contain an executable script that, when run, automatically completes the entire inference process and generates the output file in the specified format.
 - **Detailed Guide**: Specific instructions for building, using, and submitting the Docker image will be provided with the release of the baseline implementation.
 
 ### 4. Oversight and Interpretation

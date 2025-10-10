@@ -17,3 +17,17 @@ weight: 80
 - **Pause Handling**: The user may pause mid-sentence due to thinking or hesitation, leading to incomplete semantics. The model should wait until the user’s intent is fully expressed before responding.
 - **Third-party Speech**: The model must detect and reject speech from other background speakers, ensuring interaction only with the genuine user.
 - **Speech Directed at Others**: During interaction with the model, the user may suddenly turn to converse with another person (often on a different topic). The model should detect and appropriately reject such utterances.
+
+### Dataset
+
+- The dataset is designed to cover the core scenarios of full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English. 
+- For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set, dev set and test set.
+- The data will be sent via the registered email.
+
+#### 1. Train Set
+
+Our training set covers both interruption and rejection scenarios, including subsets from eight tasks（**Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech**）. It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.
+
+#### 2. Dev set
+
+We release a development set covering the two major scenarios—interruption and rejection. Each of these scenarios consists of nine sub-tasks（**Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech，Speech Directed at Others**）, and each sub-task includes 200 test samples (100 in Chinese and 100 in English).
