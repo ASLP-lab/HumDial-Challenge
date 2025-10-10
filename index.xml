@@ -41,9 +41,7 @@ Reminder! Please use your institutional or corporate email address to register, 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
-      <description>Track 1: Emotional Intelligence
-Train Set We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference.
-Emotional Trajectory Detection: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.</description>
+      <description>The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set and test set.</description>
     </item>
     
     <item>
