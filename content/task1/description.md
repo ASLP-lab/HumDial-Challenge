@@ -12,8 +12,6 @@ weight: 80
 - **Task 2**: Emotional Reasoning - Evaluate whether models can synthesize all conversation information to provide profound explanations.
 - **Task 3**: Empathy Assessment - Assess textual and audio empathy as well as naturalness.
 
-The final ranking will be determined based on the total score of all three tasks. The specific weight allocation will be announced in subsequent stages.
-
 The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.
 
 To comprehensively evaluate model performance in specific dimensions, the following supplementary tests will also be conducted:
