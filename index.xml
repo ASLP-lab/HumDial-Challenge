@@ -41,7 +41,7 @@ Reminder! Please use your institutional or corporate email address to register, 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
-      <description>The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set and test set.</description>
+      <description>The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set, dev set and test set.</description>
     </item>
     
     <item>
@@ -105,7 +105,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>1. Interruption Scenarios: Negation or Dissatisfaction: The user expresses dissatisfaction during the system’s response. Follow-up Questions: The user asks further questions based on the system’s existing reply. Repetition Requests: The user asks the system to repeat previous answers. Topic Switching: The user requests a new topic during the system’s response. Silence/Termination: The user asks the system to stop speaking or end the dialogue immediately. 2. Rejection Scenarios: Pause Handling: The system should wait for the user to complete their utterance, including pauses from thinking, hesitation, or stammering.</description>
+      <description>1. Interruption Scenarios: Negation/Dissatisfaction: The user expresses dissatisfaction during the system’s response. Follow-up Questions: The user asks further questions based on the system’s existing reply. Repetition Requests: The user asks the system to repeat previous answers. Topic Switching: The user requests a new topic during the system’s response. Silence/Termination: The user asks the system to stop speaking or end the dialogue immediately. 2. Rejection Scenarios: Pause Handling: The system should wait for the user to complete their utterance.</description>
     </item>
     
     <item>
