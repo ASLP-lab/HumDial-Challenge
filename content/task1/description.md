@@ -75,6 +75,52 @@ We release a development set, including task 1, task 2, task 3(selected from tas
 - **Emotional Reasoning**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
 - **Empathy Assessment**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score.
 
+<!-- #### 数据结构
+
+HD-Track1
+  HD-Track1-train
+    HD-Track1-train-zh
+      task1_3
+      task1_4
+      task1_5
+      task2_3
+      task2_4
+      task2_5
+      task1_3.jsonl
+      task1_4.jsonl
+      task1_5.jsonl
+      task2_3.jsonl
+      task2_4.jsonl
+      task2_5.jsonl
+    HD-Track1-train-en
+      task1_3
+      task1_4
+      task1_5
+      task2_3
+      task2_4
+      task2_5
+      task1_3.jsonl
+      task1_4.jsonl
+      task1_5.jsonl
+      task2_3.jsonl
+      task2_4.jsonl
+      task2_5.jsonl
+  HD-Track1-dev
+    HD-Track1-dev-zh
+      task1
+      task2
+      task3
+      task1.jsonl
+      task2.jsonl
+      task3.jsonl
+    HD-Track1-dev-en
+      task1
+      task2
+      task3
+      task1.jsonl
+      task2.jsonl
+      task3.jsonl -->
+
 ### Baseline
 
 coming soon
