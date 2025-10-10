@@ -94,68 +94,68 @@
 <ol start="2">
 <li><strong>Full-Duplex Interaction</strong>: The competition provides a baseline system built upon <a href="https://github.com/ASLP-lab/Easy-Turn">Easy Turn</a> and <a href="https://github.com/ASLP-lab/OSUM/tree/main/OSUM-EChat">OSUM-EChat</a>.This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.</li>
 </ol>
-<h2 id="guidelines-for-participants">Guidelines for participants</h2>
-<h3 id="1-general-principles-for-resource-usage">1. General Principles for Resource Usage</h3>
-<p>To ensure the fairness, impartiality and transparency of the competition, all participating teams must strictly abide by the following resource usage regulations.</p>
-<h4 id="11-resource-definition">1.1 Resource Definition</h4>
+<h2 id="official-competition-rules">Official Competition Rules</h2>
+<h3 id="1-resource-usage-policy">1. Resource Usage Policy</h3>
+<p>To ensure the fairness, integrity, and transparency of the competition, all participating teams must strictly adhere to the following regulations.</p>
+<h4 id="11-resource-definitions">1.1 Resource Definitions</h4>
 <ul>
-<li><strong>Internal Resources</strong>: Official datasets, baseline models and related documentation directly provided by the organizers.</li>
-<li><strong>External Resources</strong>: Any resources not provided by the organizers, including but not limited to external data, pre-trained models, open-source tool libraries and third-party API services.</li>
+<li><strong>Internal Resources</strong>: Official datasets, baseline models, and accompanying documentation directly provided by the organizers.</li>
+<li><strong>External Resources</strong>: Any resources not provided by the organizers, including but not limited to external data, pre-trained models, open-source libraries, and third-party API services.</li>
 </ul>
-<h4 id="12-external-resource-usage-policy">1.2 External Resource Usage Policy</h4>
+<h4 id="12-external-resource-usage">1.2 External Resource Usage</h4>
 <p><strong>External Data</strong></p>
 <ul>
-<li><strong>Core Requirements</strong>: Must be publicly available datasets. Any researcher or group can directly download or obtain the data through standard application processes via public, free channels (such as official websites, academic data platforms, open-source communities).</li>
-<li><strong>Strictly Prohibited</strong>: The use of any private, non-public or access-restricted proprietary datasets is strictly prohibited.</li>
+<li><strong>Key Requirement</strong>: Must be publicly available datasets. This includes any data that researchers or groups can obtain through public, free-of-charge channels (e.g., official websites, academic data platforms, open-source communities) via direct download or a standard application process.</li>
+<li><strong>Strictly Prohibited</strong>: The use of any private, non-public, or access-restricted proprietary datasets is strictly prohibited.</li>
 </ul>
 <p><strong>External Pre-trained Models</strong></p>
 <ul>
-<li><strong>Core Requirements</strong>: Must be publicly available open-source models.</li>
-<li><strong>Permitted Scope</strong>: The use of any open-source pre-trained models available through public channels (such as Hugging Face, GitHub, model official websites, etc.) is allowed, along with clear version information.</li>
+<li><strong>Key Requirement</strong>: Must be publicly available, open-source models.</li>
+<li><strong>Permitted Scope</strong>: The use of any open-source pre-trained models available through public channels (such as Hugging Face, GitHub, or official model repositories) is permitted. Submissions must be accompanied by clear version information for all external models used.</li>
 </ul>
-<h4 id="13-declaration-obligation">1.3 Declaration Obligation</h4>
-<p>Participating teams must clearly and completely declare all used resources and usage methods (including internal and external) in the form of a list in the final technical report.</p>
+<h4 id="13-resource-declaration-requirement">1.3 Resource Declaration Requirement</h4>
+<p>In the final technical report, participating teams must provide a clear and complete list of all resources used (both internal and external), detailing how each was applied.</p>
 <h3 id="2-competition-dataset-usage-policy">2. Competition Dataset Usage Policy</h3>
-<p><strong>Train Set</strong>: Participants may use the official train subset.</p>
+<p><strong>Train Set</strong>: Participants may use the official training subset provided.</p>
 <ul>
-<li>Any form of regular data augmentation based on the official train set is allowed (such as adding noise, pitch shifting, speed variation, etc.).</li>
-<li>The use of external public datasets that fully comply with the regulations in Section 1.2 is permitted for supplementary training.</li>
-<li>If new data is synthesized through models (for example, using TTS technology to generate speech), the synthesis model (such as TTS model) itself must be a publicly available open-source model that complies with Section 1.2.</li>
-<li>All data augmentation and synthesis methods, processes and external data sources used must be fully explained in the final technical report.</li>
+<li><strong>Standard data augmentation techniques</strong> (e.g., adding noise, pitch shifting, speed variation) on the official training set are permitted.</li>
+<li><strong>Supplementary training</strong> with external public datasets is allowed, provided they are in full compliance with Section 1.2.</li>
+<li><strong>If generating synthetic data</strong> (e.g., using Text-to-Speech), the underlying model (e.g., the TTS model) must itself be a publicly available, open-source model compliant with Section 1.2.</li>
+<li><strong>All data augmentation methods</strong>, synthesis processes, and external data sources must be thoroughly documented in the final technical report.</li>
 </ul>
-<p><strong>Dev Set</strong>: Can be used for model performance evaluation and debugging.</p>
-<p><strong>Test Set</strong>: Competition rankings will be based on model performance on the test set. The organizers will provide a public test set for participants to verify, but the final ranking will be based on the organizers&rsquo; combined results of the public test set and successfully reproduced results on the hidden test set.</p>
+<p><strong>Dev Set</strong>: May be used for model performance evaluation and debugging.</p>
+<p><strong>Test Set</strong>: The competition leaderboard will be based on model performance on the test set. The organizers will provide a public test set for participants to validate their models. However, the final ranking will be determined by a comprehensive evaluation based on performance on both the public test set and a private (hidden) test set, where results must be successfully reproduced by the organizers.</p>
 <h3 id="3-submission-requirements">3. Submission Requirements</h3>
-<p>To ensure the fairness and reproducibility of the competition, all participating teams must submit a complete, independently runnable final deliverable package within the specified time.</p>
-<h4 id="31-submission-content-list">3.1 Submission Content List</h4>
-<p>The submission package of participating teams must include all of the following contents:</p>
+<p>To ensure fairness and reproducibility, all teams must submit a complete and self-contained submission package that is independently runnable by the specified deadline.</p>
+<h4 id="31-submission-package-contents">3.1 Submission Package Contents</h4>
+<p>The submission package must include all of the following:</p>
 <ul>
-<li><strong>Final Results File</strong>: Model inference result file generated in the specified format (for example, submission.json).</li>
-<li><strong>Model Files</strong>: Complete model weights, configuration files and related dependencies.</li>
-<li><strong>Docker Image</strong>: A Docker image with configured environment that supports one-click inference execution.</li>
-<li><strong>Technical Documentation</strong>: A detailed README.md document clearly explaining how to use the provided code and model files to reproduce the competition results.</li>
+<li><strong>Results File</strong>: The model inference output, formatted as specified (e.g., submission.json).</li>
+<li><strong>Model Files</strong>: Complete model weights, configuration files, and all necessary dependencies.</li>
+<li><strong>Docker Image</strong>: A Docker image with a pre-configured environment, supporting single-command inference execution.</li>
+<li><strong>Technical Documentation</strong>: A detailed README.md file that clearly explains how to use the provided code and model files to reproduce the submitted results.</li>
 </ul>
 <h4 id="32-source-code-requirements">3.2 Source Code Requirements</h4>
 <ul>
-<li><strong>Reproduction Script</strong>: A one-click startup script (such as run.sh) must be provided to execute the complete inference process and generate the final result file.</li>
+<li><strong>Reproduction Script</strong>: A single-command startup script (e.g., run.sh) must be provided to execute the complete inference process and generate the final results file.</li>
 </ul>
 <h4 id="33-docker-image-specifications">3.3 Docker Image Specifications</h4>
 <ul>
-<li><strong>Environment Consistency</strong>: The Docker image must contain all necessary environments, software libraries and dependencies to ensure smooth operation in the evaluation environment.</li>
-<li><strong>One-click Inference</strong>: The image must contain an executable script that can automatically complete all inference steps and output the result file as required when called.</li>
-<li><strong>Detailed Guide</strong>: Specific specifications for building, using and submitting Docker images will be provided uniformly after the baseline implementation is released.</li>
+<li><strong>Environment Consistency</strong>: The Docker image must contain all necessary environments, software libraries, and dependencies to ensure seamless execution in the evaluation environment.</li>
+<li><strong>Single-Command Inference</strong>: The image must contain an executable script that, when run, automatically completes the entire inference process and generates the output file in the specified format.</li>
+<li><strong>Detailed Guide</strong>: Specific instructions for building, using, and submitting the Docker image will be provided with the release of the baseline implementation.</li>
 </ul>
-<h3 id="4-competition-supervision-and-right-of-interpretation">4. Competition Supervision and Right of Interpretation</h3>
+<h3 id="4-oversight-and-interpretation">4. Oversight and Interpretation</h3>
 <h4 id="41-right-of-interpretation">4.1 Right of Interpretation</h4>
-<p>The final right of interpretation of all rules of this competition belongs to the organizers. During the competition, the organizers have the right to adjust or supplement the rules according to actual circumstances, and will notify all participating teams in a timely manner.</p>
+<p>The organizers reserve the final right to interpret all rules of this competition. The organizers may adjust or supplement the rules as necessary during the competition, and any changes will be communicated to all teams in a timely manner.</p>
 <h4 id="42-fairness-and-authenticity-verification">4.2 Fairness and Authenticity Verification</h4>
-<p>To ensure the fairness and impartiality of the competition, the organizers reserve the right to review participating works. If necessary, the organizers have the right to request participating teams to provide more detailed technical details, and participating teams must cooperate.</p>
-<h4 id="43-violation-handling">4.3 Violation Handling</h4>
-<p>If participating teams exhibit any of the following behaviors, the organizers have the right to unilaterally cancel their participation qualification, winning qualification and recover bonuses and prizes:</p>
+<p>To ensure the integrity of the competition, the organizers reserve the right to audit all submissions. If requested, teams are required to provide further technical details to facilitate this review.</p>
+<h4 id="43-handling-of-violations">4.3 Handling of Violations</h4>
+<p>If a team engages in any of the following actions, the organizers reserve the right to unilaterally disqualify the team, revoke any awards, and reclaim all prizes and monetary bonuses:</p>
 <ul>
-<li>Submitted works contain false or forged information.</li>
-<li>Serious violations of competition rules or submission requirements.</li>
-<li>Use of any form of cheating in the competition.</li>
+<li>The submission contains falsified or fabricated information.</li>
+<li>A serious violation of competition rules or submission requirements has occurred.</li>
+<li>Engaging in any form of cheating.</li>
 </ul>
 </div>
             <div class=""><h2 id="organizers">Organizers</h2>
