@@ -27,7 +27,15 @@ We release a development set, including task 1, task 2, task 3(selected from tas
 <!-- You can download it via [Google Drive](https://drive.google.com/drive/folders/1mXjQi_uPPDhwhbvxKsMCqNMtm89ab6Zn?usp=sharing). If that's not convenient, you can use the [123 Cloud](https://www.123912.com/s/QlDejv-h7anA) for downloading. -->
 
 **Track 2: Full-Duplex Interaction**  
-We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection. Accompanied by strict annotations, this dataset will be used to comprehensively evaluate participating systems in three core aspects: response speed, behavioral rationality, and linguistic naturalness.
+
+1. Train Set
+
+Our training set covers both interruption and rejection scenarios, including subsets from eight tasks other than Speech Directed at Others. It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.
+
+2. Dev set
+
+We release a development set covering the two major scenarios—interruption and rejection. Each of these scenarios consists of nine sub-tasks, and each sub-task includes 200 test samples (100 in Chinese and 100 in English).
+
 
 
 - The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. 
