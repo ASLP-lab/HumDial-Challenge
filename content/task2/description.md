@@ -6,6 +6,7 @@ weight: 80
 ---
 
 ### Challenge Tasks
+The full-duplex benchmark primarily encompasses two major Scenarios: **interruption** and **rejection**.
 
 #### **1. Interruption Scenarios**:
 - **Follow-up Questions**: The user poses a follow-up question based on the model’s previous response, interrupting the ongoing output. The model should promptly address the user’s follow-up inquiry.
@@ -37,7 +38,7 @@ For **rejection** scenarios, we measure the rejection rate (corresponding to the
 
 #### 1. Train Set
 
-Our training set covers both interruption and rejection scenarios, including subsets from eight tasks （**Negation/Dissatisfaction, Follow-up Questions, Repetition Requests, Topic Switching, Silence/Termination, Pause Handling, User Real-time Backchannels, Third-Party Speech**）. It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.
+Our training set covers both interruption and rejection scenarios, including subsets from eight tasks (**Negation/Dissatisfaction, Follow-up Questions, Repetition Requests, Topic Switching, Silence/Termination, Pause Handling, User Real-time Backchannels, Third-Party Speech**). It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.
 
 #### 2. Dev set
 
