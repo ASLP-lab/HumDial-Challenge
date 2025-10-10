@@ -67,18 +67,18 @@
 
     </header><h3 id="1-interruption-scenarios"><strong>1. Interruption Scenarios</strong>:</h3>
 <ul>
-<li><strong>Negation/Dissatisfaction</strong>: The user expresses dissatisfaction during the system’s response.</li>
-<li><strong>Follow-up Questions</strong>: The user asks further questions based on the system’s existing reply.</li>
-<li><strong>Repetition Requests</strong>: The user asks the system to repeat previous answers.</li>
-<li><strong>Topic Switching</strong>: The user requests a new topic during the system’s response.</li>
-<li><strong>Silence/Termination</strong>: The user asks the system to stop speaking or end the dialogue immediately.</li>
+<li><strong>Follow-up Questions</strong>: The user poses a follow-up question based on the model’s previous response, interrupting the ongoing output. The model should promptly address the user’s follow-up inquiry.</li>
+<li><strong>Negation / Dissatisfaction</strong>: The user expresses dissatisfaction or disagreement with the model’s response using negative statements, interrupting the model mid-sentence. The model should appropriately react to the user’s negation or dissatisfaction in a timely manner.</li>
+<li><strong>Repetition Requests</strong>: The user interrupts to request a repetition of the model’s previous response due to inaudibility or misunderstanding. The model should promptly respond to the user’s request for repetition.</li>
+<li><strong>Topic Switching</strong>: The user initiates a new topic, interrupting the model’s current answer. The model should smoothly shift to the new topic as requested.</li>
+<li><strong>Silence / Termination</strong>: The user asks the model to stop speaking. The model should immediately cease its response and express readiness to resume the dialogue when prompted.</li>
 </ul>
 <h3 id="2-rejection-scenarios">2. <strong>Rejection Scenarios</strong>:</h3>
 <ul>
-<li><strong>Pause Handling</strong>: The system should wait for the user to complete their utterance.</li>
-<li><strong>User Real-time Backchannels</strong>: Short backchannels (e.g., “uh-huh”, “yes”) should not trigger interruptions.</li>
-<li><strong>Third-Party Speech</strong>: The system should reject and filter out sudden speech from other people in the environment.</li>
-<li><strong>Speech Directed at Others</strong>: The system should ignore user speech directed toward third parties.</li>
+<li><strong>User Real-time Backchannels</strong>: During the model’s response, the user may produce short interjections such as “uh-huh” or “yeah.” The model should not interrupt its ongoing utterance upon detecting such backchannels.</li>
+<li><strong>Pause Handling</strong>: The user may pause mid-sentence due to thinking or hesitation, leading to incomplete semantics. The model should wait until the user’s intent is fully expressed before responding.</li>
+<li><strong>Third-party Speech</strong>: The model must detect and reject speech from other background speakers, ensuring interaction only with the genuine user.</li>
+<li><strong>Speech Directed at Others</strong>: During interaction with the model, the user may suddenly turn to converse with another person (often on a different topic). The model should detect and appropriately reject such utterances.</li>
 </ul>
 
 

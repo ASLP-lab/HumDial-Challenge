@@ -96,7 +96,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description>Challenge Tasks Task 1: Emotional Trajectory Detection - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations. Task 2: Emotional Reasoning - Evaluate whether models can synthesize all conversation information to provide profound explanations. Task 3: Empathy Assessment - Assess textual and audio empathy as well as naturalness. The final ranking will be determined based on the total score of all three tasks. The specific weight allocation will be announced in subsequent stages.</description>
+      <description>Challenge Tasks Task 1: Emotional Trajectory Detection - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations. Task 2: Emotional Reasoning - Evaluate whether models can synthesize all conversation information to provide profound explanations. Task 3: Empathy Assessment - Assess textual and audio empathy as well as naturalness. The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.</description>
     </item>
     
     <item>
@@ -105,7 +105,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>1. Interruption Scenarios: Negation/Dissatisfaction: The user expresses dissatisfaction during the system’s response. Follow-up Questions: The user asks further questions based on the system’s existing reply. Repetition Requests: The user asks the system to repeat previous answers. Topic Switching: The user requests a new topic during the system’s response. Silence/Termination: The user asks the system to stop speaking or end the dialogue immediately. 2. Rejection Scenarios: Pause Handling: The system should wait for the user to complete their utterance.</description>
+      <description>1. Interruption Scenarios: Follow-up Questions: The user poses a follow-up question based on the model’s previous response, interrupting the ongoing output. The model should promptly address the user’s follow-up inquiry. Negation / Dissatisfaction: The user expresses dissatisfaction or disagreement with the model’s response using negative statements, interrupting the model mid-sentence. The model should appropriately react to the user’s negation or dissatisfaction in a timely manner. Repetition Requests: The user interrupts to request a repetition of the model’s previous response due to inaudibility or misunderstanding.</description>
     </item>
     
     <item>
