@@ -4,9 +4,14 @@ weight: 10
 description: "General description"
 ---
 
+## News and Updates
 
+**2025.10.10**
+We have already sent the dataset access method and other relevant information of this challenge to all successfully registered teams via email. 
 
-<!-- {{< figure src="../../images/demo.png" >}} -->
+If you have not received the email, please:
+- Check the email you used for registration: Please confirm that you used your institutional email instead of personal email (such as QQ, Gmail, 163, etc.) for registration. We only sent emails to valid institutional email addresses.
+- Check your email's spam or subscription folder.
 
 
 ## Challenge Call 
