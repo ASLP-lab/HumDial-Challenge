@@ -25,8 +25,6 @@
                 <li class="">
                     <a href="/HumDial-Challenge/">Home</a>
                 <li class="">
-                    <a href="/HumDial-Challenge/dataset/">Dataset</a>
-                <li class="">
                     <a href="#">Track 1: Emotion Intelligence</a><ul>
                         <li class="">
                             <a href="/HumDial-Challenge/task1/description">description</a>
@@ -80,6 +78,16 @@
 <li><strong>Third-party Speech</strong>: The model must detect and reject speech from other background speakers, ensuring interaction only with the genuine user.</li>
 <li><strong>Speech Directed at Others</strong>: During interaction with the model, the user may suddenly turn to converse with another person (often on a different topic). The model should detect and appropriately reject such utterances.</li>
 </ul>
+<h3 id="dataset">Dataset</h3>
+<ul>
+<li>The dataset is designed to cover the core scenarios of full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English.</li>
+<li>For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set, dev set and test set.</li>
+<li>The data will be sent via the registered email.</li>
+</ul>
+<h4 id="1-train-set">1. Train Set</h4>
+<p>Our training set covers both interruption and rejection scenarios, including subsets from eight tasks（<strong>Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech</strong>）. It comprises over 107 hours of real human recordings in both Chinese and English, featuring more than 100 speakers.</p>
+<h4 id="2-dev-set">2. Dev set</h4>
+<p>We release a development set covering the two major scenarios—interruption and rejection. Each of these scenarios consists of nine sub-tasks（<strong>Negation/Dissatisfaction，Follow-up Questions，Repetition Requests，Topic Switching，Silence/Termination，Pause Handling，User Real-time Backchannels，Third-Party Speech，Speech Directed at Others</strong>）, and each sub-task includes 200 test samples (100 in Chinese and 100 in English).</p>
 
 
                                 </article>

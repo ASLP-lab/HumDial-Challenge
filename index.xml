@@ -36,15 +36,6 @@ Reminder! Please use your institutional or corporate email address to register, 
     </item>
     
     <item>
-      <title>Dataset</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/dataset/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
-      <description>The dataset is designed to cover the core scenarios of emotional intelligence and full-duplex interaction, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts. For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set, dev set and test set.</description>
-    </item>
-    
-    <item>
       <title>leaderboard</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task1/leaderboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -96,7 +87,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
-      <description>Challenge Tasks Task 1: Emotional Trajectory Detection - Accurately identify and concisely summarize users&amp;rsquo; emotional changes throughout multi-turn conversations. Task 2: Emotional Reasoning - Evaluate whether models can synthesize all conversation information to provide profound explanations. Task 3: Empathy Assessment - Assess textual and audio empathy as well as naturalness. The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.</description>
+      <description>Challenge Tasks Task 1: Emotional Trajectory Detection - Evaluate the model&amp;rsquo;s ability to accurately identify and concisely summarize a user&amp;rsquo;s emotional changes throughout a multi-turn conversation. Task 2: Emotional Reasoning - Evaluate the model&amp;rsquo;s ability to perceive the underlying causes of a user&amp;rsquo;s emotions. Task 3: Empathy Assessment - Evaluate the model&amp;rsquo;s ability to generate empathetic responses in both text and audio formats. The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.</description>
     </item>
     
     <item>

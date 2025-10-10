@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/HumDial-Challenge/style.css" />
 <meta property="og:title" content="Track 1: Emotion Intelligence" />
-<meta property="og:description" content="The Emotion Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions. These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios" />
+<meta property="og:description" content="The Emotion Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (task1-task5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aslp-lab.github.io/HumDial-Challenge/task1/description/" /><meta property="article:section" content="task1" />
 
@@ -24,8 +24,6 @@
         <ul>
                 <li class="">
                     <a href="/HumDial-Challenge/">Home</a>
-                <li class="">
-                    <a href="/HumDial-Challenge/dataset/">Dataset</a>
                 <li class="">
                     <a href="#">Track 1: Emotion Intelligence</a><ul>
                         <li class="">
@@ -59,7 +57,7 @@
                                 <article>
     <header>
         <h2>Track 1: Emotion Intelligence</h2>
-        <p>The Emotion Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions. These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios</p>
+        <p>The Emotion Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (task1-task5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios</p>
         
         
         <ul class="tags">
@@ -67,28 +65,24 @@
 
     </header><h3 id="challenge-tasks">Challenge Tasks</h3>
 <ul>
-<li><strong>Task 1</strong>: Emotional Trajectory Detection - Accurately identify and concisely summarize users&rsquo; emotional changes throughout multi-turn conversations.</li>
-<li><strong>Task 2</strong>: Emotional Reasoning - Evaluate whether models can synthesize all conversation information to provide profound explanations.</li>
-<li><strong>Task 3</strong>: Empathy Assessment - Assess textual and audio empathy as well as naturalness.</li>
+<li><strong>Task 1</strong>: Emotional Trajectory Detection - Evaluate the model&rsquo;s ability to accurately identify and concisely summarize a user&rsquo;s emotional changes throughout a multi-turn conversation.</li>
+<li><strong>Task 2</strong>: Emotional Reasoning - Evaluate the model&rsquo;s ability to perceive the underlying causes of a user&rsquo;s emotions.</li>
+<li><strong>Task 3</strong>: Empathy Assessment - Evaluate the model&rsquo;s ability to generate empathetic responses in both text and audio formats.</li>
 </ul>
 <p>The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.</p>
-<p>To comprehensively evaluate model performance in specific dimensions, the following supplementary tests will also be conducted:</p>
+<p>To comprehensively evaluate model performance in specific dimensions, the following supplementary tasks will also be conducted:</p>
 <ul>
-<li><strong>Task 4</strong>: Emotional Recognition Capability - Identify users&rsquo; surface and deep emotional expressions.</li>
-<li><strong>Task 5</strong>: Explicit Emotional Instruction Generation Capability - Generate natural speech expressions according to specified emotions.</li>
+<li><strong>Task 4</strong>: Emotional Recognition Capability - Evaluate the model&rsquo;s ability to recognize user emotion from both semantic and acoustic cues.</li>
+<li><strong>Task 5</strong>: Speech emotion generation - Evaluate the model&rsquo;s ability to generate speech in specified tone.</li>
 </ul>
 <blockquote>
 <p><strong>Note</strong>: The evaluation results of supplementary tasks are only used for academic analysis and reference, and will not be counted toward the final ranking score.</p>
 </blockquote>
 <h3 id="evaluation-framework">Evaluation Framework</h3>
-<p>All submitted models will undergo automated evaluation on the test set, using a combination of large language models as judges (LLM-as-a-Judge) and human scoring.</p>
-<ul>
-<li><strong>Scoring Judge Model</strong>: Qwen3-Omni-30B-A3B-Instruct will be used as the automatic scoring model for the emotional trajectory detection and emotional reasoning tasks. The empathy assessment task will combine scores from Qwen3-Omni-30B-A3B-Instruct and/or other models, along with human scoring to derive the final results.</li>
-<li><strong>Scoping Prompt</strong>: For detailed scoring prompt design specifications and implementation details, please refer to our provided Git repository.</li>
-</ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>All submitted models will undergo automated evaluation on an emotion test set, using a combination of large language models as judges (LLM-as-a-Judge) and human scoring.</p>
+<p><strong>Scoring Judge Model</strong>: <a href="https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct">Qwen/Qwen3-Omni-30B-A3B-Instruct</a> will be used as the automatic scoring model for the emotional trajectory detection and emotional reasoning tasks. The empathy assessment task will combine scores from Qwen3-Omni-30B-A3B-Instruct and/or other models, along with human scoring to derive the final results.</p>
 <h3 id="evaluation-metrics">Evaluation Metrics</h3>
+<p>For detailed design specifications and implementation details of the evaluation prompts, please refer to our provided <a href="https://github.com/ASLP-lab/Hum-Dial">Git repository</a>.</p>
 <h4 id="task-1-emotional-trajectory-summary">Task 1: Emotional Trajectory Summary</h4>
 <ul>
 <li><strong>Accuracy_Completeness</strong>: Evaluate whether the model strictly and precisely matches and describes all emotion tags present in the conversation history, and accurately reconstructs the full emotional trajectory.<br>
@@ -115,6 +109,26 @@
 <em>Score: 1, 2, 3, 4 or 5</em></li>
 <li><strong>audio_quality_naturalness</strong>: How technically sound and human-like is the audio? This is about clarity, fluency, and realism.<br>
 <em>Score: 1, 2, 3, 4 or 5</em></li>
+</ul>
+<h3 id="dataset">Dataset</h3>
+<ul>
+<li>The dataset is designed to cover the core scenarios of emotional intelligence, ensuring diversity and authenticity to comprehensively evaluate the performance of participating models. It includes dialogue scenes in both Chinese and English, covering a wide range of emotional and conversational contexts.</li>
+<li>For each task in the challenge, we will provide a dedicated set of real-world recorded speech data to serve as the train set, dev set and test set.</li>
+<li>The data will be sent via the registered email.</li>
+</ul>
+<h4 id="1-train-set">1. Train Set</h4>
+<p>We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference.</p>
+<ul>
+<li><strong>Emotional Trajectory Detection</strong>: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.</li>
+<li><strong>Emotional Reasoning</strong>: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions.</li>
+<li><strong>Empathy Assessment</strong>: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.</li>
+</ul>
+<h4 id="2-dev-set">2. dev set</h4>
+<p>We release a development set, including task 1, task 2, task 3(selected from task 2 and task 3).</p>
+<ul>
+<li><strong>Emotional Trajectory Detection</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score.</li>
+<li><strong>Emotional Reasoning</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score.</li>
+<li><strong>Empathy Assessment</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response audio score.</li>
 </ul>
 
 
