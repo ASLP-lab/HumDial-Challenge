@@ -96,7 +96,7 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
-      <description>1. Interruption Scenarios: Follow-up Questions: The user poses a follow-up question based on the model’s previous response, interrupting the ongoing output. The model should promptly address the user’s follow-up inquiry. Negation / Dissatisfaction: The user expresses dissatisfaction or disagreement with the model’s response using negative statements, interrupting the model mid-sentence. The model should appropriately react to the user’s negation or dissatisfaction in a timely manner. Repetition Requests: The user interrupts to request a repetition of the model’s previous response due to inaudibility or misunderstanding.</description>
+      <description>Challenge Tasks 1. Interruption Scenarios: Follow-up Questions: The user poses a follow-up question based on the model’s previous response, interrupting the ongoing output. The model should promptly address the user’s follow-up inquiry. Negation / Dissatisfaction: The user expresses dissatisfaction or disagreement with the model’s response using negative statements, interrupting the model mid-sentence. The model should appropriately react to the user’s negation or dissatisfaction in a timely manner. Repetition Requests: The user interrupts to request a repetition of the model’s previous response due to inaudibility or misunderstanding.</description>
     </item>
     
     <item>
