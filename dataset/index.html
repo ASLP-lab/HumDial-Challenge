@@ -70,30 +70,22 @@
 <li>Train Set</li>
 </ol>
 <p>We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 <ul>
-<li><strong>task1</strong>: 1-turn dialogues, judging users&rsquo; emotional status, not participating in evaluation.</li>
-<li><strong>task2</strong>: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.</li>
-<li><strong>task3</strong>: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions.</li>
-<li><strong>task4</strong>: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.</li>
-<li><strong>task5</strong>: No training data is provided, but open-source data can be used for training.</li>
+<li><strong>task1</strong>: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.</li>
+<li><strong>task2</strong>: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions.</li>
+<li><strong>task3</strong>: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.</li>
 </ul>
 <ol start="2">
 <li>dev set</li>
 </ol>
-<p>We release a development set, including task 1, task 2, task 3, and task 4 (selected from task 3 and task 4).</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>We release a development set, including task 1, task 2, task 3(selected from task 2 and task 3).</p>
 <ul>
-<li><strong>task1</strong>: No development set is provided and it does not participate in the evaluation ranking.</li>
+<li><strong>task1</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score.</li>
 <li><strong>task2</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score.</li>
-<li><strong>task3</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response text score.</li>
-<li><strong>task4</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response audio score.</li>
-<li><strong>task5</strong>: No development set is provided and it does not participate in the evaluation ranking.</li>
+<li><strong>task3</strong>: Contains 3, 4, and 5-turn dialogues, used to evaluate the model&rsquo;s response audio score.</li>
 </ul>
 <!-- raw HTML omitted -->
-<p>You can download it via Google Drive. If that&rsquo;s not convenient, you can use the 123 Cloud for downloading.</p>
+<p>You will receive an email notification containing the Google Drive link for the data. Please keep an eye out for it.</p>
 <p><strong>Track 2: Full-Duplex Interaction</strong><br>
 We will provide multi-turn Chinese and English dialogue data from real recordings, covering typical scenarios such as speech interruptions and recognition rejection. Accompanied by strict annotations, this dataset will be used to comprehensively evaluate participating systems in three core aspects: response speed, behavioral rationality, and linguistic naturalness.</p>
 <ul>

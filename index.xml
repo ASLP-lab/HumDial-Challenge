@@ -43,7 +43,7 @@ Reminder! Please use your institutional or corporate email address to register, 
       <guid>https://aslp-lab.github.io/HumDial-Challenge/dataset/</guid>
       <description>Track 1: Emotional Intelligence
 Train Set We release a training set in Chinese and English, including 3-turn, 4-turn, and 5-turn dialogues, focusing on emotional dynamics and underlying reasons for emotional changes. The dataset contains approximately 100 hours of audio data, with only questions recorded, while responses are provided in text format for reference.
-task1: 1-turn dialogues, judging users&amp;rsquo; emotional status, not participating in evaluation. task2: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.</description>
+task1: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about their own emotional changes.</description>
     </item>
     
     <item>
