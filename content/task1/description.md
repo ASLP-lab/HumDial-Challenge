@@ -1,6 +1,6 @@
 ---
 title: "Track 1: Emotion Intelligence"
-description: "The Emotion Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (task1-task5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios"
+description: "The Emotion Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios"
 menu: task1
 weight: 80
 ---
@@ -15,8 +15,8 @@ weight: 80
 The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.
 
 To comprehensively evaluate model performance in specific dimensions, the following supplementary tasks will also be conducted:
-- **Task 4**: Emotional Recognition Capability - Evaluate the model's ability to recognize user emotion from both semantic and acoustic cues.
-- **Task 5**: Speech emotion generation - Evaluate the model's ability to generate speech in specified tone.
+- **Task 4**: Emotional Recognition Capability - Evaluate the model's ability to recognize user emotions from both semantic and acoustic cues.
+- **Task 5**: Speech emotion generation - Evaluate the model's ability to generate speech in specified emotional tone.
 > **Note**: The evaluation results of supplementary tasks are only used for academic analysis and reference, and will not be counted toward the final ranking score.
 
 ### Evaluation Framework
