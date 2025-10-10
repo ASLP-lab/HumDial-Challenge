@@ -11,19 +11,19 @@ theme = ["hugo-chart", "arcana"]
     [[menu.main]]
         identifier ="description_1"
         parent = "task1"
-        name = "description"
+        name = "Description"
         url= "/task1/description"
         weight = 1
     [[menu.main]]
         parent = "task1"
         identifier="test_set_1"
-        name = "test_set"
+        name = "Test_set"
         url="/task1/test_set"
         weight = 2
     [[menu.main]]
         parent = "task1"
         identifier="leaderboard_1"
-        name = "leaderboard"
+        name = "Leaderboard"
         url="/task1/leaderboard"
         weight = 3
     [[menu.main]]
@@ -33,19 +33,19 @@ theme = ["hugo-chart", "arcana"]
     [[menu.main]]
         identifier ="description_2"
         parent = "task2"
-        name = "description"
+        name = "Description"
         url= "/task2/description"
         weight = 1
      [[menu.main]]
         parent = "task2"
         identifier="test_set_2"
-        name = "test_set"
+        name = "Test_set"
         url="/task2/test_set"
         weight = 2
     [[menu.main]]
         parent = "task2"
         identifier="leaderboard_2"
-        name = "leaderboard"
+        name = "Leaderboard"
         url="/task2/leaderboard"
         weight = 3
 
