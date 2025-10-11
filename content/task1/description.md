@@ -37,7 +37,7 @@ For detailed design specifications and implementation details of the evaluation 
 - **Added_Value**: Does the summary skillfully link abstract emotion tags to concrete events in the conversation, making it feel highly personalized and easily digestible?  
   *Score: 1, 3, or 5*
 
-#### Task 2: Emotional Reasoning Task
+#### Task 2: Emotional Reasoning
 - **Information_Integration**: Does the response utilize information from multiple turns, not just the last one? Does it demonstrate an understanding of the evolution of the topic?  
   *Score: 1, 3, or 5*
 - **Insight_RootCause**: Does the response go beyond surface-level facts to distill deeper, unspoken psychological reasons (e.g., underlying motivations, cognitive conflicts, hidden emotional needs)?  
@@ -45,12 +45,12 @@ For detailed design specifications and implementation details of the evaluation 
 - **Clarity_Logic**: Is the explanation clear, logical, easy to understand, and does it provide a complete and justified chain of reasoning?  
   *Score: 1, 3, or 5*
 
-#### Task 3: Empathy Assessment Task
-- **textual_empathy_insight**: Does the text demonstrate a deep, synthesized understanding of the entire conversation, or is it a shallow summary?  
+#### Task 3: Empathy Assessment
+- **Textual_empathy_insight**: Does the text demonstrate a deep, synthesized understanding of the entire conversation, or is it a shallow summary?  
   *Score: 1, 2, 3, 4 or 5*
-- **vocal_empathy_congruence**: Does the audio's emotion perfectly match the text's empathetic intent? This is about emotional delivery, not technical quality.  
+- **Vocal_empathy_congruence**: Does the audio's emotion perfectly match the text's empathetic intent? This is about emotional delivery, not technical quality.  
   *Score: 1, 2, 3, 4 or 5*
-- **audio_quality_naturalness**: How technically sound and human-like is the audio? This is about clarity, fluency, and realism.  
+- **Audio_quality_naturalness**: How technically sound and human-like is the audio? This is about clarity, fluency, and realism.  
   *Score: 1, 2, 3, 4 or 5*
 
 ### Dataset
@@ -67,59 +67,14 @@ We release a training set in Chinese and English, including 3-turn, 4-turn, and 
 - **Emotional Reasoning**: Contains 3, 4, and 5-turn dialogues, where in the final turn users ask the model about the underlying reasons for emotions.
 - **Empathy Assessment**: You can use the data from task2 and task3, and use open-source TTS tools to synthesize response audio for training. Note that it is prohibited to use commercial models to synthesize response audio.
 
-#### 2. dev set
+#### 2. Dev set
 
-We release a development set, including task 1, task 2, task 3(selected from task 2 and task 3). 
+We release a development set, including task 1, task 2, task 3. 
 
 - **Emotional Trajectory Detection**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
 - **Emotional Reasoning**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response text score.
 - **Empathy Assessment**: Contains 3, 4, and 5-turn dialogues, used to evaluate the model's response audio score.
 
-<!-- #### 数据结构
-
-HD-Track1
-  HD-Track1-train
-    HD-Track1-train-zh
-      task1_3
-      task1_4
-      task1_5
-      task2_3
-      task2_4
-      task2_5
-      task1_3.jsonl
-      task1_4.jsonl
-      task1_5.jsonl
-      task2_3.jsonl
-      task2_4.jsonl
-      task2_5.jsonl
-    HD-Track1-train-en
-      task1_3
-      task1_4
-      task1_5
-      task2_3
-      task2_4
-      task2_5
-      task1_3.jsonl
-      task1_4.jsonl
-      task1_5.jsonl
-      task2_3.jsonl
-      task2_4.jsonl
-      task2_5.jsonl
-  HD-Track1-dev
-    HD-Track1-dev-zh
-      task1
-      task2
-      task3
-      task1.jsonl
-      task2.jsonl
-      task3.jsonl
-    HD-Track1-dev-en
-      task1
-      task2
-      task3
-      task1.jsonl
-      task2.jsonl
-      task3.jsonl -->
 
 ### Baseline
 

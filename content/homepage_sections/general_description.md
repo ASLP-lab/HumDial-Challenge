@@ -6,8 +6,7 @@ description: "General description"
 
 ## News and Updates
 
-**2025.10.10**
-We have already sent the dataset access method and other relevant information of this challenge to all successfully registered teams via email. 
+**October 10, 2025**: We have sent the training and dev dataset access instructions and other relevant information for this challenge to all successfully registered teams via email.
 
 If you have not received the email, please:
 - Check the email you used for registration: Please confirm that you used your institutional email instead of personal email (such as QQ, Gmail, 163, etc.) for registration. We only sent emails to valid institutional email addresses.
