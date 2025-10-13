@@ -107,8 +107,10 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/faq/</guid>
-      <description>General Information Q: Unable to register using Google Form
-A: If registration via Google Form fails, users in mainland China can also sign up using the following link: [Tencent Docs] ICASSP 2026 HumDial Challenge Registration https://docs.qq.com/form/page/DY2tvT3FvWnRMZXRp</description>
+      <description>General Information 1. Q: Unable to register using Google Form.
+A: If registration via Google Form fails, users in mainland China can also sign up using the following link: [Tencent Docs] ICASSP 2026 HumDial Challenge Registration https://docs.qq.com/form/page/DY2tvT3FvWnRMZXRp
+2. Q: Are there any restrictions on the type and size of base models that can be used for the competition?
+A: There are no restrictions on the type or size of the models.</description>
     </item>
     
     <item>
