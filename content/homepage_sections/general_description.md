@@ -6,6 +6,8 @@ description: "General description"
 
 ## News and Updates
 
+**October 29, 2025**: Full baseline release.
+
 **October 10, 2025**: We have sent the training and dev dataset access instructions and other relevant information for this challenge to all successfully registered teams via email.
 
 If you have not received the email, please:
