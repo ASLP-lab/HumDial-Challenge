@@ -6,7 +6,7 @@ description: "General description"
 
 ## News and Updates
 
-**October 29, 2025**: Full baseline release.
+**October 29, 2025**: We have released the baseline model, and you can obtain the model files from the two track pages.
 
 **October 10, 2025**: We have sent the training and dev dataset access instructions and other relevant information for this challenge to all successfully registered teams via email.
 
