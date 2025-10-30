@@ -83,4 +83,7 @@ We release a development set, including task 1, task 2, task 3.
 ### Baseline
 
 The competition provides a baseline built on [OSUM-EChat](https://github.com/ASLP-lab/OSUM/tree/main/OSUM-EChat).This baseline serves as a reproducible and extensible starting point, helping participants better benchmark their systems and ensuring fair comparison across different approaches.
-For more information, see the [Git repository](https://github.com/ASLP-lab/Hum-Dial/)
+
+You can obtain the baseline model file from [Google drive](https://drive.google.com/drive/folders/1l-7WIikrSqMILrrGCgkvKEuTNPiIuGSh?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1SzVQgEh1C3EsjBRdoBbHqA?pwd=mq1j)
+
+For more information, see the [Hum-Dial](https://github.com/ASLP-lab/Hum-Dial/)
