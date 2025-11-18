@@ -1,6 +1,6 @@
 ---
 title: "Test Set"
-description: "The Emotional Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios."
+description: ""
 menu: task1
 weight: 80
 ---
@@ -50,7 +50,7 @@ The final ranking for this challenge track is determined by a final score that r
 To ensure a fair and scientifically rigorous evaluation, the final scoring weights will be dynamically determined. This process will take into account various factors, including the overall performance distribution of all participating models. Therefore, the final weights will be officially announced only after all submissions have been received and the unified evaluation is complete.
 
 - **Detailed Scoring Rules**:
-For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on GitHub.
+For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on [GitHub](https://github.com/ASLP-lab/Hum-Dial/tree/main/Emotional_Intelligence).
 
 ## Submission Guidelines
 - Submission Method:  
@@ -63,7 +63,7 @@ The latest link a team submits in the Google Form before the deadline (November 
 
 - Submission Checklist:
   1. **jsonl Files**:
-     - For each task, you must submit a correspondTng result file in .jsonl format.
+     - For each task, you must submit a corresponding result file in .jsonl format.
      - File Structure Example (HD-Track1-3.jsonl):
        ```
        {"dialogue_id": "task1_3_zh_0001_0001", "turns": [{"turn_id": 1, "input_audio": "dev_jsonl/zh/task1/task1_3_zh_0001_0001_1.wav", "response_text": "我能理解你的感受，这种情况真的很让人沮丧。你有没有考虑和他沟通一下，看看能不能找到解决办法？", "response_audio": "dev_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_1_response.wav"}, {"turn_id": 2, "input_audio": "test_jsonl/zh/task1/task1_3_zh_0001_0001_2.wav",  "response_text": "哇，真是太棒了！恭喜你中奖，降噪耳机听起来很不错，打算什么时候用呢？", "response_audio": "dev_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_2_response.wav"}, {"turn_id": 3, "input_audio": "test_jsonl/zh/task1/task1_3_zh_0001_0001_3.wav",  "response_text": "在对话中，你的愤怒情绪逐渐被惊喜所取代。最初因团队成员提交错误数据而感到生气，但随后得知中奖消息后，情绪转向了兴奋和期待。这种转变体现了从挫折到喜悦的心理波动。", "response_audio": "test_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_3_response.wav"}]}
@@ -78,22 +78,22 @@ The latest link a team submits in the Google Form before the deadline (November 
   > Important: Both the jsonl files and the system description document are mandatory. Failure to submit either of these components will result in disqualification.
   4. Submission Package Format
   ```
-  --HD-Track1
-  |__system_description_report.pdf
-  |__zh
-  |  |__HD-Track1-T1.jsonl
-  |  |__HD-Track1-T2.jsonl
-  |  |__HD-Track1-T3.jsonl
-  |  |__HD-Track1-T3/
-  |     |_{dialogue_id}_{turn_id}_response.wav
-  |     |...
-  |__en
-     |__HD-Track1-T1.jsonl
-     |__HD-Track1-T2.jsonl
-     |__HD-Track1-T3.jsonl
-     |__HD-Track1-T3/
-        |_{dialogue_id}_{turn_id}_response.wav
-        |...
+    --HD-Track1
+    |__[Your_Team_Name]_System_Description.pdf
+    |__zh
+    |  |__HD-Track1-T1.jsonl
+    |  |__HD-Track1-T2.jsonl
+    |  |__HD-Track1-T3.jsonl
+    |  |__HD-Track1-T3/
+    |     |_{dialogue_id}_{turn_id}_response.wav
+    |     |...
+    |__en
+       |__HD-Track1-T1.jsonl
+       |__HD-Track1-T2.jsonl
+       |__HD-Track1-T3.jsonl
+       |__HD-Track1-T3/
+          |_{dialogue_id}_{turn_id}_response.wav
+          |...
   ```
 
 ## Requirements for Shortlisted Teams
@@ -105,7 +105,7 @@ After the submission deadline, please monitor your registered email closely. Tea
 2. **Supplementary Model Documentation**:  
   - A detailed readme.md file that includes comprehensive reproduction steps and a system overview.
 
-## Final Ranking Tie-breaker and Final Interpretation
+## Final Ranking and Interpretation
 - **Hidden Test Set**:  
 In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee reserves the right to deploy a never-before-seen "hidden test set" to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.
 - **Final Interpretation**:  
