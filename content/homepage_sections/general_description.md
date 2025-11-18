@@ -6,6 +6,8 @@ description: "General description"
 
 ## News and Updates
 
+**November 17, 2025**:The test set and submission rules are released. Please refer to the corresponding page of each track for specific information.
+
 **November 11, 2025**: Due to the delayed release of the training data, the test data will also be postponed. We expect to release the test set around November 17. Please stay tuned.
 
 **October 29, 2025**: We have released the baseline model, and you can obtain the model files from the two track pages.
