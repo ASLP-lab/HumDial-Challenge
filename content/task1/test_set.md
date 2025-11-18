@@ -36,6 +36,7 @@ The evaluation methodology is specifically designed for the distinct characteris
 
 **Task 1 & 2**:
 - **LLM Automated Scoring**: This stage involves a comprehensive preliminary evaluation of all submissions. We will leverage a Large Language Model to perform an efficient, quantitative analysis of the model outputs. This analysis will serve as the basis for the initial ranking.
+
 **Task 3**:
 - **LLM Automated Scoring**:  As with Task 1 & 2, all submissions for Task 3 will first undergo the same LLM Automated Scoring process described above.
 - **Human Scoring**: For the top-performing teams identified in the LLM scoring stage, we will invite professionally trained evaluators to conduct an in-depth assessment. This stage is designed to complement the LLM evaluation, with a particular focus on assessing the speech-related dimensions.
@@ -45,19 +46,19 @@ The evaluation methodology is specifically designed for the distinct characteris
   3. The submissions from the shortlisted teams will then be scored by human evaluators.
   4. Once the final rankings are determined, we will only announce the results of the top-ranked teams.
 
-The final ranking for this challenge track is determined by a final score that reflects the comprehensive performance across all three tasks. This score is calculated as a weighted sum of LLM (Large Language Model) Automated Scoring and **Human Scoring** to ensure a comprehensive and authoritative assessment.
+The final ranking for this challenge track is determined by a final score that reflects the comprehensive performance across all three tasks. This score is calculated as a weighted sum of LLM (Large Language Model) Automated Scoring and **Human Scoring** to ensure a comprehensive and authoritative assessment.  
 To ensure a fair and scientifically rigorous evaluation, the final scoring weights will be dynamically determined. This process will take into account various factors, including the overall performance distribution of all participating models. Therefore, the final weights will be officially announced only after all submissions have been received and the unified evaluation is complete.
 
 - **Detailed Scoring Rules**:
 For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on GitHub.
 
 ## Submission Guidelines
-- Submission Method:
+- Submission Method:  
 All submissions must be made through [official Google Form](https://forms.gle/QrCWdQKvVQMzmXHz5)
 
 - Submission File and Version Control:   
-Teams are required to package all submission materials into a single compressed file named HD-Track1.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.
-Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.
+Teams are required to package all submission materials into a single compressed file named HD-Track1.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.  
+Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.  
 The latest link a team submits in the Google Form before the deadline (November 24, 2025, 23:59，AoE) will be considered their official entry. After the deadline, we will download and archive the file from that link a single time. This downloaded version will be considered their final and sole submission. Any modifications made to the file on Google Drive after the deadline will not be considered.
 
 - Submission Checklist:
@@ -98,15 +99,15 @@ The latest link a team submits in the Google Form before the deadline (November 
 ## Requirements for Shortlisted Teams
 After the submission deadline, please monitor your registered email closely. Teams that advance to the final evaluation stage will be notified by email. Upon receiving this notification, you are required to submit the following supplementary materials within the specified timeframe:
 
-1. **Reproducible Docker Container**:
+1. **Reproducible Docker Container**:  
   - Must include the complete runtime environment configuration for the model.
   - Must contain a one-click execution script (run.sh) to ensure the organizing committee can directly deploy the model and perform inference tests.
-2. **Supplementary Model Documentation**:
+2. **Supplementary Model Documentation**:  
   - A detailed readme.md file that includes comprehensive reproduction steps and a system overview.
 
 ## Final Ranking Tie-breaker and Final Interpretation
-- **Hidden Test Set**:
+- **Hidden Test Set**:  
 In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee reserves the right to deploy a never-before-seen "hidden test set" to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.
-- **Final Interpretation**:
+- **Final Interpretation**:  
 The organizing committee reserves the final right of interpretation for all rules and outcomes of this challenge.
 
