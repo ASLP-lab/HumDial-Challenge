@@ -22,7 +22,7 @@ To ensure a fair and scientifically rigorous evaluation, the final scoring weigh
 
 ## Submission Guidelines
 - Submission Method  
-All submissions must be made through [official Google Form](https://forms.gle/QrCWdQKvVQMzmXHz5).
+All submissions must be made through [official Google Form](https://forms.gle/hC1fAin8N5rqMTrp7).
 - Submission Method and Version Control  
 Teams are required to package all submission materials into a single compressed file named HD-Track2.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.  
 Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.  
