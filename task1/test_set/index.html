@@ -7,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/HumDial-Challenge/style.css" />
 <meta property="og:title" content="Test Set" />
-<meta property="og:description" content="The Emotional Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios." />
+<meta property="og:description" content="Test Set Description The test set (HD-Track1-Test) is now officially available, containing both Chinese (zh) and English (en) subsets. Each language subset provides 150 multi-turn dialogues for each of the three tasks (Task 1, 2 &amp; 3). For each task, we provide a corresponding audio folder and a JSONL file. This file outlines the dialogue structure, such as turn order and audio file mapping.
+HD-Track1-Test |_zh |__HD-Track1-T1/ |_{dialogue_id}_{turn_id}.wav |__HD-Track1-T2/ |__HD-Track1-T3/ |__HD-Track1-T1." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/" /><meta property="article:section" content="task1" />
 
@@ -57,7 +58,7 @@
                                 <article>
     <header>
         <h2>Test Set</h2>
-        <p>The Emotional Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios.</p>
+        <p></p>
         
         
         <ul class="tags">
@@ -106,7 +107,7 @@
 To ensure a fair and scientifically rigorous evaluation, the final scoring weights will be dynamically determined. This process will take into account various factors, including the overall performance distribution of all participating models. Therefore, the final weights will be officially announced only after all submissions have been received and the unified evaluation is complete.</p>
 <ul>
 <li><strong>Detailed Scoring Rules</strong>:
-For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on GitHub.</li>
+For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on <a href="https://github.com/ASLP-lab/Hum-Dial/tree/main/Emotional_Intelligence">GitHub</a>.</li>
 </ul>
 <h2 id="submission-guidelines">Submission Guidelines</h2>
 <ul>
@@ -125,7 +126,7 @@ The latest link a team submits in the Google Form before the deadline (November 
 <ol>
 <li><strong>jsonl Files</strong>:
 <ul>
-<li>For each task, you must submit a correspondTng result file in .jsonl format.</li>
+<li>For each task, you must submit a corresponding result file in .jsonl format.</li>
 <li>File Structure Example (HD-Track1-3.jsonl):
 <pre tabindex="0"><code>{&#34;dialogue_id&#34;: &#34;task1_3_zh_0001_0001&#34;, &#34;turns&#34;: [{&#34;turn_id&#34;: 1, &#34;input_audio&#34;: &#34;dev_jsonl/zh/task1/task1_3_zh_0001_0001_1.wav&#34;, &#34;response_text&#34;: &#34;我能理解你的感受，这种情况真的很让人沮丧。你有没有考虑和他沟通一下，看看能不能找到解决办法？&#34;, &#34;response_audio&#34;: &#34;dev_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_1_response.wav&#34;}, {&#34;turn_id&#34;: 2, &#34;input_audio&#34;: &#34;test_jsonl/zh/task1/task1_3_zh_0001_0001_2.wav&#34;,  &#34;response_text&#34;: &#34;哇，真是太棒了！恭喜你中奖，降噪耳机听起来很不错，打算什么时候用呢？&#34;, &#34;response_audio&#34;: &#34;dev_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_2_response.wav&#34;}, {&#34;turn_id&#34;: 3, &#34;input_audio&#34;: &#34;test_jsonl/zh/task1/task1_3_zh_0001_0001_3.wav&#34;,  &#34;response_text&#34;: &#34;在对话中，你的愤怒情绪逐渐被惊喜所取代。最初因团队成员提交错误数据而感到生气，但随后得知中奖消息后，情绪转向了兴奋和期待。这种转变体现了从挫折到喜悦的心理波动。&#34;, &#34;response_audio&#34;: &#34;test_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_3_response.wav&#34;}]}
 </code></pre></li>
@@ -151,22 +152,22 @@ The latest link a team submits in the Google Form before the deadline (November 
 <ol start="4">
 <li>Submission Package Format</li>
 </ol>
-<pre tabindex="0"><code>--HD-Track1
-|__system_description_report.pdf
-|__zh
-|  |__HD-Track1-T1.jsonl
-|  |__HD-Track1-T2.jsonl
-|  |__HD-Track1-T3.jsonl
-|  |__HD-Track1-T3/
-|     |_{dialogue_id}_{turn_id}_response.wav
-|     |...
-|__en
-   |__HD-Track1-T1.jsonl
-   |__HD-Track1-T2.jsonl
-   |__HD-Track1-T3.jsonl
-   |__HD-Track1-T3/
-      |_{dialogue_id}_{turn_id}_response.wav
-      |...
+<pre tabindex="0"><code>  --HD-Track1
+  |__[Your_Team_Name]_System_Description.pdf
+  |__zh
+  |  |__HD-Track1-T1.jsonl
+  |  |__HD-Track1-T2.jsonl
+  |  |__HD-Track1-T3.jsonl
+  |  |__HD-Track1-T3/
+  |     |_{dialogue_id}_{turn_id}_response.wav
+  |     |...
+  |__en
+     |__HD-Track1-T1.jsonl
+     |__HD-Track1-T2.jsonl
+     |__HD-Track1-T3.jsonl
+     |__HD-Track1-T3/
+        |_{dialogue_id}_{turn_id}_response.wav
+        |...
 </code></pre></li>
 </ul>
 <h2 id="requirements-for-shortlisted-teams">Requirements for Shortlisted Teams</h2>
@@ -184,7 +185,7 @@ The latest link a team submits in the Google Form before the deadline (November 
 <ul>
 <li>A detailed readme.md file that includes comprehensive reproduction steps and a system overview.</li>
 </ul>
-<h2 id="final-ranking-tie-breaker-and-final-interpretation">Final Ranking Tie-breaker and Final Interpretation</h2>
+<h2 id="final-ranking-and-interpretation">Final Ranking and Interpretation</h2>
 <ul>
 <li><strong>Hidden Test Set</strong>:<br>
 In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee reserves the right to deploy a never-before-seen &ldquo;hidden test set&rdquo; to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.</li>
