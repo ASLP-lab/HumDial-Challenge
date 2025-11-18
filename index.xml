@@ -65,12 +65,13 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
     </item>
     
     <item>
-      <title>Test Set Track 1</title>
+      <title>Test Set</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</guid>
-      <description>todo</description>
+      <description>Test Set Description The test set (HD-Track1-Test) is now officially available, containing both Chinese (zh) and English (en) subsets. Each language subset provides 150 multi-turn dialogues for each of the three tasks (Task 1, 2 &amp;amp; 3). For each task, we provide a corresponding audio folder and a JSONL file. This file outlines the dialogue structure, such as turn order and audio file mapping.
+HD-Track1-Test |_zh |__HD-Track1-T1/ |_{dialogue_id}_{turn_id}.wav |__HD-Track1-T2/ |__HD-Track1-T3/ |__HD-Track1-T1.</description>
     </item>
     
     <item>

@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
 
-<title>Test Set Track 1 | ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</title>
+<title>Test Set | ICASSP 2026: Human-like Spoken Dialogue Systems Challenge</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/HumDial-Challenge/style.css" />
-<meta property="og:title" content="Test Set Track 1" />
-<meta property="og:description" content="description of the test set for track 1" />
+<meta property="og:title" content="Test Set" />
+<meta property="og:description" content="The Emotional Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/" /><meta property="article:section" content="task1" />
 
@@ -56,15 +56,139 @@
                             <div id="content">
                                 <article>
     <header>
-        <h2>Test Set Track 1</h2>
-        <p>description of the test set for track 1</p>
+        <h2>Test Set</h2>
+        <p>The Emotional Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios.</p>
         
         
         <ul class="tags">
 </ul>
 
     </header><hr>
-<p>todo</p>
+<h2 id="test-set-description">Test Set Description</h2>
+<p>The test set (HD-Track1-Test) is now officially available, containing both Chinese (zh) and English (en) subsets. Each language subset provides 150 multi-turn dialogues for each of the three tasks (Task 1, 2 &amp; 3). For each task, we provide a corresponding audio folder and a JSONL file. This file outlines the dialogue structure, such as turn order and audio file mapping.</p>
+<pre tabindex="0"><code>HD-Track1-Test
+|_zh
+  |__HD-Track1-T1/
+    |_{dialogue_id}_{turn_id}.wav
+  |__HD-Track1-T2/
+  |__HD-Track1-T3/
+  |__HD-Track1-T1.jsonl
+  |__HD-Track1-T2.jsonl
+  |__HD-Track1-T3.jsonl
+|_en
+  |__HD-Track1-T1/
+  |__HD-Track1-T2/
+  |__HD-Track1-T3/
+  |__HD-Track1-T1.jsonl
+  |__HD-Track1-T2.jsonl
+  |__HD-Track1-T3.jsonl
+</code></pre><p>Please note: Registered participants will receive the dataset via email. If you haven&rsquo;t received it, please contact us promptly.</p>
+<h2 id="evaluation--ranking-mechanism">Evaluation &amp; Ranking Mechanism</h2>
+<p>The evaluation methodology is specifically designed for the distinct characteristics of each task. For <strong>Task 1 and Task 2</strong>, the evaluation will be conducted primarily through <strong>Large Language Model (LLM) Automated Scoring</strong> to ensure objectivity and efficiency. <strong>Task 3</strong>, on the other hand, focuses on assessing the comprehensive performance of speech emotion interaction, and will therefore combine preliminary LLM scoring with in-depth <strong>Human Evaluation</strong>.</p>
+<p><strong>Task 1 &amp; 2</strong>:</p>
+<ul>
+<li><strong>LLM Automated Scoring</strong>: This stage involves a comprehensive preliminary evaluation of all submissions. We will leverage a Large Language Model to perform an efficient, quantitative analysis of the model outputs. This analysis will serve as the basis for the initial ranking.
+<strong>Task 3</strong>:</li>
+<li><strong>LLM Automated Scoring</strong>:  As with Task 1 &amp; 2, all submissions for Task 3 will first undergo the same LLM Automated Scoring process described above.</li>
+<li><strong>Human Scoring</strong>: For the top-performing teams identified in the LLM scoring stage, we will invite professionally trained evaluators to conduct an in-depth assessment. This stage is designed to complement the LLM evaluation, with a particular focus on assessing the speech-related dimensions.</li>
+<li><strong>Evaluation Process</strong>:
+<ol>
+<li>All submissions will first undergo <strong>LLM Automated Scoring</strong>.</li>
+<li>We will select the <strong>top-ranked teams</strong> from this stage to advance to the next round.</li>
+<li>The submissions from the shortlisted teams will then be scored by human evaluators.</li>
+<li>Once the final rankings are determined, we will only announce the results of the top-ranked teams.</li>
+</ol>
+</li>
+</ul>
+<p>The final ranking for this challenge track is determined by a final score that reflects the comprehensive performance across all three tasks. This score is calculated as a weighted sum of LLM (Large Language Model) Automated Scoring and <strong>Human Scoring</strong> to ensure a comprehensive and authoritative assessment.
+To ensure a fair and scientifically rigorous evaluation, the final scoring weights will be dynamically determined. This process will take into account various factors, including the overall performance distribution of all participating models. Therefore, the final weights will be officially announced only after all submissions have been received and the unified evaluation is complete.</p>
+<ul>
+<li><strong>Detailed Scoring Rules</strong>:
+For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on GitHub.</li>
+</ul>
+<h2 id="submission-guidelines">Submission Guidelines</h2>
+<ul>
+<li>
+<p>Submission Method:
+All submissions must be made through <a href="https://forms.gle/QrCWdQKvVQMzmXHz5">official Google Form</a></p>
+</li>
+<li>
+<p>Submission File and Version Control:<br>
+Teams are required to package all submission materials into a single compressed file named HD-Track1.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.
+Teams must ensure that the link&rsquo;s sharing permission is set to &ldquo;Anyone with the link can view&rdquo; to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.
+The latest link a team submits in the Google Form before the deadline (November 24, 2025, 23:59，AoE) will be considered their official entry. After the deadline, we will download and archive the file from that link a single time. This downloaded version will be considered their final and sole submission. Any modifications made to the file on Google Drive after the deadline will not be considered.</p>
+</li>
+<li>
+<p>Submission Checklist:</p>
+<ol>
+<li><strong>jsonl Files</strong>:
+<ul>
+<li>For each task, you must submit a correspondTng result file in .jsonl format.</li>
+<li>File Structure Example (HD-Track1-3.jsonl):
+<pre tabindex="0"><code>{&#34;dialogue_id&#34;: &#34;task1_3_zh_0001_0001&#34;, &#34;turns&#34;: [{&#34;turn_id&#34;: 1, &#34;input_audio&#34;: &#34;dev_jsonl/zh/task1/task1_3_zh_0001_0001_1.wav&#34;, &#34;response_text&#34;: &#34;我能理解你的感受，这种情况真的很让人沮丧。你有没有考虑和他沟通一下，看看能不能找到解决办法？&#34;, &#34;response_audio&#34;: &#34;dev_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_1_response.wav&#34;}, {&#34;turn_id&#34;: 2, &#34;input_audio&#34;: &#34;test_jsonl/zh/task1/task1_3_zh_0001_0001_2.wav&#34;,  &#34;response_text&#34;: &#34;哇，真是太棒了！恭喜你中奖，降噪耳机听起来很不错，打算什么时候用呢？&#34;, &#34;response_audio&#34;: &#34;dev_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_2_response.wav&#34;}, {&#34;turn_id&#34;: 3, &#34;input_audio&#34;: &#34;test_jsonl/zh/task1/task1_3_zh_0001_0001_3.wav&#34;,  &#34;response_text&#34;: &#34;在对话中，你的愤怒情绪逐渐被惊喜所取代。最初因团队成员提交错误数据而感到生气，但随后得知中奖消息后，情绪转向了兴奋和期待。这种转变体现了从挫折到喜悦的心理波动。&#34;, &#34;response_audio&#34;: &#34;test_jsonl/zh/opens2s_v1.5_audio/task1/task1_3_zh_0001_0001_3_response.wav&#34;}]}
+</code></pre></li>
+</ul>
+</li>
+<li><strong>Audio Files (Required for Task 3 only)</strong>:
+<ul>
+<li>If you are participating in <strong>Task 3</strong>, you must submit the audio files generated by your model.</li>
+<li>The audio files within the ZIP package must strictly follow the naming convention: <strong>{dialogue_id}_{turn_id}_response.wav</strong></li>
+</ul>
+</li>
+<li><strong>System Description Document</strong>:
+<ul>
+<li>Each team must submit a system description document in PDF format, limited to a maximum of 2 pages.</li>
+<li>The document should outline your <strong>methodology, data construction, model architecture, training strategy</strong>, and other relevant implementation details.</li>
+<li>The document must adhere to the official ICASSP 2026 paper template, available here: <a href="https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates">ICASSP 2026 Paper Kit</a></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Important: Both the jsonl files and the system description document are mandatory. Failure to submit either of these components will result in disqualification.</p>
+</blockquote>
+<ol start="4">
+<li>Submission Package Format</li>
+</ol>
+<pre tabindex="0"><code>--HD-Track1
+|__system_description_report.pdf
+|__zh
+|  |__HD-Track1-T1.jsonl
+|  |__HD-Track1-T2.jsonl
+|  |__HD-Track1-T3.jsonl
+|  |__HD-Track1-T3/
+|     |_{dialogue_id}_{turn_id}_response.wav
+|     |...
+|__en
+   |__HD-Track1-T1.jsonl
+   |__HD-Track1-T2.jsonl
+   |__HD-Track1-T3.jsonl
+   |__HD-Track1-T3/
+      |_{dialogue_id}_{turn_id}_response.wav
+      |...
+</code></pre></li>
+</ul>
+<h2 id="requirements-for-shortlisted-teams">Requirements for Shortlisted Teams</h2>
+<p>After the submission deadline, please monitor your registered email closely. Teams that advance to the final evaluation stage will be notified by email. Upon receiving this notification, you are required to submit the following supplementary materials within the specified timeframe:</p>
+<ol>
+<li><strong>Reproducible Docker Container</strong>:</li>
+</ol>
+<ul>
+<li>Must include the complete runtime environment configuration for the model.</li>
+<li>Must contain a one-click execution script (run.sh) to ensure the organizing committee can directly deploy the model and perform inference tests.</li>
+</ul>
+<ol start="2">
+<li><strong>Supplementary Model Documentation</strong>:</li>
+</ol>
+<ul>
+<li>A detailed readme.md file that includes comprehensive reproduction steps and a system overview.</li>
+</ul>
+<h2 id="final-ranking-tie-breaker-and-final-interpretation">Final Ranking Tie-breaker and Final Interpretation</h2>
+<ul>
+<li><strong>Hidden Test Set</strong>:
+In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee reserves the right to deploy a never-before-seen &ldquo;hidden test set&rdquo; to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.</li>
+<li><strong>Final Interpretation</strong>:
+The organizing committee reserves the final right of interpretation for all rules and outcomes of this challenge.</li>
+</ul>
 
 
                                 </article>
