@@ -15,15 +15,14 @@ The test set (HD-Track2-Test) has been officially released and contains two subs
 
 ## Evaluation & Ranking Mechanism
 - Detailed scoring rules:  
-Please refer to the official evaluation guideline on GitHub:
-https://github.com/ASLP-lab/Hum-Dial/tree/main/Full-Duplex_Interaction/evaluation  
-  After the final ranking is determined, **only the top 10 teams** will be publicly announced.
+Please refer to the official evaluation guideline on [GitHub](https://github.com/ASLP-lab/Hum-Dial/tree/main/Full-Duplex_Interaction/evaluation).
+    Once the final rankings are determined, we will only announce the results of the **top-ranked teams**.
 - Weight assignment:  
 To ensure a fair and scientifically rigorous evaluation, the final scoring weights will be dynamically determined. This process will take into account various factors, including the overall performance distribution of all participating models. Therefore, the final weights will be officially announced only after all submissions have been received and the unified evaluation is complete.
 
 ## Submission Guidelines
 - Submission Method  
-All submissions must be made through [official Google Form](https://forms.gle/QrCWdQKvVQMzmXHz5.
+All submissions must be made through [official Google Form](https://forms.gle/QrCWdQKvVQMzmXHz5).
 - Submission Method and Version Control  
 Teams are required to package all submission materials into a single compressed file named HD-Track2.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.  
 Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.  
@@ -33,10 +32,8 @@ The **latest link** a team submits in the Google Form **before** the deadline (N
   1. Audio Files:
     - All generated output audio must be packaged into a zip file named HD-Track2.zip.
     - Inside the zip file, audio must follow the naming rules below:
-    ```
-    HD-Track2/test/test-{dialogue_id}_output.wav
-    HD-Track2/clean/clean-{dialogue_id}_output.wav
-    ```
+      HD-Track2/test/test-{dialogue_id}_output.wav
+      HD-Track2/clean/clean-{dialogue_id}_output.wav
 
   2. System Description Document:
     - Each team must submit a system description document in PDF format. The document must be **at least two pages in length**, including references.
