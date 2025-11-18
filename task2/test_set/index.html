@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/HumDial-Challenge/style.css" />
 <meta property="og:title" content="Test Set Track 2" />
-<meta property="og:description" content="description of the test set for track 2" />
+<meta property="og:description" content="Natural human conversation is characterized by the ability to interrupt, pause, or respond at any time, rather than adhering to rigid turn-taking. This track evaluates a speech dialogue system’s capacity to react swiftly, stop appropriately, and respond naturally in scenarios involving interruptions, follow-up questions, topic shifts, or background noise. Annotated real-world multi-turn Chinese and English dialogue datasets will be provided, covering typical interruption and rejection scenarios. Systems will be comprehensively assessed based on response speed, behavioral rationality. This track aims to advance voice dialogue systems toward human-like communication." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aslp-lab.github.io/HumDial-Challenge/task2/test_set/" /><meta property="article:section" content="task2" />
 
@@ -57,14 +57,87 @@
                                 <article>
     <header>
         <h2>Test Set Track 2</h2>
-        <p>description of the test set for track 2</p>
+        <p>Natural human conversation is characterized by the ability to interrupt, pause, or respond at any time, rather than adhering to rigid turn-taking. This track evaluates a speech dialogue system’s capacity to react swiftly, stop appropriately, and respond naturally in scenarios involving interruptions, follow-up questions, topic shifts, or background noise. Annotated real-world multi-turn Chinese and English dialogue datasets will be provided, covering typical interruption and rejection scenarios. Systems will be comprehensively assessed based on response speed, behavioral rationality. This track aims to advance voice dialogue systems toward human-like communication.</p>
         
         
         <ul class="tags">
 </ul>
 
     </header><hr>
-<p>todo</p>
+<h2 id="test-set-description">Test Set Description</h2>
+<p>The test set (HD-Track2-Test) has been officially released and contains two subsets: one in Chinese and one in English. Each language subset covers two major scenarios—Interruption and Rejection. The dataset consists of <strong>9,100 samples in total</strong>, including:</p>
+<ul>
+<li><strong>5,000 official test samples</strong>: test-{dialogue_id}.wav (Chinese/English ratio = 1:1)</li>
+<li><strong>4,100 clean audio files</strong> required for scoring interruption and rejection: clean-{dialogue_id}.wav</li>
+<li><strong>Note</strong>: The data has been randomly shuffled. The test.wav and clean.wav files sharing the same dialogue_id <strong>are not guaranteed to be paired</strong>.</li>
+</ul>
+<h2 id="evaluation--ranking-mechanism">Evaluation &amp; Ranking Mechanism</h2>
+<ul>
+<li>Detailed scoring rules:<br>
+Please refer to the official evaluation guideline on GitHub:
+<a href="https://github.com/ASLP-lab/Hum-Dial/tree/main/Full-Duplex_Interaction/evaluation">https://github.com/ASLP-lab/Hum-Dial/tree/main/Full-Duplex_Interaction/evaluation</a><br>
+After the final ranking is determined, <strong>only the top 10 teams</strong> will be publicly announced.</li>
+<li>Weight assignment:<br>
+To ensure a fair and scientifically rigorous evaluation, the final scoring weights will be dynamically determined. This process will take into account various factors, including the overall performance distribution of all participating models. Therefore, the final weights will be officially announced only after all submissions have been received and the unified evaluation is complete.</li>
+</ul>
+<h2 id="submission-guidelines">Submission Guidelines</h2>
+<ul>
+<li>
+<p>Submission Method<br>
+All submissions must be made through [official Google Form](<a href="https://forms.gle/QrCWdQKvVQMzmXHz5">https://forms.gle/QrCWdQKvVQMzmXHz5</a>.</p>
+</li>
+<li>
+<p>Submission Method and Version Control<br>
+Teams are required to package all submission materials into a single compressed file named HD-Track2.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.<br>
+Teams must ensure that the link&rsquo;s sharing permission is set to &ldquo;Anyone with the link can view&rdquo; to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.<br>
+The <strong>latest link</strong> a team submits in the Google Form <strong>before</strong> the deadline (November 24, 2025, 23:59，AoE) will be considered their official entry. After the deadline, we will download and archive the file from that link a single time. This downloaded version will be considered their final and sole submission. Any modifications made to the file on Google Drive after the deadline will not be considered.</p>
+</li>
+<li>
+<p>Submission Checklist</p>
+<ol>
+<li>Audio Files:</li>
+</ol>
+<ul>
+<li>All generated output audio must be packaged into a zip file named HD-Track2.zip.</li>
+<li>Inside the zip file, audio must follow the naming rules below:</li>
+</ul>
+<pre tabindex="0"><code>HD-Track2/test/test-{dialogue_id}_output.wav
+HD-Track2/clean/clean-{dialogue_id}_output.wav
+</code></pre><ol start="2">
+<li>System Description Document:</li>
+</ol>
+<ul>
+<li>Each team must submit a system description document in PDF format. The document must be <strong>at least two pages in length</strong>, including references.</li>
+<li>The document should outline your methodology, data construction, model architecture, training strategy, and other relevant implementation details.</li>
+<li>The document must adhere to the official ICASSP 2026 paper template, available here: <a href="https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates">ICASSP 2026 Paper Kit</a></li>
+</ul>
+<blockquote>
+<p>Important: Both the jsonl files and the system description document are mandatory. Failure to submit either of these components will result in disqualification.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="requirements-for-shortlisted-teams">Requirements for Shortlisted Teams</h2>
+<p>After the submission deadline, please monitor your registered email closely. Teams that advance to the final evaluation stage will be notified by email. Upon receiving this notification, you are required to submit the following supplementary materials within the specified timeframe:</p>
+<ol>
+<li><strong>Reproducible Docker Container</strong>:</li>
+</ol>
+<ul>
+<li>Must include the complete runtime environment configuration for the model.</li>
+<li>Must contain a one-click execution script (run.sh) to ensure the organizing committee can directly deploy the model and perform inference tests.</li>
+</ul>
+<ol start="2">
+<li><strong>Supplementary Model Documentation</strong>:</li>
+</ol>
+<ul>
+<li>A detailed readme.md file that includes comprehensive reproduction steps and a system overview.</li>
+</ul>
+<h2 id="final-ranking-and-interpretation">Final Ranking and Interpretation</h2>
+<ul>
+<li><strong>Hidden Test Set</strong>:<br>
+In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee <strong>reserves the right to deploy</strong> a <strong>never-before-seen &ldquo;hidden test set&rdquo;</strong> to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.</li>
+<li><strong>Final Interpretation</strong>:<br>
+The organizing committee reserves the final right of interpretation for all rules and outcomes of this challenge.</li>
+</ul>
 
 
                                 </article>
