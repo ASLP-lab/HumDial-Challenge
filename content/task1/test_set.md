@@ -53,15 +53,15 @@ To ensure a fair and scientifically rigorous evaluation, the final scoring weigh
 For more detailed evaluation dimensions and scoring criteria, please refer to our official guidance document on [GitHub](https://github.com/ASLP-lab/Hum-Dial/tree/main/Emotional_Intelligence).
 
 ## Submission Guidelines
-- Submission Method:  
+- **Submission Method**:  
 All submissions must be made through [official Google Form](https://forms.gle/QrCWdQKvVQMzmXHz5)
 
-- Submission File and Version Control:   
+- **Submission File and Version Control**:   
 Teams are required to package all submission materials into a single compressed file named HD-Track1.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.  
-Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can either replace the old ZIP file in their Google Drive or submit a new form with an updated link.  
+Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can submit a new form with an updated link.  
 The latest link a team submits in the Google Form before the deadline (November 24, 2025, 23:59，AoE) will be considered their official entry. After the deadline, we will download and archive the file from that link a single time. This downloaded version will be considered their final and sole submission. Any modifications made to the file on Google Drive after the deadline will not be considered.
 
-- Submission Checklist:
+- **Submission Checklist**:
   1. **jsonl Files**:
      - For each task, you must submit a corresponding result file in .jsonl format.
      - File Structure Example: [HD-Track1-3.jsonl](https://github.com/ASLP-lab/Hum-Dial/blob/main/Emotional_Intelligence/submit/HD-Track1-T3.jsonl)
@@ -73,7 +73,7 @@ The latest link a team submits in the Google Form before the deadline (November 
      - The document should outline your **methodology, data construction, model architecture, training strategy**, and other relevant implementation details.
      - The document must adhere to the official ICASSP 2026 paper template, available here: [ICASSP 2026 Paper Kit](https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates)
   > Important: Both the jsonl files and the system description document are mandatory. Failure to submit either of these components will result in disqualification.
-  4. Submission Package Format
+  4. **Submission Package Format**:
   ```
     --HD-Track1
     |__[Your_Team_Name]_System_Description.pdf
