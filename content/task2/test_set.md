@@ -39,7 +39,7 @@ The **latest link** a team submits in the Google Form **before** the deadline (N
     - Each team must submit a system description document in PDF format. The document must be **at least two pages in length**, including references.
     - The document should outline your methodology, data construction, model architecture, training strategy, and other relevant implementation details.
     - The document must adhere to the official ICASSP 2026 paper template, available here: [ICASSP 2026 Paper Kit](https://cmsworkshops.com/ICASSP2026/papers/paper_kit.php#Templates)
-    > Important: Both the jsonl files and the system description document are mandatory. Failure to submit either of these components will result in disqualification.
+    > Important: Both the audio files and the system description document are mandatory. Failure to submit either of these components will result in disqualification.
 
 ## Requirements for Shortlisted Teams
 After the submission deadline, please monitor your registered email closely. Teams that advance to the final evaluation stage will be notified by email. Upon receiving this notification, you are required to submit the following supplementary materials within the specified timeframe:
