@@ -59,7 +59,7 @@ All submissions must be made through [official Google Form](https://forms.gle/Qr
 - **Submission File and Version Control**:   
 Teams are required to package all submission materials into a single compressed file named HD-Track1.zip and upload it to their Google Drive. In the official submission form, teams should provide a publicly accessible download link for this ZIP file.  
 Teams must ensure that the link's sharing permission is set to "Anyone with the link can view" to prevent submission failure due to access issues. Each team may submit a maximum of three times via the Google Form before the deadline. To update their submission, teams can submit a new form with an updated link.  
-The latest link a team submits in the Google Form before the deadline (November 24, 2025, 23:59，AoE) will be considered their official entry. After the deadline, we will download and archive the file from that link a single time. This downloaded version will be considered their final and sole submission. Any modifications made to the file on Google Drive after the deadline will not be considered.
+The **latest link** a team submits in the Google Form before the deadline (November 24, 2025, 23:59，AoE) will be considered their official entry. After the deadline, we will download and archive the file from that link a single time. This downloaded version will be considered their final and sole submission. Any modifications made to the file on Google Drive after the deadline will not be considered.
 
 - **Submission Checklist**:
   1. **jsonl Files**:
@@ -104,7 +104,7 @@ After the submission deadline, please monitor your registered email closely. Tea
 
 ## Final Ranking and Interpretation
 - **Hidden Test Set**:  
-In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee reserves the right to deploy a never-before-seen "hidden test set" to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.
+In the event of special circumstances during the final evaluation stage (e.g., top-ranking teams having extremely close scores, or other situations that could compromise the fairness of the ranking), the organizing committee reserves the **right to deploy** a **never-before-seen "hidden test set"** to conduct an additional evaluation of the relevant models. Performance on this hidden test set will serve as the key determinant for the final ranking.
 - **Final Interpretation**:  
 The organizing committee reserves the final right of interpretation for all rules and outcomes of this challenge.
 
