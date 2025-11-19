@@ -6,6 +6,11 @@ description: "General description"
 
 ## News and Updates
 
+**November 17, 2025**:Upon review, anomalies were identified in a small number of dialogue data samples in Track 1. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:
+
+English Test Set: task2_4_en_0002_0014 。   
+Chinese Test Set: Items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015.
+
 **November 17, 2025**:The test set and submission rules are released. Please refer to the corresponding page of each track for specific information.
 
 **November 11, 2025**: Due to the delayed release of the training data, the test data will also be postponed. We expect to release the test set around November 17. Please stay tuned.
