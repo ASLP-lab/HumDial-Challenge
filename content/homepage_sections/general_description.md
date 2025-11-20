@@ -7,11 +7,8 @@ description: "General description"
 ## News and Updates
 
 **November 17, 2025**:Upon review, anomalies were identified in a small number of dialogue data samples. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:  
-Track 1:  
-    English Test Set: task2_4_en_0002_0014 。   
-    Chinese Test Set: Items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015.
-Track 2:  
-    test-003126.wav、clean-000899.wav
+- **Track 1**: task2_4_en_0002_0014, Items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015.
+- **Track 2**: test-003126.wav、clean-000899.wav
 
 **November 17, 2025**:The test set and submission rules are released. Please refer to the corresponding page of each track for specific information.
 
