@@ -8,7 +8,7 @@ banner:
 items:
 
   - type: heading
-    heading: Human-like-Spoken-Dialogue-Systems-Challenge
+    heading: Human-like Spoken Dialogue Systems Challenge
     contents: The challenge aims to promote systematic, real-world evaluation of next-generation dialogue systems and advance the field toward truly human-like interaction.
 
   - type: other
