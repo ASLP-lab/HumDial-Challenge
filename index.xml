@@ -36,7 +36,17 @@ Reminder! Please use your institutional or corporate email address to register, 
     </item>
     
     <item>
-      <title>leaderboard</title>
+      <title>Organizers</title>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/organizers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/organizers/</guid>
+      <description>Organizers The challenge is organized by a distinguished team of researchers:
+Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate Professor, Nanjing University Haizhou Li, Professor, Chinese University of Hong Kong Eng Siong Chng, Professor, Nanyang Technological University Hung-yi Lee, Professor, Natioanl Taiwan University Chao Zhang, Assistant Professor, Tsinghua University Guangzhi Sun, Junior Research Fellow, University of Cambridge Xixin Wu, Assistant Professor, Chinese University of Hong Kong Longshuai Xiao, Huawei Technologies Zihan Zhang, Huawei Technologies Xinsheng Wang, Soul AI Lab Hui Bu, AISHELL Xin Xu， AISHELL Zhixian Zhao, Northwestern Polytechnical University Hongfei Xue, Northwestern Polytechnical University Xuelong Geng, Northwestern Polytechnical University GuoJian Li, Northwestern Polytechnical University Shuiyuan Wang, Northwestern Polytechnical University Contact For any inquiries, please contact:</description>
+    </item>
+    
+    <item>
+      <title>Results</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/track1/results/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -45,22 +55,12 @@ Reminder! Please use your institutional or corporate email address to register, 
     </item>
     
     <item>
-      <title>leaderboard</title>
+      <title>Results</title>
       <link>https://aslp-lab.github.io/HumDial-Challenge/track2/results/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/track2/results/</guid>
       <description> All results Group nameSubmission number subjects mean subjects std Band 0 mean Band 1 mean Band 2 mean Band 3 mean Band 4 mean Band 5 mean Band 6 mean Band 7 mean Band 8 mean Band 9 mean total score </description>
-    </item>
-    
-    <item>
-      <title>Organizers</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/organizers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/organizers/</guid>
-      <description>Organizers The challenge is organized by a distinguished team of researchers:
-Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate Professor, Nanjing University Haizhou Li, Professor, Chinese University of Hong Kong Eng Siong Chng, Professor, Nanyang Technological University Hung-yi Lee, Professor, Natioanl Taiwan University Chao Zhang, Assistant Professor, Tsinghua University Guangzhi Sun, Junior Research Fellow, University of Cambridge Xixin Wu, Assistant Professor, Chinese University of Hong Kong Longshuai Xiao, Huawei Technologies Zihan Zhang, Huawei Technologies Xinsheng Wang, Soul AI Lab Hui Bu, AISHELL Xin Xu， AISHELL Zhixian Zhao, Northwestern Polytechnical University Hongfei Xue, Northwestern Polytechnical University Xuelong Geng, Northwestern Polytechnical University GuoJian Li, Northwestern Polytechnical University Shuiyuan Wang, Northwestern Polytechnical University Contact For any inquiries, please contact:</description>
     </item>
     
     <item>
