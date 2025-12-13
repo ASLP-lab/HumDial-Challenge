@@ -5,48 +5,48 @@ theme = ["hugo-chart", "arcana"]
 [menu]
 
     [[menu.main]]
-        identifier = "task1"
+        identifier = "track1"
         name="Track 1: Emotional Intelligence"
         weight=100
     [[menu.main]]
         identifier ="description_1"
-        parent = "task1"
+        parent = "track1"
         name = "Description"
-        url= "/task1/description"
+        url= "/track1/description"
         weight = 1
     [[menu.main]]
-        parent = "task1"
+        parent = "track1"
         identifier="test_set_1"
         name = "Test_set"
-        url="/task1/test_set"
+        url="/track1/test_set"
         weight = 2
     [[menu.main]]
-        parent = "task1"
+        parent = "track1"
         identifier="leaderboard_1"
         name = "Leaderboard"
-        url="/task1/leaderboard"
+        url="/track1/leaderboard"
         weight = 3
     [[menu.main]]
-        identifier = "task2"
+        identifier = "track2"
         name="Track 2: Full-Duplex Interaction"
         weight=110
     [[menu.main]]
         identifier ="description_2"
-        parent = "task2"
+        parent = "track2"
         name = "Description"
-        url= "/task2/description"
+        url= "/track2/description"
         weight = 1
      [[menu.main]]
-        parent = "task2"
+        parent = "track2"
         identifier="test_set_2"
         name = "Test_set"
-        url="/task2/test_set"
+        url="/track2/test_set"
         weight = 2
     [[menu.main]]
-        parent = "task2"
+        parent = "track2"
         identifier="leaderboard_2"
         name = "Leaderboard"
-        url="/task2/leaderboard"
+        url="/track2/leaderboard"
         weight = 3
 
 
