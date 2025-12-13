@@ -128,6 +128,7 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 |       IUSpeech       |      3.14      |    6    |
 |       Baseline       |      3.06      |    7    |
 |   Lingcon insight    |      2.96      |    8    |
+
 *: invited to submit ICASSP 2-page papers.
 
 
