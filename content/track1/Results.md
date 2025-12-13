@@ -1,5 +1,5 @@
 ---
-title: "leaderboard"
+title: "Results"
 description: "todo"
 menu: task1
 weight: 80

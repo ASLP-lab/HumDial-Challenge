@@ -1,5 +1,5 @@
 ---
-title: "leaderboard"
+title: "Results"
 description: ""
 menu: track2
 draft: false
