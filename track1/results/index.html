@@ -93,9 +93,9 @@ Dimension 1: Accuracy_Completeness Dimension 2: Depth_Granularity Dimension 3: A
 <table>
 <thead>
 <tr>
-<th style="text-align:center">**Task Dimension**</th>
-<th style="text-align:center">**Evaluation Method**</th>
-<th style="text-align:center">**Evaluation Tool &amp; Team**</th>
+<th style="text-align:center"><strong>Task Dimension</strong></th>
+<th style="text-align:center"><strong>Evaluation Method</strong></th>
+<th style="text-align:center"><strong>Evaluation Tool / Team</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -141,67 +141,345 @@ To maintain fairness and validity, the following rules strictly apply:</p>
 </li>
 </ul>
 <h4 id="2-final-scores-and-ranking">2. Final Scores and Ranking</h4>
-<p>The <strong>Final Score</strong> for each team is calculated as the weighted sum of scores from the respective task dimensions:
-$$\text{Final Score(zh/en)} = (\text{Task-1-Avg} \times 0.2) + (\text{Task-2-Avg} \times 0.2) + (\text{Task-3-D1} \times 0.1) + (\text{Task-3-D2} \times 0.25) + (\text{Task-3-D3} \times 0.25)$$
+<p>The <strong>Final Score</strong> for each team is calculated as the weighted sum of scores from the respective task dimensions:</p>
+<p>$$\text{Final Score(zh/en)} = (\text{Task-1-Avg} \times 0.2) + (\text{Task-2-Avg} \times 0.2) + (\text{Task-3-D1} \times 0.1) + (\text{Task-3-D2} \times 0.25) + (\text{Task-3-D3} \times 0.25)$$
 $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(en)} \times 0.5)$$</p>
-<figure><img src="./images/HD-Track1-Test.png" width="900"/>
-</figure>
-
-<figure><img src="./images/HD-Track1-Test_Final_score.png" width="300"/>
-</figure>
-
-<h5 id="final-score">Final Score</h5>
+<h5 id="chinese-test-set-results">Chinese Test Set Results</h5>
 <table>
 <thead>
 <tr>
-<th>Team</th>
-<th>Final Score</th>
-<th>Ranking</th>
+<th style="text-align:left">Team</th>
+<th style="text-align:center">Task-1-D1</th>
+<th style="text-align:center">Task-1-D2</th>
+<th style="text-align:center">Task-1-D3</th>
+<th style="text-align:center">Task-1-Avg</th>
+<th style="text-align:center">Task-2-D1</th>
+<th style="text-align:center">Task-2-D2</th>
+<th style="text-align:center">Task-2-D3</th>
+<th style="text-align:center">Task-2-Avg</th>
+<th style="text-align:center">Task-3-D1</th>
+<th style="text-align:center">Task-3-D2 (Human Score)</th>
+<th style="text-align:center">Task-3-D3 (Human Score)</th>
+<th style="text-align:center">Final Score (zh)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>TeleAI*</td>
-<td>4.27</td>
-<td>1</td>
+<td style="text-align:left">BJTU_Unisound_team</td>
+<td style="text-align:center">4.89</td>
+<td style="text-align:center">4.95</td>
+<td style="text-align:center">4.95</td>
+<td style="text-align:center">4.93</td>
+<td style="text-align:center">4.57</td>
+<td style="text-align:center">4.54</td>
+<td style="text-align:center">4.73</td>
+<td style="text-align:center">4.61</td>
+<td style="text-align:center">3.92</td>
+<td style="text-align:center">3.73</td>
+<td style="text-align:center">3.81</td>
+<td style="text-align:center">4.18</td>
 </tr>
 <tr>
-<td>Tencent Ai Lab-NJU*</td>
-<td>4.24</td>
-<td>2</td>
+<td style="text-align:left">HDTLAB</td>
+<td style="text-align:center">4.28</td>
+<td style="text-align:center">3.95</td>
+<td style="text-align:center">4.44</td>
+<td style="text-align:center">4.22</td>
+<td style="text-align:center">4.25</td>
+<td style="text-align:center">4.42</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.56</td>
+<td style="text-align:center">3.74</td>
+<td style="text-align:center">3.00</td>
+<td style="text-align:center">3.37</td>
+<td style="text-align:center">3.72</td>
 </tr>
 <tr>
-<td>BJTU_Unisound_team*</td>
-<td>4.21</td>
-<td>3</td>
+<td style="text-align:left">IUSpeech</td>
+<td style="text-align:center">3.53</td>
+<td style="text-align:center">3.19</td>
+<td style="text-align:center">3.57</td>
+<td style="text-align:center">3.43</td>
+<td style="text-align:center">3.15</td>
+<td style="text-align:center">3.15</td>
+<td style="text-align:center">4.78</td>
+<td style="text-align:center">3.69</td>
+<td style="text-align:center">3.40</td>
+<td style="text-align:center">2.78</td>
+<td style="text-align:center">3.13</td>
+<td style="text-align:center">3.24</td>
 </tr>
 <tr>
-<td>SenseDialog</td>
-<td>4.06</td>
-<td>4</td>
+<td style="text-align:left">Lingcon insight</td>
+<td style="text-align:center">3.53</td>
+<td style="text-align:center">3.08</td>
+<td style="text-align:center">3.47</td>
+<td style="text-align:center">3.36</td>
+<td style="text-align:center">3.33</td>
+<td style="text-align:center">3.07</td>
+<td style="text-align:center">4.76</td>
+<td style="text-align:center">3.72</td>
+<td style="text-align:center">3.38</td>
+<td style="text-align:center">2.89</td>
+<td style="text-align:center">3.25</td>
+<td style="text-align:center">3.29</td>
 </tr>
 <tr>
-<td>HDTLAB</td>
-<td>3.86</td>
-<td>5</td>
+<td style="text-align:left">SenseDialog</td>
+<td style="text-align:center">2.40</td>
+<td style="text-align:center">2.41</td>
+<td style="text-align:center">2.41</td>
+<td style="text-align:center">2.41</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.96</td>
+<td style="text-align:center">3.62</td>
+<td style="text-align:center">3.76</td>
+<td style="text-align:center">3.82</td>
 </tr>
 <tr>
-<td>IUSpeech</td>
-<td>3.14</td>
-<td>6</td>
+<td style="text-align:left">TeleAI</td>
+<td style="text-align:center">4.95</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.98</td>
+<td style="text-align:center">4.91</td>
+<td style="text-align:center">4.96</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.96</td>
+<td style="text-align:center">3.87</td>
+<td style="text-align:center">3.69</td>
+<td style="text-align:center">3.87</td>
+<td style="text-align:center">4.26</td>
 </tr>
 <tr>
-<td>Baseline</td>
-<td>3.06</td>
-<td>7</td>
+<td style="text-align:left">Tencent Ai Lab-NJU</td>
+<td style="text-align:center">4.83</td>
+<td style="text-align:center">4.96</td>
+<td style="text-align:center">4.96</td>
+<td style="text-align:center">4.92</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.10</td>
+<td style="text-align:center">3.50</td>
+<td style="text-align:center">3.74</td>
+<td style="text-align:center">4.20</td>
 </tr>
 <tr>
-<td>Lingcon insight</td>
-<td>2.96</td>
-<td>8</td>
+<td style="text-align:left">Baseline</td>
+<td style="text-align:center">3.23</td>
+<td style="text-align:center">3.15</td>
+<td style="text-align:center">3.25</td>
+<td style="text-align:center">3.21</td>
+<td style="text-align:center">2.95</td>
+<td style="text-align:center">2.61</td>
+<td style="text-align:center">4.18</td>
+<td style="text-align:center">3.25</td>
+<td style="text-align:center">3.28</td>
+<td style="text-align:center">3.00</td>
+<td style="text-align:center">3.31</td>
+<td style="text-align:center">3.20</td>
+</tr>
+</tbody>
+</table>
+<h5 id="english-test-set-results">English Test Set Results</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Team</th>
+<th style="text-align:center">Task-1-D1</th>
+<th style="text-align:center">Task-1-D2</th>
+<th style="text-align:center">Task-1-D3</th>
+<th style="text-align:center">Task-1-Avg</th>
+<th style="text-align:center">Task-2-D1</th>
+<th style="text-align:center">Task-2-D2</th>
+<th style="text-align:center">Task-2-D3</th>
+<th style="text-align:center">Task-2-Avg</th>
+<th style="text-align:center">Task-3-D1</th>
+<th style="text-align:center">Task-3-D2 (Human Score)</th>
+<th style="text-align:center">Task-3-D3 (Human Score)</th>
+<th style="text-align:center">Final Score (en)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">BJTU_Unisound_team</td>
+<td style="text-align:center">4.48</td>
+<td style="text-align:center">4.65</td>
+<td style="text-align:center">4.65</td>
+<td style="text-align:center">4.59</td>
+<td style="text-align:center">4.88</td>
+<td style="text-align:center">4.89</td>
+<td style="text-align:center">4.95</td>
+<td style="text-align:center">4.91</td>
+<td style="text-align:center">4.13</td>
+<td style="text-align:center">3.96</td>
+<td style="text-align:center">3.72</td>
+<td style="text-align:center">4.23</td>
 </tr>
 <tr>
-<td>*: invited to submit ICASSP 2-page papers.</td>
+<td style="text-align:left">HDTLAB</td>
+<td style="text-align:center">4.41</td>
+<td style="text-align:center">4.07</td>
+<td style="text-align:center">4.76</td>
+<td style="text-align:center">4.41</td>
+<td style="text-align:center">4.22</td>
+<td style="text-align:center">4.40</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.54</td>
+<td style="text-align:center">3.74</td>
+<td style="text-align:center">3.74</td>
+<td style="text-align:center">3.59</td>
+<td style="text-align:center">4.00</td>
+</tr>
+<tr>
+<td style="text-align:left">IUSpeech</td>
+<td style="text-align:center">2.35</td>
+<td style="text-align:center">2.00</td>
+<td style="text-align:center">2.20</td>
+<td style="text-align:center">2.18</td>
+<td style="text-align:center">2.10</td>
+<td style="text-align:center">1.94</td>
+<td style="text-align:center">2.91</td>
+<td style="text-align:center">2.32</td>
+<td style="text-align:center">2.15</td>
+<td style="text-align:center">3.61</td>
+<td style="text-align:center">3.54</td>
+<td style="text-align:center">2.90</td>
+</tr>
+<tr>
+<td style="text-align:left">Lingcon insight</td>
+<td style="text-align:center">1.77</td>
+<td style="text-align:center">1.75</td>
+<td style="text-align:center">1.84</td>
+<td style="text-align:center">1.79</td>
+<td style="text-align:center">1.84</td>
+<td style="text-align:center">1.63</td>
+<td style="text-align:center">2.51</td>
+<td style="text-align:center">1.99</td>
+<td style="text-align:center">2.25</td>
+<td style="text-align:center">3.10</td>
+<td style="text-align:center">3.09</td>
+<td style="text-align:center">2.53</td>
+</tr>
+<tr>
+<td style="text-align:left">SenseDialog</td>
+<td style="text-align:center">4.92</td>
+<td style="text-align:center">4.95</td>
+<td style="text-align:center">4.95</td>
+<td style="text-align:center">4.94</td>
+<td style="text-align:center">4.84</td>
+<td style="text-align:center">4.84</td>
+<td style="text-align:center">4.84</td>
+<td style="text-align:center">4.84</td>
+<td style="text-align:center">4.91</td>
+<td style="text-align:center">3.87</td>
+<td style="text-align:center">3.56</td>
+<td style="text-align:center">4.30</td>
+</tr>
+<tr>
+<td style="text-align:left">TeleAI</td>
+<td style="text-align:center">4.93</td>
+<td style="text-align:center">4.97</td>
+<td style="text-align:center">4.97</td>
+<td style="text-align:center">4.96</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">3.84</td>
+<td style="text-align:center">3.89</td>
+<td style="text-align:center">3.69</td>
+<td style="text-align:center">4.27</td>
+</tr>
+<tr>
+<td style="text-align:left">Tencent Ai Lab-NJU</td>
+<td style="text-align:center">4.69</td>
+<td style="text-align:center">4.99</td>
+<td style="text-align:center">4.99</td>
+<td style="text-align:center">4.89</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">5.00</td>
+<td style="text-align:center">4.18</td>
+<td style="text-align:center">3.92</td>
+<td style="text-align:center">3.61</td>
+<td style="text-align:center">4.28</td>
+</tr>
+<tr>
+<td style="text-align:left">Baseline</td>
+<td style="text-align:center">2.74</td>
+<td style="text-align:center">2.40</td>
+<td style="text-align:center">2.56</td>
+<td style="text-align:center">2.56</td>
+<td style="text-align:center">3.15</td>
+<td style="text-align:center">2.77</td>
+<td style="text-align:center">4.51</td>
+<td style="text-align:center">3.48</td>
+<td style="text-align:center">3.31</td>
+<td style="text-align:center">2.70</td>
+<td style="text-align:center">2.81</td>
+<td style="text-align:center">2.92</td>
+</tr>
+</tbody>
+</table>
+<h5 id="final-score">Final Score</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Team</th>
+<th style="text-align:center">Final Score</th>
+<th style="text-align:center">Ranking</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">TeleAI*</td>
+<td style="text-align:center">4.27</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">Tencent Ai Lab-NJU*</td>
+<td style="text-align:center">4.24</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:center">BJTU_Unisound_team*</td>
+<td style="text-align:center">4.21</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">SenseDialog</td>
+<td style="text-align:center">4.06</td>
+<td style="text-align:center">4</td>
+</tr>
+<tr>
+<td style="text-align:center">HDTLAB</td>
+<td style="text-align:center">3.86</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">IUSpeech</td>
+<td style="text-align:center">3.14</td>
+<td style="text-align:center">6</td>
+</tr>
+<tr>
+<td style="text-align:center">Baseline</td>
+<td style="text-align:center">3.06</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">Lingcon insight</td>
+<td style="text-align:center">2.96</td>
+<td style="text-align:center">8</td>
+</tr>
+<tr>
+<td style="text-align:center">*: invited to submit ICASSP 2-page papers.</td>
 <td></td>
 <td></td>
 </tr>
