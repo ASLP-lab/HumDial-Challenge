@@ -64,12 +64,12 @@ The final score for this challenge track combines both automated metrics and hum
 - Dimension 2: Vocal_empathy_congruence
 - Dimension 3: Audio_quality_naturalness
 
-|                   **Task Dimension**                   |  **Evaluation Method**  |     **Evaluation Tool / Team**      |
-|:------------------------------------------------------:|:-----------------------:|:-----------------------------------:|
-|     \*\*Task 1: Emotional Trajectory Detection\*\*     |  Automated Evaluation   |  Qwen/Qwen3-Omni-30B-A3B-Instruct   |
-|          \*\*Task 2: Emotional Reasoning\*\*           |  Automated Evaluation   |  Qwen/Qwen3-Omni-30B-A3B-Instruct   |
-|    \*\*Task 3: Empathy Assessment - Dimension 1\*\*    |  Automated Evaluation   |  Qwen/Qwen3-Omni-30B-A3B-Instruct   |
-| \*\*Task 3: Empathy Assessment - Dimensions 2 \& 3\*\* |    Human Evaluation     |         20 Human Evaluators         |
+|                    **Task Dimension**                     | **Evaluation Method**  |     **Evaluation Tool / Team**     |
+|:---------------------------------------------------------:|:----------------------:|:----------------------------------:|
+|        **Task 1: Emotional Trajectory Detection**         |  Automated Evaluation  |  Qwen/Qwen3-Omni-30B-A3B-Instruct  |
+|              **Task 2: Emotional Reasoning**              |  Automated Evaluation  |  Qwen/Qwen3-Omni-30B-A3B-Instruct  |
+|    **Task 3: Empathy Assessment - Dimension 1Results**    |  Automated Evaluation  |  Qwen/Qwen3-Omni-30B-A3B-Instruct  |
+| **Task 3: Empathy Assessment - Dimensions 2 & 3Results**  |    Human Evaluation    |        20 Human Evaluators         |
 
 ⚠️ **Rules on Violations & Anomalies**
 To maintain fairness and validity, the following rules strictly apply:
