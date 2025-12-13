@@ -84,6 +84,7 @@ table tbody tr:hover {
 }
 </style>
 
+
 ### Full-Duplex Interaction Track Results
 
 #### 1. **Task Dimensions and Evaluation Methodology**
@@ -101,7 +102,7 @@ It is important to note that system latency can be affected by hardware variatio
 #### 2. Final Total Score Calculation Formula
 The **Final Total Score** is a weighted sum of the **Interruption Total Score**, the **Rejection Total Score**, and the **Total Delay Score**. The calculation formula is as follows:
 
-$$Total\_Score = Interruption\_Total\_Score \times 0.4 + Rejection\_Total\_Score \times 0.4 + Total\_Delay\_Score \times 0.2$$
+$$\text{Total\_Score} = \text{Interruption\_Total\_Score} \times 0.4 + \text{Rejection\_Total\_Score} \times 0.4 + \text{Total\_Delay\_Score} \times 0.2$$
 
 #### 3. Results
 A total of eight teams submitted their results and system descriptions for this challenge. The scores and rankings of each team are presented in Table 1 below, and the visualized results are shown in Figure 1. 
