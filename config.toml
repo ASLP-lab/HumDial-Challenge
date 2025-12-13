@@ -22,9 +22,9 @@ theme = ["hugo-chart", "arcana"]
         weight = 2
     [[menu.main]]
         parent = "track1"
-        identifier="leaderboard_1"
-        name = "Leaderboard"
-        url="/track1/leaderboard"
+        identifier="results_1"
+        name = "Results"
+        url="/track1/results"
         weight = 3
     [[menu.main]]
         identifier = "track2"
@@ -44,9 +44,9 @@ theme = ["hugo-chart", "arcana"]
         weight = 2
     [[menu.main]]
         parent = "track2"
-        identifier="leaderboard_2"
-        name = "Leaderboard"
-        url="/track2/leaderboard"
+        identifier="results_2"
+        name = "Results"
+        url="/track2/results"
         weight = 3
 
 
