@@ -8,9 +8,11 @@ weight: 80
 <style>
 /* css */
 table {
-    table-layout: auto; /* 关键：允许列宽自适应 */
+    table-layout: auto;
     width: 100%;
     border-collapse: collapse;
+    display: block;             /* 允许横向滚动 */
+    overflow-x: auto;          /* 超出时显示横向滚动条 */
 }
 
 table th,
@@ -18,32 +20,31 @@ table td {
     border: 1px solid #e0e0e0;
     padding: 0.75em 1em;
     text-align: center;
-    vertical-align: middle; /* 行高随内容自动扩展 */
-    white-space: normal; /* 允许换行 */
-    word-break: break-word; /* 长单词或URL换行 */
-    overflow-wrap: anywhere; /* 更积极的换行策略，兼容性好 */
-    height: auto; /* 高度自适应内容 */
+    vertical-align: middle;
+    white-space: nowrap;       /* 不换行 */
+    overflow: hidden;          /* 超出隐藏 */
+    text-overflow: ellipsis;   /* 超出显示省略号 */
+    word-break: normal;        /* 防止强制换行 */
 }
 
-/* 保持第一列较窄，但让它随内容伸缩 */
+/* 第一列更长 */
 table th:first-child,
 table td:first-child {
-    min-width: 80px;
-    width: 1%; /* 避免被其他列挤满，帮助保持最窄 */
+    min-width: 180px;          /* 调整为需要的更长宽度 */
+    width: 180px;
     text-align: center;
 }
 
-/* 第二列可设置最小宽度以防太窄 */
+/* 其它列设置最小宽度，保证可见 */
 table th:nth-child(2),
 table td:nth-child(2) {
-    min-width: 150px;
+    min-width: 200px;
     text-align: center;
 }
 
-/* 最后一列最小宽度 */
 table th:last-child,
 table td:last-child {
-    min-width: 80px;
+    min-width: 120px;
     text-align: center;
 }
 
@@ -55,11 +56,15 @@ table tbody tr:hover {
     background-color: #fafafa;
 }
 
-/* 小屏幕优化（可选） */
+/* 小屏幕处理：允许换行并适配 */
 @media (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
     table th, table td {
-        padding: 0.5em;
-        font-size: 14px;
+        white-space: normal;    /* 小屏幕上允许换行以避免水平滚动过大 */
+        text-overflow: clip;
     }
 }
 </style>
