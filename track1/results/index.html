@@ -66,8 +66,44 @@ Dimension 1: Accuracy_Completeness Dimension 2: Depth_Granularity Dimension 3: A
         <ul class="tags">
 </ul>
 
-    </header><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+    </header><style>table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75em 1em;
+    text-align: center; /* 默认居中对齐 */
+}
+table th:first-child,
+table td:first-child {
+    width: 80px;
+    text-align: center;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 250px;
+    text-align: center;
+}
+table th:last-child,
+table td:last-child {
+    width: 120px;
+    text-align: center; /* 修改为居中对齐 */
+}
+/* 特别指定包含数字的列居中对齐 */
+table td:not(:first-child) {
+    text-align: center;
+}
+table thead th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+table tbody tr:hover {
+    background-color: #fafafa;
+}
+</style>
 <h3 id="emotional-intelligence-track-results">Emotional Intelligence Track Results</h3>
 <h4 id="1-task-dimensions--evaluation-methodology">1. Task Dimensions &amp; Evaluation Methodology</h4>
 <p>The final score for this challenge track combines both automated metrics and human evaluation to ensure the results are professional and objective.</p>

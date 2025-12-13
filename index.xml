@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/homepage_sections/general_description/</guid>
-      <description>News and Updates November 17, 2025:Upon review, anomalies were identified in a small number of dialogue data samples. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:
-Track 1: task2_4_en_0002_0014, Items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015. Track 2: test-003126.wav、clean-000899.wav November 17, 2025:The test set and submission rules are released. Please refer to the corresponding page of each track for specific information.</description>
+      <description>News and Updates December 13, 2025: We are pleased to announce the challenge results: Track 1 Results, Track 2 Results
+November 17, 2025: Upon review, anomalies were identified in a small number of dialogue data samples. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:
+Track 1: task2_4_en_0002_0014 and items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015. Track 2: test-003126.</description>
     </item>
     
     <item>
@@ -63,7 +64,7 @@ Dimension 1: Accuracy_Completeness Dimension 2: Depth_Granularity Dimension 3: A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/track2/results/</guid>
-      <description> All results Group nameSubmission number subjects mean subjects std Band 0 mean Band 1 mean Band 2 mean Band 3 mean Band 4 mean Band 5 mean Band 6 mean Band 7 mean Band 8 mean Band 9 mean total score </description>
+      <description>Full-Duplex Interaction Track Results Task Dimensions and Evaluation Methodology The final score for this challenge track is derived using an automated evaluation script, details of which can be found in Full-Duplex_Interaction_Evaluation. The Total Score comprises three components: the Interruption Total Score, the Rejection Total Score, and the Total Delay Score. Interruption Total Score: Calculated as the average score of the Chinese (CN) interruption test set and the English (EN) interruption test set.</description>
     </item>
     
     <item>

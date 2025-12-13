@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/HumDial-Challenge/style.css" />
 <meta property="og:title" content="Results" />
-<meta property="og:description" content=" All results Group nameSubmission number subjects mean subjects std Band 0 mean Band 1 mean Band 2 mean Band 3 mean Band 4 mean Band 5 mean Band 6 mean Band 7 mean Band 8 mean Band 9 mean total score " />
+<meta property="og:description" content="Full-Duplex Interaction Track Results Task Dimensions and Evaluation Methodology The final score for this challenge track is derived using an automated evaluation script, details of which can be found in Full-Duplex_Interaction_Evaluation. The Total Score comprises three components: the Interruption Total Score, the Rejection Total Score, and the Total Delay Score. Interruption Total Score: Calculated as the average score of the Chinese (CN) interruption test set and the English (EN) interruption test set." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aslp-lab.github.io/HumDial-Challenge/track2/results/" /><meta property="article:section" content="track2" />
 
@@ -63,214 +63,57 @@
         <ul class="tags">
 </ul>
 
-    </header><hr>
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://aslp-lab.github.io/HumDial-Challenge/js/vendor.min.736ee54e3a51f67df2161c29034041adf68cf9bbf8413bfbb7a3e8bb1d631150.js"></script>
-
-<div style="width: 100%;height: 600px;margin: 0 auto">
-
-    <canvas id="b5fcadfed148cd4bcd65ccfa8cc44e28"></canvas>
-</div>
-<div id="container" style="width: 100%;height: 600px;margin: 0 auto">
-
-  <canvas id="canvas"></canvas>
-</div>
-
-
-<div class="container"><br>
-  <h3>
-    All results
-  </h3>
-  <br>
-  <table>
-    <thead><tr><td><b>Group name</b></td><td><b>Submission number</b></td>
-    <td><b>subjects mean </b></td>
-    <td><b>subjects std</b></td>
-    <td><b>Band 0 mean</b></td>
-    <td><b>Band 1 mean</b></td>
-    <td><b>Band 2 mean</b></td>
-    <td><b>Band 3 mean</b></td>
-    <td><b>Band 4 mean</b></td>
-    <td><b>Band 5 mean</b></td>
-    <td><b>Band 6 mean</b></td>
-    <td><b>Band 7 mean</b></td>
-    <td><b>Band 8 mean</b></td>
-    <td><b>Band 9 mean</b></td>
-    <td><b>total score</b></td></tr></thead>
-    <tr id="root"></tr>
-  </table>
-</div>
-
-
-
-<script type="module">
-
-     
-     
-     const tmpUrl = "../scores_task2.json";
-     const data = await (await fetch(tmpUrl)).json();
-
-
-    
-    var items = Object.keys(data).map(
-        (key) => {return [key, data[key]]}
-    );
-
-    
-     items.sort(
-         (first, second) => {return first[1]['total'] - second[1]['total']}
-     );
-
-     
-     var groupNames = items.map(
-         (e) => {return e[0]}
-     );
-
-     
-     var results = items.map(
-         (e) => {return e[1]['total']}
-     );
-
-     var withinResults = items.map(
-         (e) => {return e[1]['per_subject']}
-     );
-
-
-
-    var ctx = document.getElementById('b5fcadfed148cd4bcd65ccfa8cc44e28').getContext('2d');
-    var options = {
-    type: 'bar',
-    data: {
-        labels: groupNames,
-        datasets: [{
-            label: 'Results for track 2: Full-Duplex Interaction',
-            data: results,
-            backgroundColor:
-                'rgba(255, 99, 132, 0.2)'
-            ,
-            borderColor:
-                'rgba(255, 99, 132, 1)'
-            ,
-            borderWidth: 1
-        }]
-    },
-    options: {
-        maintainAspectRatio: false,
-        responsive: true,
-        plugins:{
-               title: {
-            display: true,
-            text: 'Test set total score for Task2: Full-Duplex Interaction'
-        }
-
-        },
-        scales: {
-            x: {
-              title: {
-                display: true,
-                text: 'Group name'
-              }
-            },
-
-            y: {
-              title: {
-                display: true,
-                text: 'Pearson correlation'
-              }
-            }
-          }
-
-    }
-};
-    new Chart(ctx, options);
-
-
-    const boxplotData = {
-      
-      labels: groupNames,
-      datasets: [{
-        label: 'Test set: held-out subjects',
-        backgroundColor: 'rgba(255,0,0,0.5)',
-        borderColor: 'red',
-        borderWidth: 1,
-        outlierColor: 'rgba(255,0,0,0.5)',
-        padding: 10,
-        itemRadius: 0,
-        data: withinResults
-      }]
-    };
-    var  ctx = document.getElementById("canvas").getContext("2d");
-    new Chart(ctx, {
-    type: 'boxplot',
-    data: boxplotData,
-    options: {
-        maintainAspectRatio: false,
-        responsive: true,
-        plugins:{
-               title: {
-            display: true,
-            text: 'Detailed test set scores. Each point in the boxplot represents the average for one subject'
-        }
-
-        },
-        scales: {
-            x: {
-              title: {
-                display: true,
-                text: 'Group name'
-              }
-            },
-
-            y: {
-              title: {
-                display: true,
-                text: 'Pearson correlation'
-              }
-            }
-          }
-
-    }
-    });
-
-
-
-    
-     const tmpUrl2 = "../scores_task2_means.json";
-     const data_table = await (await fetch(tmpUrl2)).json();
-
-
-    var root = document.getElementById('root');
-      data_table.forEach(element => root.insertAdjacentHTML('beforebegin', `<tr><td>${element.group_name}</td><td>${element.submission}</td>
-<td>${element.mean.toFixed(4)}</td>
-<td>${element.std.toFixed(4)}</td>
-<td>${element.band0.toFixed(4)}</td>
-<td>${element.band1.toFixed(4)}</td>
-<td>${element.band2.toFixed(4)}</td>
-<td>${element.band3.toFixed(4)}</td>
-<td>${element.band4.toFixed(4)}</td>
-<td>${element.band5.toFixed(4)}</td>
-<td>${element.band6.toFixed(4)}</td>
-<td>${element.band7.toFixed(4)}</td>
-<td>${element.band8.toFixed(4)}</td>
-<td>${element.band9.toFixed(4)}</td>
-<td><b>${element.total.toFixed(4)}</b></td></tr>`));
-
-
-
-
-</script>
-
+    </header><style>table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75em 1em;
+    text-align: center; /* 默认居中对齐 */
+}
+table th:first-child,
+table td:first-child {
+    width: 80px;
+    text-align: center;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 250px;
+    text-align: center;
+}
+table th:last-child,
+table td:last-child {
+    width: 120px;
+    text-align: center; /* 修改为居中对齐 */
+}
+/* 特别指定包含数字的列居中对齐 */
+table td:not(:first-child) {
+    text-align: center;
+}
+table thead th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+table tbody tr:hover {
+    background-color: #fafafa;
+}
+</style>
+<h3 id="full-duplex-interaction-track-results">Full-Duplex Interaction Track Results</h3>
+<ol>
+<li><strong>Task Dimensions and Evaluation Methodology</strong>
+The final score for this challenge track is derived using an automated evaluation script, details of which can be found in <a href="https://github.com/ASLP-lab/Hum-Dial/tree/main/Full-Duplex_Interaction/evaluation">Full-Duplex_Interaction_Evaluation</a>. The Total Score comprises three components: the Interruption Total Score, the Rejection Total Score, and the Total Delay Score.</li>
+</ol>
+<ul>
+<li>Interruption Total Score: Calculated as the average score of the Chinese (CN) interruption test set and the English (EN) interruption test set.</li>
+<li>Rejection Total Score: Calculated as the average score of the Chinese (CN) rejection test set and the English (EN) rejection test set.</li>
+<li>Total Delay Score: A relative score derived by remapping each team&rsquo;s Total Delay based on the performance distribution across all participants and the baseline system. The exact mapping rule is specified by the formula below.</li>
+</ul>
+<p>\text{Score}(L) = 100 - 40 \times \frac{\log \left( \frac{L}{L_{\text{min}}} \right)}{\log \left( \frac{L_{\text{base}}}{L_{\text{min}}} \right)}</p>
+<p>where $$L_{min}$$ represents the minimum latency among all participating systems, and $$L_{base}$$ represents the latency of the baseline system. The total delay score of the baseline system is defined as 60.
+It is important to note that system latency can be affected by hardware variations. To ensure fairness, we collected Docker images from all participating teams and conducted official testing on the challenge test sets under controlled conditions, using identical, idle machines (RTX A6000). The latency obtained from this official testing were used as the final system latency for each team.</p>
 
 
                                 </article>
