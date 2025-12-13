@@ -40,6 +40,7 @@ table tbody tr:hover {
 }
 </style>
 
+
 ### Emotional Intelligence Track Results
 
 #### 1. Task Dimensions & Evaluation Methodology
@@ -63,12 +64,12 @@ The final score for this challenge track combines both automated metrics and hum
 - Dimension 2: Vocal_empathy_congruence
 - Dimension 3: Audio_quality_naturalness
 
-| \*\*Task Dimension\*\* | \*\*Evaluation Method\*\* | \*\*Evaluation Tool \& Team\*\* |
-|:---:|:---:|:---:|
-| \*\*Task 1: Emotional Trajectory Detection\*\* | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct |
-| \*\*Task 2: Emotional Reasoning\*\* | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct |
-| \*\*Task 3: Empathy Assessment - Dimension 1\*\* | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct |
-| \*\*Task 3: Empathy Assessment - Dimensions 2 \& 3\*\* | Human Evaluation | 20 Human Evaluators |
+|                   **Task Dimension**                   |  **Evaluation Method**  |     **Evaluation Tool / Team**      |
+|:------------------------------------------------------:|:-----------------------:|:-----------------------------------:|
+|     \*\*Task 1: Emotional Trajectory Detection\*\*     |  Automated Evaluation   |  Qwen/Qwen3-Omni-30B-A3B-Instruct   |
+|          \*\*Task 2: Emotional Reasoning\*\*           |  Automated Evaluation   |  Qwen/Qwen3-Omni-30B-A3B-Instruct   |
+|    \*\*Task 3: Empathy Assessment - Dimension 1\*\*    |  Automated Evaluation   |  Qwen/Qwen3-Omni-30B-A3B-Instruct   |
+| \*\*Task 3: Empathy Assessment - Dimensions 2 \& 3\*\* |    Human Evaluation     |         20 Human Evaluators         |
 
 ⚠️ **Rules on Violations & Anomalies**
 To maintain fairness and validity, the following rules strictly apply:
@@ -85,26 +86,50 @@ To maintain fairness and validity, the following rules strictly apply:
 
 #### 2. Final Scores and Ranking
 The **Final Score** for each team is calculated as the weighted sum of scores from the respective task dimensions:
+
 $$\text{Final Score(zh/en)} = (\text{Task-1-Avg} \times 0.2) + (\text{Task-2-Avg} \times 0.2) + (\text{Task-3-D1} \times 0.1) + (\text{Task-3-D2} \times 0.25) + (\text{Task-3-D3} \times 0.25)$$
 $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(en)} \times 0.5)$$
 
-{{< figure src="./images/HD-Track1-Test.png"  width="900" >}}
+##### Chinese Test Set Results
 
-{{< figure src="./images/HD-Track1-Test_Final_score.png"  width="300" >}}
+| Team               | Task-1-D1 | Task-1-D2 | Task-1-D3 | Task-1-Avg | Task-2-D1 | Task-2-D2 | Task-2-D3 | Task-2-Avg | Task-3-D1 | Task-3-D2 (Human Score) | Task-3-D3 (Human Score) | Final Score (zh) |
+|:-------------------|:---------:|:---------:|:---------:|:----------:|:---------:|:---------:|:---------:|:----------:|:---------:|:-----------------------:|:-----------------------:|:----------------:|
+| BJTU_Unisound_team |   4.89    |   4.95    |   4.95    |    4.93    |   4.57    |   4.54    |   4.73    |    4.61    |   3.92    |          3.73           |          3.81           |       4.18       |
+| HDTLAB             |   4.28    |   3.95    |   4.44    |    4.22    |   4.25    |   4.42    |   5.00    |    4.56    |   3.74    |          3.00           |          3.37           |       3.72       |
+| IUSpeech           |   3.53    |   3.19    |   3.57    |    3.43    |   3.15    |   3.15    |   4.78    |    3.69    |   3.40    |          2.78           |          3.13           |       3.24       |
+| Lingcon insight    |   3.53    |   3.08    |   3.47    |    3.36    |   3.33    |   3.07    |   4.76    |    3.72    |   3.38    |          2.89           |          3.25           |       3.29       |
+| SenseDialog        |   2.40    |   2.41    |   2.41    |    2.41    |   5.00    |   5.00    |   5.00    |    5.00    |   4.96    |          3.62           |          3.76           |       3.82       |
+| TeleAI             |   4.95    |   5.00    |   5.00    |    4.98    |   4.91    |   4.96    |   5.00    |    4.96    |   3.87    |          3.69           |          3.87           |       4.26       |
+| Tencent Ai Lab-NJU |   4.83    |   4.96    |   4.96    |    4.92    |   5.00    |   5.00    |   5.00    |    5.00    |   4.10    |          3.50           |          3.74           |       4.20       |
+| Baseline           |   3.23    |   3.15    |   3.25    |    3.21    |   2.95    |   2.61    |   4.18    |    3.25    |   3.28    |          3.00           |          3.31           |       3.20       |
+
+##### English Test Set Results
+
+| Team               | Task-1-D1 | Task-1-D2 | Task-1-D3 | Task-1-Avg | Task-2-D1 | Task-2-D2 | Task-2-D3 | Task-2-Avg | Task-3-D1 | Task-3-D2 (Human Score) | Task-3-D3 (Human Score) | Final Score (en) |
+|:-------------------|:---------:|:---------:|:---------:|:----------:|:---------:|:---------:|:---------:|:----------:|:---------:|:-----------------------:|:-----------------------:|:----------------:|
+| BJTU_Unisound_team |   4.48    |   4.65    |   4.65    |    4.59    |   4.88    |   4.89    |   4.95    |    4.91    |   4.13    |          3.96           |          3.72           |       4.23       |
+| HDTLAB             |   4.41    |   4.07    |   4.76    |    4.41    |   4.22    |   4.40    |   5.00    |    4.54    |   3.74    |          3.74           |          3.59           |       4.00       |
+| IUSpeech           |   2.35    |   2.00    |   2.20    |    2.18    |   2.10    |   1.94    |   2.91    |    2.32    |   2.15    |          3.61           |          3.54           |       2.90       |
+| Lingcon insight    |   1.77    |   1.75    |   1.84    |    1.79    |   1.84    |   1.63    |   2.51    |    1.99    |   2.25    |          3.10           |          3.09           |       2.53       |
+| SenseDialog        |   4.92    |   4.95    |   4.95    |    4.94    |   4.84    |   4.84    |   4.84    |    4.84    |   4.91    |          3.87           |          3.56           |       4.30       |
+| TeleAI             |   4.93    |   4.97    |   4.97    |    4.96    |   5.00    |   5.00    |   5.00    |    5.00    |   3.84    |          3.89           |          3.69           |       4.27       |
+| Tencent Ai Lab-NJU |   4.69    |   4.99    |   4.99    |    4.89    |   5.00    |   5.00    |   5.00    |    5.00    |   4.18    |          3.92           |          3.61           |       4.28       |
+| Baseline           |   2.74    |   2.40    |   2.56    |    2.56    |   3.15    |   2.77    |   4.51    |    3.48    |   3.31    |          2.70           |          2.81           |       2.92       |
 
 ##### Final Score
 
-| Team                   | Final Score | Ranking |
-|------------------------|-------------|---------|
-| TeleAI*                | 4.27        | 1       |
-| Tencent Ai Lab-NJU*    | 4.24        | 2       |
-| BJTU_Unisound_team*    | 4.21        | 3       |
-| SenseDialog            | 4.06        | 4       |
-| HDTLAB                 | 3.86        | 5       |
-| IUSpeech               | 3.14        | 6       |
-| Baseline               | 3.06        | 7       |
-| Lingcon insight        | 2.96        | 8       |
+|         Team         |  Final Score   | Ranking |
+|:--------------------:|:--------------:|:-------:|
+|       TeleAI*        |      4.27      |    1    |
+| Tencent Ai Lab-NJU*  |      4.24      |    2    |
+| BJTU_Unisound_team*  |      4.21      |    3    |
+|     SenseDialog      |      4.06      |    4    |
+|        HDTLAB        |      3.86      |    5    |
+|       IUSpeech       |      3.14      |    6    |
+|       Baseline       |      3.06      |    7    |
+|   Lingcon insight    |      2.96      |    8    |
 *: invited to submit ICASSP 2-page papers.
+
 
 ### 3. ICASSP 2-Page Papers
 
