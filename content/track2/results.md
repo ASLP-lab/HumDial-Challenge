@@ -1,5 +1,5 @@
 ---
-title: "Results"
+title: ""
 description: ""
 menu: track2
 draft: false

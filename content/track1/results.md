@@ -1,5 +1,5 @@
 ---
-title: "Results"
+title: ""
 description: ""
 menu: task1
 weight: 80
