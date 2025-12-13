@@ -66,42 +66,62 @@ Dimension 1: Accuracy_Completeness Dimension 2: Depth_Granularity Dimension 3: A
         <ul class="tags">
 </ul>
 
-    </header><style>table {
-    table-layout: fixed;
+    </header><style>
+/* css */
+table {
+    table-layout: auto; /* 关键：允许列宽自适应 */
     width: 100%;
     border-collapse: collapse;
 }
+
 table th,
 table td {
     border: 1px solid #e0e0e0;
     padding: 0.75em 1em;
-    text-align: center; /* 默认居中对齐 */
+    text-align: center;
+    vertical-align: middle; /* 行高随内容自动扩展 */
+    white-space: normal; /* 允许换行 */
+    word-break: break-word; /* 长单词或URL换行 */
+    overflow-wrap: anywhere; /* 更积极的换行策略，兼容性好 */
+    height: auto; /* 高度自适应内容 */
 }
+
+/* 保持第一列较窄，但让它随内容伸缩 */
 table th:first-child,
 table td:first-child {
-    width: 80px;
+    min-width: 80px;
+    width: 1%; /* 避免被其他列挤满，帮助保持最窄 */
     text-align: center;
 }
+
+/* 第二列可设置最小宽度以防太窄 */
 table th:nth-child(2),
 table td:nth-child(2) {
-    width: 250px;
+    min-width: 150px;
     text-align: center;
 }
+
+/* 最后一列最小宽度 */
 table th:last-child,
 table td:last-child {
-    width: 120px;
-    text-align: center; /* 修改为居中对齐 */
-}
-/* 特别指定包含数字的列居中对齐 */
-table td:not(:first-child) {
+    min-width: 80px;
     text-align: center;
 }
+
 table thead th {
     background-color: #f5f5f5;
     font-weight: 600;
 }
 table tbody tr:hover {
     background-color: #fafafa;
+}
+
+/* 小屏幕优化（可选） */
+@media (max-width: 600px) {
+    table th, table td {
+        padding: 0.5em;
+        font-size: 14px;
+    }
 }
 </style>
 <h3 id="emotional-intelligence-track-results">Emotional Intelligence Track Results</h3>
