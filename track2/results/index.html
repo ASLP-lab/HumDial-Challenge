@@ -145,18 +145,21 @@ table tbody tr:hover {
 <h4 id="1-task-dimensions-and-evaluation-methodology">1. <strong>Task Dimensions and Evaluation Methodology</strong></h4>
 <p>The final score for this challenge track is derived using an automated evaluation script, details of which can be found in <a href="https://github.com/ASLP-lab/Hum-Dial/tree/main/Full-Duplex_Interaction/evaluation">Full-Duplex_Interaction_Evaluation</a>. The Total Score comprises three components: the <strong>Interruption Total Score</strong>, the <strong>Rejection Total Score</strong>, and the <strong>Total Delay Score</strong>.</p>
 <ul>
-<li><strong>Interruption Total Score</strong>: Calculated as the average score of the Chinese (CN) interruption test set and the English (EN) interruption test set.</li>
-<li><strong>Rejection Total Score</strong>: Calculated as the average score of the Chinese (CN) rejection test set and the English (EN) rejection test set.</li>
+<li><strong>Interruption Total Score</strong>: Calculated as the average score of the Chinese (<strong>CN</strong>) interruption test set and the English (<strong>EN</strong>) interruption test set.</li>
+<li><strong>Rejection Total Score</strong>: Calculated as the average score of the Chinese (<strong>CN</strong>) rejection test set and the English (<strong>EN</strong>) rejection test set.</li>
 <li><strong>Total Delay Score</strong>: A relative score derived by remapping each team&rsquo;s Total Delay based on the performance distribution across all participants and the baseline system. The exact mapping rule is specified by the formula below.</li>
 </ul>
 <p>$$\text{Score}(L) = 100 - 40 \times \frac{\log \left( \frac{L}{L_{\text{min}}} \right)}{\log \left( \frac{L_{\text{base}}}{L_{\text{min}}} \right)}$$</p>
-<p>where $$L_{min}$$ represents the minimum latency among all participating systems, and $$L_{base}$$ represents the latency of the baseline system. The total delay score of the baseline system is defined as 60.</p>
+<p>where $L_{min}$ represents the minimum latency among all participating systems, and $L_{base}$ represents the latency of the baseline system. The total delay score of the baseline system is defined as 60.</p>
 <p>It is important to note that system latency can be affected by hardware variations. To ensure fairness, we collected Docker images from all participating teams and conducted official testing on the challenge test sets under controlled conditions, using <strong>identical, idle</strong> machines (RTX A6000). The latency obtained from this official testing were used as the final system latency for each team.</p>
 <h4 id="2-final-total-score-calculation-formula">2. Final Total Score Calculation Formula</h4>
 <p>The <strong>Final Total Score</strong> is a weighted sum of the <strong>Interruption Total Score</strong>, the <strong>Rejection Total Score</strong>, and the <strong>Total Delay Score</strong>. The calculation formula is as follows:</p>
 <p>$$\text{Total_Score} = \text{Interruption_Total_Score} \times 0.4 + \text{Rejection_Total_Score} \times 0.4 + \text{Total_Delay_Score} \times 0.2$$</p>
 <h4 id="3-results">3. Results</h4>
-<p>A total of eight teams submitted their results and system descriptions for this challenge. The scores and rankings of each team are presented in Table 1 below, and the visualized results are shown in Figure 1.</p>
+<p>A total of eight teams submitted their results and system descriptions for this challenge. The scores and rankings of each team are presented in Table below, and the visualized results are shown in Figure 1.</p>
+<p>div align=&ldquo;center&rdquo;&gt;
+<img src="https://your-image-url.com/figure1.png" width="80%" alt="Figure 1"></p>
+</div>
 <!-- | Team | Interruption Total Score          | Rejection Total Score |  Total Delay(s) | Total Delay Score | Total Score | Ranking |
 |:-----|:-----------:|:-------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |      | **CN**      | **EN**  | **Total** | **CN** | **EN** | **Total** | | | | |
@@ -311,7 +314,7 @@ table tbody tr:hover {
 </table>
 <p>*: invited to submit ICASSP 2-page papers.</p>
 <h4 id="4-icassp-2-page-papers">4. ICASSP 2-Page Papers</h4>
-<p>According to the grand challenge official rules, the top 2 teams in this track (cookie_asr and Badcat) are invited to submit papers (2 pages main content + extra page with refs) to the ICASSP 2026 Grand Challenge Track.</p>
+<p>According to the grand challenge official rules, the top 2 teams in this track (<strong>cookie_asr</strong> and <strong>Badcat</strong>) are invited to submit papers (2 pages main content + extra page with refs) to the ICASSP 2026 Grand Challenge Track.</p>
 <ul>
 <li>Specific submission instructions will be emailed separately to the qualifying teams.</li>
 </ul>
