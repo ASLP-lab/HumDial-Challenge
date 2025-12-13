@@ -107,7 +107,7 @@ $$\text{Total\_Score} = \text{Interruption\_Total\_Score} \times 0.4 + \text{Rej
 #### 3. Results
 A total of eight teams submitted their results and system descriptions for this challenge. The scores and rankings of each team are presented in Table below, and the visualized results are shown in Figure 1. 
 
-div align="center">
+<div align="center">
   <img src="https://github.com/ASLP-lab/HumDial-Challenge/blob/main/content/track2/Figure_1.PNG" width="80%" alt="Figure 1">
 </div>
 
