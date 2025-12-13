@@ -157,7 +157,7 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 | SenseDialog        |   4.92    |   4.95    |   4.95    |    4.94    |   4.84    |   4.84    |   4.84    |    4.84    |   4.91    |          3.87           |          3.56           |       4.30       |
 | TeleAI             |   4.93    |   4.97    |   4.97    |    4.96    |   5.00    |   5.00    |   5.00    |    5.00    |   3.84    |          3.89           |          3.69           |       4.27       |
 | Tencent Ai Lab-NJU |   4.69    |   4.99    |   4.99    |    4.89    |   5.00    |   5.00    |   5.00    |    5.00    |   4.18    |          3.92           |          3.61           |       4.28       |
-| Baseline           |   2.74    |   2.40    |   2.56    |    2.56    |   3.15    |   2.77    |   4.51    |    3.48    |   3.31    |          2.70           |          2.81           |       2.92       |
+| Baseline           |   2.13    |   1.92    |   2.04    |    2.03    |   2.03    |   1.89    |   2.74    |    2.22    |   2.19    |          2.70           |          2.81           |       2.45       |
 
 ##### Final Score
 
@@ -169,8 +169,8 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 |     SenseDialog      |      4.06      |    4    |
 |        HDTLAB        |      3.86      |    5    |
 |       IUSpeech       |      3.14      |    6    |
-|       Baseline       |      3.06      |    7    |
-|   Lingcon insight    |      2.96      |    8    |
+|   Lingcon insight    |      2.96      |    7    |
+|       Baseline       |      2.45      |    8    |
 
 *: invited to submit ICASSP 2-page papers.
 
