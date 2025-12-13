@@ -1,7 +1,7 @@
 ---
 title: "Track 2: Full-Duplex Interaction"
 description: "Natural human conversation is characterized by the ability to interrupt, pause, or respond at any time, rather than adhering to rigid turn-taking. This track evaluates a speech dialogue system’s capacity to react swiftly, stop appropriately, and respond naturally in scenarios involving interruptions, follow-up questions, topic shifts, or background noise. Annotated real-world multi-turn Chinese and English dialogue datasets will be provided, covering typical interruption and rejection scenarios. Systems will be comprehensively assessed based on response speed, behavioral rationality. This track aims to advance voice dialogue systems toward human-like communication."
-menu: task2
+menu: track2
 weight: 80
 ---
 

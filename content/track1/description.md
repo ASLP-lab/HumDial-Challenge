@@ -1,7 +1,7 @@
 ---
 title: "Track 1: Emotional Intelligence"
 description: "The Emotional Intelligence Track aims to evaluate the emotional competence of spoken dialogue systems across five critical dimensions (Task 1 to Task 5). These dimensions capture how well a system can perceive, interpret, express, and respond to human emotions in interactive scenarios."
-menu: task1
+menu: track1
 weight: 80
 ---
 

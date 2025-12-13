@@ -1,7 +1,7 @@
 ---
 title: "leaderboard"
 description: ""
-menu: task2
+menu: track2
 draft: false
 weight: 80
 ---
