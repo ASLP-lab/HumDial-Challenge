@@ -53,7 +53,7 @@ To maintain fairness and validity, the following rules strictly apply:
   - **Age Distribution**: Average age 24.2 years (Range: 22–27 years).
 
 #### 2. Final Scores and Ranking
-The Final Score for each team is calculated as the weighted sum of scores from the respective task dimensions:
+The **Final Score** for each team is calculated as the weighted sum of scores from the respective task dimensions:
 $$\text{Final Score(zh/en)} = (\text{Task-1-Avg} \times 0.2) + (\text{Task-2-Avg} \times 0.2) + (\text{Task-3-D1} \times 0.1) + (\text{Task-3-D2} \times 0.25) + (\text{Task-3-D3} \times 0.25)$$
 $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(en)} \times 0.5)$$
 
