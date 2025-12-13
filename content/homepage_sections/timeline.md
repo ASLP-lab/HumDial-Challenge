@@ -10,11 +10,10 @@ description: "Timeline"
 - **September 29, 2025**: Release of training set, validation set, and baseline system
 - **November 10, 2025**: Release of test set
 - **November 25, 2025**: Submission deadline
-- **December 7, 2025**: Deadline for submitting 2-page papers to ICASSP 2026 (invited teams only)
-- **January 11, 2026**: Notification of acceptance for 2-page ICASSP 2026 papers
-- **January 18, 2026**: Submission of final version of papers
+- **~~December 07, 2025~~ January 07, 2026**: Deadline for submitting 2-page papers to ICASSP 2026 (invited teams only)
+- **~~January 11, 2026~~ January 21, 2026**: Notification of acceptance for 2-page ICASSP 2026 papers
+- **~~January 18, 2026~~ January 28, 2026**: Submission of camera-ready papers
 - **May 4–8, 2026**: ICASSP 2026 Conference, Barcelona, Spain
-
 
 ## Official Competition Rules
 ### 1. Resource Usage Policy
