@@ -5,7 +5,40 @@ menu: task1
 weight: 80
 ---
 
----
+<style>
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75em 1em;
+}
+table th:first-child,
+table td:first-child {
+    width: 80px;
+    text-align: center;
+}
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 250px;
+    text-align: center;
+}
+table th:last-child,
+table td:last-child {
+    width: 120px;
+    text-align: right;
+}
+table thead th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+table tbody tr:hover {
+    background-color: #fafafa;
+}
+</style>
 
 ### Emotional Intelligence Track Results
 
@@ -13,9 +46,7 @@ weight: 80
 
 The final score for this challenge track combines both automated metrics and human evaluation to ensure the results are professional and objective.
 
-**Evaluation Environment**:
-
-The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, which is deployed entirely in a local environment for scoring. For the detailed evaluation prompts, please refer to the [competition guidelines](https://github.com/ASLP-lab/Hum-Dial).
+**Evaluation Environment**: The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, which is deployed entirely in a local environment for scoring. For the detailed evaluation prompts, please refer to the [competition guidelines](https://github.com/ASLP-lab/Hum-Dial).
 
 **Task 1: Emotional Trajectory Detection**
 - Dimension 1: Accuracy_Completeness
@@ -32,12 +63,12 @@ The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, wh
 - Dimension 2: Vocal_empathy_congruence
 - Dimension 3: Audio_quality_naturalness
 
-| **Task Dimension**                              | **Evaluation Method**    | **Evaluation Tool / Team**                  |
-|---------------------------------------------|----------------------|-----------------------------------------|
-| **Task 1: Emotional Trajectory Detection**      | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct        |
-| **Task 2: Emotional Reasoning**                 | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct        |
-| **Task 3: Empathy Assessment - Dimension 1**    | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct        |
-| **Task 3: Empathy Assessment - Dimensions 2 & 3** | Human Evaluation   | 20 Human Evaluators                     |
+| \*\*Task Dimension\*\* | \*\*Evaluation Method\*\* | \*\*Evaluation Tool \& Team\*\* |
+|:---:|:---:|:---:|
+| \*\*Task 1: Emotional Trajectory Detection\*\* | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct |
+| \*\*Task 2: Emotional Reasoning\*\* | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct |
+| \*\*Task 3: Empathy Assessment - Dimension 1\*\* | Automated Evaluation | Qwen/Qwen3-Omni-30B-A3B-Instruct |
+| \*\*Task 3: Empathy Assessment - Dimensions 2 \& 3\*\* | Human Evaluation | 20 Human Evaluators |
 
 ⚠️ **Rules on Violations & Anomalies**
 To maintain fairness and validity, the following rules strictly apply:
