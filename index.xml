@@ -37,19 +37,19 @@ Reminder! Please use your institutional or corporate email address to register, 
     
     <item>
       <title>leaderboard</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/leaderboard/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/track1/results/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/leaderboard/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/track1/results/</guid>
       <description> All results Group nameSubmission number subjects mean subjects std total score </description>
     </item>
     
     <item>
       <title>leaderboard</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/leaderboard/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/track2/results/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/leaderboard/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/track2/results/</guid>
       <description> All results Group nameSubmission number subjects mean subjects std Band 0 mean Band 1 mean Band 2 mean Band 3 mean Band 4 mean Band 5 mean Band 6 mean Band 7 mean Band 8 mean Band 9 mean total score </description>
     </item>
     
@@ -65,39 +65,39 @@ Lei Xie, Professor, Northwestern Polytechnical University Shuai Wang, Associate 
     
     <item>
       <title>Test Set</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/track1/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/test_set/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/track1/test_set/</guid>
       <description>Test Set Description The test set (HD-Track1-Test) is now officially available, containing both Chinese (zh) and English (en) subsets. Each language subset provides 150 multi-turn dialogues for each of the three tasks (Task 1, 2 &amp;amp; 3). For each task, we provide a corresponding audio folder and a JSONL file. This file outlines the dialogue structure, such as turn order and audio file mapping.
 HD-Track1-Test |_zh |__HD-Track1-T1/ |_{dialogue_id}_{turn_id}.wav |__HD-Track1-T2/ |__HD-Track1-T3/ |__HD-Track1-T1.</description>
     </item>
     
     <item>
       <title>Test Set Track 2</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/test_set/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/track2/test_set/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/test_set/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/track2/test_set/</guid>
       <description>Test Set Description The test set (HD-Track2-Test) has been officially released and contains two subsets: one in Chinese and one in English. Each language subset covers two major scenarios—Interruption and Rejection. The dataset consists of 9,100 samples in total, including:
 5,000 official test samples: test-{dialogue_id}.wav (Chinese/English ratio = 1:1) 4,100 clean audio files required for scoring interruption and rejection: clean-{dialogue_id}.wav Note: The data has been randomly shuffled. The test.wav and clean.</description>
     </item>
     
     <item>
       <title>Track 1: Emotional Intelligence</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/track1/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task1/description/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/track1/description/</guid>
       <description>Challenge Tasks Task 1: Emotional Trajectory Detection - Evaluate the model&amp;rsquo;s ability to accurately identify and concisely summarize a user&amp;rsquo;s emotional changes throughout a multi-turn conversation. Task 2: Emotional Reasoning - Evaluate the model&amp;rsquo;s ability to perceive the underlying causes of a user&amp;rsquo;s emotions. Task 3: Empathy Assessment - Evaluate the model&amp;rsquo;s ability to generate empathetic responses in both text and audio formats. The final ranking will be determined based on the comprehensive score of the above three core tasks, and the specific weights of each task will be announced in subsequent stages.</description>
     </item>
     
     <item>
       <title>Track 2: Full-Duplex Interaction</title>
-      <link>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</link>
+      <link>https://aslp-lab.github.io/HumDial-Challenge/track2/description/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://aslp-lab.github.io/HumDial-Challenge/task2/description/</guid>
+      <guid>https://aslp-lab.github.io/HumDial-Challenge/track2/description/</guid>
       <description>Challenge Tasks The full-duplex benchmark primarily encompasses two major Scenarios: interruption and rejection.
 1. Interruption Scenarios: Follow-up Questions: The user poses a follow-up question based on the model’s previous response, interrupting the ongoing output. The model should promptly address the user’s follow-up inquiry. Negation / Dissatisfaction: The user expresses dissatisfaction or disagreement with the model’s response using negative statements, interrupting the model mid-sentence. The model should appropriately react to the user’s negation or dissatisfaction in a timely manner.</description>
     </item>
