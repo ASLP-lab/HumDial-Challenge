@@ -107,7 +107,6 @@ $$\text{Total\_Score} = \text{Interruption\_Total\_Score} \times 0.4 + \text{Rej
 #### 3. Results
 A total of eight teams submitted their results and system descriptions for this challenge. The scores and rankings of each team are presented in Table 1 below, and the visualized results are shown in Figure 1. 
 
-{{< figure src="./images/HD-Track2.png"  width="600" >}}
 
 <!-- | Team | Interruption Total Score          | Rejection Total Score |  Total Delay(s) | Total Delay Score | Total Score | Ranking |
 |:-----|:-----------:|:-------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
