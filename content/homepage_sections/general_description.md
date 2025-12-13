@@ -6,21 +6,24 @@ description: "General description"
 
 ## News and Updates
 
-**November 17, 2025**:Upon review, anomalies were identified in a small number of dialogue data samples. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:  
-- **Track 1**: task2_4_en_0002_0014, Items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015.
-- **Track 2**: test-003126.wav、clean-000899.wav
+**December 13, 2025**: We are pleased to announce the challenge results: [Track 1 Results](https://aslp-lab.github.io/HumDial-Challenge/track1/results/), [Track 2 Results](https://aslp-lab.github.io/HumDial-Challenge/track2/results/)
 
-**November 17, 2025**:The test set and submission rules are released. Please refer to the corresponding page of each track for specific information.
+**November 17, 2025**: Upon review, anomalies were identified in a small number of dialogue data samples. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:  
+- **Track 1**: task2_4_en_0002_0014 and items with dialogue_id prefixes task2_3_zh_0015, task2_4_zh_0015, and task2_5_zh_0015.  
+- **Track 2**: test-003126.wav, clean-000899.wav
 
-**November 11, 2025**: Due to the delayed release of the training data, the test data will also be postponed. We expect to release the test set around November 17. Please stay tuned.
+**November 17, 2025**: The test set and submission rules have been released. Please refer to the page for each track for detailed information.
 
-**October 29, 2025**: We have released the baseline model, and you can obtain the model files from the two track pages.
+**November 11, 2025**: Due to the delayed release of the training data, the release of the test data was also postponed. We expect to release the test set around November 17. Please stay tuned.
 
-**October 10, 2025**: We have sent the training and dev dataset access instructions and other relevant information for this challenge to all successfully registered teams via email.
+**October 29, 2025**: We have released the baseline model; you can download the model files from the pages for the two tracks.
+
+**October 10, 2025**: We have sent training and dev dataset access instructions and other relevant information for this challenge via email to all successfully registered teams.
 
 If you have not received the email, please:
-- Check the email you used for registration: Please confirm that you used your institutional email instead of personal email (such as QQ, Gmail, 163, etc.) for registration. We only sent emails to valid institutional email addresses.
+- Check the email address you used for registration and confirm that it was an institutional email rather than a personal email (for example, QQ, Gmail, 163, etc.). We only sent emails to valid institutional addresses.  
 - Check your email's spam or subscription folder.
+
 
 
 ## Challenge Call 

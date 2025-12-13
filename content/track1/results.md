@@ -5,8 +5,7 @@ menu: task1
 weight: 80
 ---
 
-<style>
-table {
+<style>table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
@@ -15,6 +14,7 @@ table th,
 table td {
     border: 1px solid #e0e0e0;
     padding: 0.75em 1em;
+    text-align: center; /* 默认居中对齐 */
 }
 table th:first-child,
 table td:first-child {
@@ -29,7 +29,11 @@ table td:nth-child(2) {
 table th:last-child,
 table td:last-child {
     width: 120px;
-    text-align: right;
+    text-align: center; /* 修改为居中对齐 */
+}
+/* 特别指定包含数字的列居中对齐 */
+table td:not(:first-child) {
+    text-align: center;
 }
 table thead th {
     background-color: #f5f5f5;
