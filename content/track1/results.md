@@ -90,7 +90,7 @@ table tbody tr:hover {
 
 The final score for this challenge track combines both automated metrics and human evaluation to ensure the results are professional and objective.
 
-**Evaluation Environment**: The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, which is deployed entirely in a local environment for scoring. For the detailed evaluation prompts, please refer to the [competition guidelines](https://github.com/ASLP-lab/Hum-Dial).
+**Evaluation Environment**: The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, which is deployed entirely in a local environment for scoring. For the detailed evaluation prompts, please refer to the [challenge guidelines](https://github.com/ASLP-lab/Hum-Dial).
 
 **Task 1: Emotional Trajectory Detection**
 - Dimension 1: Accuracy_Completeness
@@ -118,7 +118,7 @@ The final score for this challenge track combines both automated metrics and hum
 To maintain fairness and validity, the following rules strictly apply:
 1. **Language Mismatch**: For both the Chinese and English test sets, if the language of a submitted response does not match the input audio, that sample will be automatically assigned the minimum score (1 point).
 2. **Human Evaluation Team**
-**The evaluation for Dimensions 2 and 3 of Task 3** is conducted by human evaluators organized by Beijing AIShell Co., Ltd. The composition and qualifications of the evaluators are detailed below:
+**The evaluation for Dimensions 2 and 3 of Task 3** is conducted by human evaluators organized by [Beijing AIShell Co., Ltd](https://www.aishelltech.com/). The composition and qualifications of the evaluators are detailed below:
 - **Number of Evaluators**: 20 in total.
 - **Language Groups**: 10 for the Chinese evaluation group, 10 for the English evaluation group.
 - **Experience & Education**: All evaluators possess a university Bachelor's degree or higher and have over six months of relevant data-annotation/subjective-evaluation experience.
