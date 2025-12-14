@@ -117,8 +117,7 @@ The final score for this challenge track combines both automated metrics and hum
 ⚠️ **Rules on Violations & Anomalies**
 To maintain fairness and validity, the following rules strictly apply:
 1. **Language Mismatch**: For both the Chinese and English test sets, if the language of a submitted response does not match the input audio, that sample will be automatically assigned the minimum score (1 point).
-2. **Human Evaluation Team**
-**The evaluation for Dimensions 2 and 3 of Task 3** is conducted by human evaluators organized by [Beijing AIShell Co., Ltd](https://www.aishelltech.com/). The composition and qualifications of the evaluators are detailed below:
+2. **Human Evaluation Team**: **The evaluation for Dimensions 2 and 3 of Task 3** is conducted by human evaluators organized by [Beijing AIShell Co., Ltd](https://www.aishelltech.com/). The composition and qualifications of the evaluators are detailed below:
 - **Number of Evaluators**: 20 in total.
 - **Language Groups**: 10 for the Chinese evaluation group, 10 for the English evaluation group.
 - **Experience & Education**: All evaluators possess a university Bachelor's degree or higher and have over six months of relevant data-annotation/subjective-evaluation experience.
@@ -159,7 +158,7 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 | Tencent Ai Lab-NJU |   4.69    |   4.99    |   4.99    |    4.89    |   5.00    |   5.00    |   5.00    |    5.00    |   4.18    |          3.92           |          3.61           |       4.28       |
 | Baseline           |   2.13    |   1.92    |   2.04    |    2.03    |   2.03    |   1.89    |   2.74    |    2.22    |   2.19    |          2.70           |          2.81           |       2.45       |
 
-##### Final Score
+##### Final Scores and Ranking
 
 |         Team         |  Final Score   | Ranking |
 |:--------------------:|:--------------:|:-------:|
