@@ -107,9 +107,6 @@ $$\text{Total\_Score} = \text{Interruption\_Total\_Score} \times 0.4 + \text{Rej
 #### 3. Results
 A total of eight teams submitted their results and system descriptions for this challenge. The scores and rankings of each team are presented in Table below, and the visualized results are shown in Figure 1. 
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ASLP-lab/HumDial-Challenge/main/content/track2/Figure_1.PNG" width="80%" alt="Figure 1">
-</div>
 
 <!-- | Team | Interruption Total Score          | Rejection Total Score |  Total Delay(s) | Total Delay Score | Total Score | Ranking |
 |:-----|:-----------:|:-------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
@@ -165,10 +162,10 @@ A total of eight teams submitted their results and system descriptions for this 
 <td><strong>89.7</strong></td>
 <td>56.5</td>
 <td>59.0</td>
-<td>57.3</td>
+<td>57.8</td>
 <td>1.632</td>
 <td>72.6</td>
-<td>73.3</td>
+<td>73.5</td>
 <td>2</td>
 </tr>
 <tr>
@@ -266,6 +263,10 @@ A total of eight teams submitted their results and system descriptions for this 
 </table>
 
 *: invited to submit ICASSP 2-page papers.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ASLP-lab/HumDial-Challenge/main/content/track2/Figure_1.PNG" width="80%" alt="Figure 1">
+</div>
 
 #### 4. ICASSP 2-Page Papers
 According to the grand challenge official rules, the top 2 teams in this track (**cookie_asr** and **Badcat**) are invited to submit papers (2 pages main content + extra page with refs) to the ICASSP 2026 Grand Challenge Track.
