@@ -13,7 +13,7 @@
       
       <guid>https://aslp-lab.github.io/HumDial-Challenge/track1/results/</guid>
       <description>Emotional Intelligence Track Results 1. Task Dimensions &amp;amp; Evaluation Methodology The final score for this challenge track combines both automated metrics and human evaluation to ensure the results are professional and objective.
-Evaluation Environment: The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, which is deployed entirely in a local environment for scoring. For the detailed evaluation prompts, please refer to the competition guidelines.
+Evaluation Environment: The automated evaluation utilizes the Qwen/Qwen3-Omni-30B-A3B-Instruct model, which is deployed entirely in a local environment for scoring. For the detailed evaluation prompts, please refer to the challenge guidelines.
 Task 1: Emotional Trajectory Detection
 Dimension 1: Accuracy_Completeness Dimension 2: Depth_Granularity Dimension 3: Added_Value Task 2: Emotional Reasoning</description>
     </item>
