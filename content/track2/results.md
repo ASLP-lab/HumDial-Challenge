@@ -265,7 +265,7 @@ A total of eight teams submitted their results and system descriptions for this 
 *: invited to submit ICASSP 2-page papers.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ASLP-lab/HumDial-Challenge/main/content/track2/Figure_1.PNG" width="80%" alt="Figure 1">
+  <img src="https://raw.githubusercontent.com/ASLP-lab/HumDial-Challenge/main/content/track2/Figure_1.png" width="80%" alt="Figure 1">
 </div>
 
 #### 4. ICASSP 2-Page Papers
