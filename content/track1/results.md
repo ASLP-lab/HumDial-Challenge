@@ -142,7 +142,7 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 | Lingcon insight    |   3.53    |   3.08    |   3.47    |    3.36    |   3.33    |   3.07    |   4.76    |    3.72    |   3.38    |          2.89           |          3.25           |       3.29       |
 | SenseDialog        |   2.40    |   2.41    |   2.41    |    2.41    |   5.00    |   5.00    |   5.00    |    5.00    |   4.96    |          3.62           |          3.76           |       3.82       |
 | TeleAI             |   4.95    |   5.00    |   5.00    |    4.98    |   4.91    |   4.96    |   5.00    |    4.96    |   3.87    |          3.69           |          3.87           |       4.26       |
-| Tencent Ai Lab-NJU |   4.83    |   4.96    |   4.96    |    4.92    |   5.00    |   5.00    |   5.00    |    5.00    |   4.10    |          3.50           |          3.74           |       4.20       |
+| NJU-TencentHY      |   4.83    |   4.96    |   4.96    |    4.92    |   5.00    |   5.00    |   5.00    |    5.00    |   4.10    |          3.50           |          3.74           |       4.20       |
 | Baseline           |   3.23    |   3.15    |   3.25    |    3.21    |   2.95    |   2.61    |   4.18    |    3.25    |   3.28    |          3.00           |          3.31           |       3.20       |
 
 ##### English Test Set Results
@@ -155,21 +155,21 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 | Lingcon insight    |   1.77    |   1.75    |   1.84    |    1.79    |   1.84    |   1.63    |   2.51    |    1.99    |   2.25    |          3.10           |          3.09           |       2.53       |
 | SenseDialog        |   4.92    |   4.95    |   4.95    |    4.94    |   4.84    |   4.84    |   4.84    |    4.84    |   4.91    |          3.87           |          3.56           |       4.30       |
 | TeleAI             |   4.93    |   4.97    |   4.97    |    4.96    |   5.00    |   5.00    |   5.00    |    5.00    |   3.84    |          3.89           |          3.69           |       4.27       |
-| Tencent Ai Lab-NJU |   4.69    |   4.99    |   4.99    |    4.89    |   5.00    |   5.00    |   5.00    |    5.00    |   4.18    |          3.92           |          3.61           |       4.28       |
+| NJU-TencentHY      |   4.69    |   4.99    |   4.99    |    4.89    |   5.00    |   5.00    |   5.00    |    5.00    |   4.18    |          3.92           |          3.61           |       4.28       |
 | Baseline           |   2.13    |   1.92    |   2.04    |    2.03    |   2.03    |   1.89    |   2.74    |    2.22    |   2.19    |          2.70           |          2.81           |       2.45       |
 
 ##### Final Scores and Ranking
 
-|         Team         |  Final Score   | Ranking |
-|:--------------------:|:--------------:|:-------:|
-|       TeleAI*        |      4.27      |    1    |
-| Tencent Ai Lab-NJU*  |      4.24      |    2    |
-| BJTU_Unisound_team*  |      4.21      |    3    |
-|     SenseDialog      |      4.06      |    4    |
-|        HDTLAB        |      3.86      |    5    |
-|       IUSpeech       |      3.14      |    6    |
-|   Lingcon insight    |      2.96      |    7    |
-|       Baseline       |      2.45      |    8    |
+|        Team         |  Final Score   | Ranking |
+|:-------------------:|:--------------:|:-------:|
+|       TeleAI*       |      4.27      |    1    |
+|   NJU-TencentHY*    |      4.24      |    2    |
+| BJTU_Unisound_team* |      4.21      |    3    |
+|     SenseDialog     |      4.06      |    4    |
+|       HDTLAB        |      3.86      |    5    |
+|      IUSpeech       |      3.14      |    6    |
+|   Lingcon insight   |      2.96      |    7    |
+|      Baseline       |      2.45      |    8    |
 
 *: invited to submit ICASSP 2-page papers.
 
