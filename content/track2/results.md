@@ -183,6 +183,19 @@ A total of eight teams submitted their results and system descriptions for this 
 <td>3</td>
 </tr>
 <tr>
+<td>Unity Squad</td>
+<td>85.6</td>
+<td>51.4</td>
+<td>68.5</td>
+<td>60.1</td>
+<td>42.3</td>
+<td>51.2</td>
+<td>1.876</td>
+<td>68.6</td>
+<td>61.6</td>
+<td>late submission</td>
+</tr>
+<tr>
 <td>RhythmSense</td>
 <td>81.8</td>
 <td>73.0</td>
