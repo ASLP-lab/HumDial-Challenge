@@ -167,9 +167,9 @@ $$\text{Final Score} = (\text{Final Score(zh)} \times 0.5) + (\text{Final Score(
 | BJTU_Unisound_team* |      4.21      |    3    |
 |     SenseDialog     |      4.06      |    4    |
 |       HDTLAB        |      3.86      |    5    |
-|      IUSpeech       |      3.14      |    6    |
-|   Lingcon insight   |      2.96      |    7    |
-|      Baseline       |      2.45      |    8    |
+|      IUSpeech       |      3.07      |    6    |
+|   Lingcon insight   |      2.91      |    7    |
+|      Baseline       |      2.82      |    8    |
 
 *: invited to submit ICASSP 2-page papers.
 
