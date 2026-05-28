@@ -6,6 +6,8 @@ description: "General description"
 
 ## News and Updates
 
+**May 28, 2026**: - HumDial-EIBench dataset is publicly available on HuggingFace: [HumDial-EIBench](https://huggingface.co/datasets/ASLP-lab/HumDial-EIBench)
+
 **December 13, 2025**: We are pleased to announce the challenge results: [Track 1 Results](https://aslp-lab.github.io/HumDial-Challenge/track1/results/), [Track 2 Results](https://aslp-lab.github.io/HumDial-Challenge/track2/results/)
 
 **November 17, 2025**: Upon review, anomalies were identified in a small number of dialogue data samples. To ensure the accuracy and reliability of the evaluation results, the following items will be excluded from the final evaluation:  
