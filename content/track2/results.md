@@ -144,7 +144,7 @@ A total of eight teams submitted their results and system descriptions for this 
 </thead>
 <tbody>
 <tr>
-<td>cookie_asr*</td>
+<td>cookie_asr(Transsion)*</td>
 <td>81.8</td>
 <td>76.8</td>
 <td>79.3</td>
